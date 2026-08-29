@@ -45,12 +45,12 @@ nav a:hover{color:var(--teal)}
 main{max-width:1420px;margin:auto;padding:0 clamp(20px,4vw,64px)}
 
 .hero{
-  min-height:680px;
+  min-height:560px;
   display:grid;
   grid-template-columns:.9fr 1.1fr;
   align-items:center;
   gap:56px;
-  padding:68px 0 78px;
+  padding:44px 0 54px;
 }
 .hero-copy{max-width:650px}
 .hero-logo{
@@ -192,6 +192,19 @@ main{max-width:1420px;margin:auto;padding:0 clamp(20px,4vw,64px)}
   background:rgba(255,255,255,.11);
   border:1px solid rgba(255,255,255,.18)
 }
+/* Google Play availability badge */
+.store-card img{
+  width:190px;
+  height:64px;
+  object-fit:contain;
+  object-position:center;
+  display:block;
+  flex:0 0 190px;
+}
+
+.store-card{
+  min-height:108px;
+}
 .store-card span,.store-card strong{font-size:12px}
 
 .bottom-grid{
@@ -289,3 +302,1508 @@ footer{
   width:100%;
   margin-inline:auto;
 }
+
+/* =========================================
+   Bahá’í Lighthouse portal homepage
+   ========================================= */
+
+.lighthouse-site{
+  background:
+    radial-gradient(circle at 15% 15%, rgba(207,234,246,.42), transparent 34%),
+    radial-gradient(circle at 85% 12%, rgba(221,169,64,.12), transparent 28%),
+    var(--bg);
+}
+
+.lighthouse-header{
+  background:rgba(252,248,236,.92);
+}
+
+.lighthouse-brand{
+  gap:14px;
+}
+
+.lighthouse-mark{
+  width:46px;
+  height:46px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:var(--teal);
+  color:#fff;
+  font-size:22px;
+  box-shadow:0 10px 28px rgba(14,111,136,.18);
+}
+
+.lighthouse-main{
+  max-width:1420px;
+}
+
+.lighthouse-hero{
+  min-height:680px;
+  display:grid;
+  grid-template-columns:1.08fr .92fr;
+  align-items:center;
+  gap:64px;
+  padding:78px 0 88px;
+}
+
+.lighthouse-hero-copy{
+  max-width:720px;
+}
+
+.lighthouse-en-name{
+  margin:0 0 8px;
+  color:var(--teal);
+  font-family:"Changa","Almarai",sans-serif;
+  font-size:14px;
+  font-weight:600;
+  letter-spacing:.04em;
+}
+
+.lighthouse-hero h1{
+  font-family:"Aref Ruqaa","Almarai",sans-serif;
+  font-size:clamp(62px,7vw,96px);
+  line-height:1.12;
+  color:var(--teal);
+  margin:0 0 18px;
+}
+
+.lighthouse-lead{
+  max-width:680px;
+  margin:0 0 30px;
+  color:#3e4a50;
+  font-family:"Noto Sans Arabic","Almarai",sans-serif;
+  font-size:clamp(20px,2vw,28px);
+  line-height:2;
+}
+
+.lighthouse-symbol{
+  position:relative;
+  min-height:500px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.lighthouse-tower{
+  position:relative;
+  width:170px;
+  height:320px;
+}
+
+.lighthouse-light{
+  position:absolute;
+  top:38px;
+  left:50%;
+  width:56px;
+  height:56px;
+  transform:translateX(-50%);
+  border-radius:50%;
+  background:#fff9d8;
+  box-shadow:
+    0 0 22px rgba(255,226,121,.82),
+    0 0 70px rgba(255,226,121,.55);
+  z-index:4;
+}
+
+.lighthouse-top{
+  position:absolute;
+  top:80px;
+  left:50%;
+  width:110px;
+  height:26px;
+  transform:translateX(-50%);
+  border-radius:8px 8px 2px 2px;
+  background:var(--teal-dark);
+}
+
+.lighthouse-body{
+  position:absolute;
+  top:103px;
+  left:50%;
+  width:118px;
+  height:190px;
+  transform:translateX(-50%);
+  clip-path:polygon(18% 0,82% 0,100% 100%,0 100%);
+  background:linear-gradient(180deg,#f9f7ef 0%,#dcecf2 100%);
+  border:2px solid rgba(14,111,136,.22);
+}
+
+.lighthouse-body::before,
+.lighthouse-body::after{
+  content:"";
+  position:absolute;
+  left:50%;
+  width:100%;
+  height:18px;
+  transform:translateX(-50%);
+  background:rgba(14,111,136,.18);
+}
+
+.lighthouse-body::before{top:58px}
+.lighthouse-body::after{top:124px}
+
+.lighthouse-base{
+  position:absolute;
+  bottom:0;
+  left:50%;
+  width:156px;
+  height:32px;
+  transform:translateX(-50%);
+  border-radius:8px 8px 16px 16px;
+  background:var(--teal-dark);
+}
+
+.light-rays{
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+}
+
+.light-rays span{
+  position:absolute;
+  top:138px;
+  left:50%;
+  width:300px;
+  height:2px;
+  transform-origin:left center;
+  background:linear-gradient(90deg,rgba(221,169,64,.7),rgba(221,169,64,0));
+}
+
+.light-rays span:nth-child(1){transform:translateX(0) rotate(-18deg)}
+.light-rays span:nth-child(2){transform:translateX(0) rotate(0deg)}
+.light-rays span:nth-child(3){transform:translateX(0) rotate(18deg)}
+
+.portal-purpose,
+.portal-sections,
+.community-section,
+.portal-about{
+  padding:78px 0;
+}
+
+.purpose-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:22px;
+  margin-top:34px;
+}
+
+.purpose-grid article{
+  padding:30px 28px;
+  border-top:1px solid var(--line);
+}
+
+.purpose-number{
+  display:block;
+  margin-bottom:14px;
+  color:var(--gold);
+  font-family:"Changa","Almarai",sans-serif;
+  font-size:15px;
+  font-weight:600;
+}
+
+.purpose-grid h3{
+  margin:0 0 8px;
+  font-size:20px;
+}
+
+.purpose-grid p{
+  margin:0;
+  color:var(--muted);
+  font-size:13px;
+}
+
+.portal-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+
+.portal-card{
+  position:relative;
+  min-height:310px;
+  padding:30px;
+  border:1px solid var(--line);
+  border-radius:26px;
+  background:rgba(255,255,255,.56);
+  transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease;
+}
+
+.portal-card.active-section:hover{
+  transform:translateY(-5px);
+  border-color:rgba(14,111,136,.42);
+  box-shadow:0 18px 44px rgba(31,52,61,.1);
+}
+
+.portal-card-status{
+  position:absolute;
+  top:22px;
+  left:22px;
+  padding:5px 10px;
+  border-radius:999px;
+  background:#eceff1;
+  color:#6d777c;
+  font-size:10px;
+  font-weight:700;
+}
+
+.portal-card-status.available{
+  background:#dff3e7;
+  color:#2d7350;
+}
+
+.portal-card-icon{
+  width:62px;
+  height:62px;
+  margin-bottom:24px;
+  border-radius:20px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:var(--sky);
+  color:var(--teal-dark);
+  font-family:"Aref Ruqaa","Almarai",sans-serif;
+  font-size:28px;
+}
+
+.portal-card h3{
+  margin:0 0 10px;
+  font-family:"Aref Ruqaa","Almarai",sans-serif;
+  font-size:28px;
+}
+
+.portal-card p{
+  margin:0;
+  color:var(--muted);
+  font-size:12px;
+}
+
+.portal-card-link,
+.maintenance-text{
+  position:absolute;
+  bottom:26px;
+  right:30px;
+  font-size:12px;
+  font-weight:700;
+}
+
+.portal-card-link{
+  color:var(--teal);
+}
+
+.maintenance-text{
+  color:#92999d;
+}
+
+.portal-card.maintenance{
+  opacity:.78;
+}
+
+.community-section{
+  display:grid;
+  grid-template-columns:1.15fr .85fr;
+  gap:56px;
+  align-items:center;
+  border-top:1px solid var(--line);
+}
+
+.community-copy h2,
+.portal-about h2{
+  margin:0 0 16px;
+  font-family:"Aref Ruqaa","Almarai",sans-serif;
+  font-size:clamp(38px,4vw,52px);
+}
+
+.community-copy p,
+.portal-about p{
+  margin:0 0 16px;
+  color:var(--muted);
+  font-size:13px;
+}
+
+.community-points{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:14px;
+}
+
+.community-points div{
+  min-height:110px;
+  padding:18px;
+  border-radius:20px;
+  background:rgba(255,255,255,.5);
+  border:1px solid var(--line);
+}
+
+.community-points strong{
+  display:block;
+  color:var(--gold);
+  font-family:"Changa","Almarai",sans-serif;
+  font-size:13px;
+}
+
+.community-points span{
+  display:block;
+  margin-top:8px;
+  font-weight:700;
+  font-size:13px;
+}
+
+.portal-about{
+  border-top:1px solid var(--line);
+}
+
+.portal-about > div{
+  max-width:850px;
+  margin-inline:auto;
+  text-align:center;
+}
+
+.lighthouse-footer{
+  max-width:1420px;
+  margin:auto;
+  padding:30px clamp(20px,4vw,64px) 46px;
+  border-top:1px solid var(--line);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:24px;
+  color:var(--muted);
+  font-size:11px;
+}
+
+.lighthouse-footer > div{
+  display:flex;
+  align-items:center;
+  gap:14px;
+}
+
+.lighthouse-footer strong{
+  color:var(--ink);
+}
+
+@media(max-width:1000px){
+  .lighthouse-hero{
+    grid-template-columns:1fr;
+    text-align:center;
+  }
+
+  .lighthouse-hero-copy{
+    margin:auto;
+  }
+
+  .lighthouse-hero .hero-actions{
+    justify-content:center;
+  }
+
+  .lighthouse-symbol{
+    min-height:420px;
+  }
+
+  .purpose-grid{
+    grid-template-columns:1fr;
+  }
+
+  .portal-grid{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .community-section{
+    grid-template-columns:1fr;
+  }
+}
+
+@media(max-width:680px){
+  .lighthouse-hero{
+    padding-top:46px;
+  }
+
+  .lighthouse-hero h1{
+    font-size:56px;
+  }
+
+  .lighthouse-lead{
+    font-size:19px;
+  }
+
+  .lighthouse-symbol{
+    min-height:360px;
+  }
+
+  .portal-grid{
+    grid-template-columns:1fr;
+  }
+
+  .community-points{
+    grid-template-columns:1fr;
+  }
+
+  .lighthouse-footer{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+}
+
+
+/* Approved Lighthouse artwork */
+.lighthouse-hero-logo{
+  width:min(520px,100%);
+  height:auto;
+  margin:auto;
+  display:block;
+  border-radius:32px;
+  filter:drop-shadow(0 24px 45px rgba(31,52,61,.12));
+}
+
+@media(max-width:680px){
+  .lighthouse-hero-logo{
+    width:min(390px,94%);
+    border-radius:24px;
+  }
+}
+
+/* المنارة البهائية — شعار شريط التنقل */
+.lighthouse-header-logo{
+  width:58px;
+  height:58px;
+  flex:0 0 58px;
+  display:block;
+  object-fit:contain;
+}
+
+@media(max-width:680px){
+  .lighthouse-header-logo{
+    width:48px;
+    height:48px;
+    flex-basis:48px;
+  }
+}
+.lighthouse-symbol{
+  min-height:auto;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.lighthouse-hero-logo{
+  width:min(540px,100%);
+  height:auto;
+  display:block;
+  margin:auto;
+  border-radius:28px;
+  filter:drop-shadow(0 22px 42px rgba(26,54,93,.12));
+}
+
+/* =========================================
+   Navigation system — shared across the site
+   ========================================= */
+
+/* ----- Global header ----- */
+
+.global-header{
+  position:sticky;
+  top:0;
+  z-index:1000;
+}
+
+.global-header.site-header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:32px;
+}
+
+.lighthouse-header-logo{
+  width:56px;
+  height:56px;
+  flex:0 0 56px;
+  display:block;
+  object-fit:contain;
+}
+
+.global-nav{
+  display:flex;
+  align-items:center;
+  gap:4px;
+  font-size:13px;
+  font-weight:700;
+}
+
+.global-nav > a,
+.nav-dropdown-toggle{
+  min-height:44px;
+  padding:8px 14px;
+  border:0;
+  border-radius:11px;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:7px;
+
+  background:transparent;
+  color:var(--ink);
+
+  font:inherit;
+  font-weight:700;
+  white-space:nowrap;
+  cursor:pointer;
+
+  transition:
+    background-color .18s ease,
+    color .18s ease;
+}
+
+.global-nav > a:hover,
+.global-nav > a:focus-visible,
+.nav-dropdown-toggle:hover,
+.nav-dropdown-toggle:focus-visible{
+  background:rgba(14,111,136,.08);
+  color:var(--teal);
+  outline:none;
+}
+
+
+/* ----- Sections dropdown ----- */
+
+.nav-dropdown{
+  position:relative;
+}
+
+.dropdown-arrow{
+  display:inline-block;
+  font-size:14px;
+  line-height:1;
+  transition:transform .18s ease;
+}
+
+.nav-dropdown.is-open .dropdown-arrow{
+  transform:rotate(180deg);
+}
+
+.nav-dropdown-menu{
+  position:absolute;
+  top:calc(100% + 8px);
+  right:0;
+
+  width:300px;
+  padding:8px;
+
+  border:1px solid var(--line);
+  border-radius:16px;
+
+  background:#fffdf7;
+  box-shadow:0 18px 50px rgba(24,53,89,.15);
+
+  opacity:0;
+  visibility:hidden;
+  pointer-events:none;
+  transform:translateY(-7px);
+
+  transition:
+    opacity .16s ease,
+    visibility .16s ease,
+    transform .16s ease;
+
+  z-index:1100;
+}
+
+.nav-dropdown.is-open .nav-dropdown-menu,
+.nav-dropdown:focus-within .nav-dropdown-menu{
+  opacity:1;
+  visibility:visible;
+  pointer-events:auto;
+  transform:translateY(0);
+}
+
+@media(hover:hover) and (pointer:fine){
+  .nav-dropdown:hover .nav-dropdown-menu{
+    opacity:1;
+    visibility:visible;
+    pointer-events:auto;
+    transform:translateY(0);
+  }
+}
+
+.nav-dropdown-menu a,
+.nav-dropdown-menu .nav-disabled{
+  min-height:46px;
+  padding:10px 12px;
+  border-radius:10px;
+
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:14px;
+}
+
+.nav-dropdown-menu a{
+  color:var(--ink);
+}
+
+.nav-dropdown-menu a:hover,
+.nav-dropdown-menu a:focus-visible{
+  background:rgba(116,193,227,.15);
+  color:var(--teal-dark);
+  outline:none;
+}
+
+.nav-dropdown-menu small{
+  flex:0 0 auto;
+  font-size:9px;
+  white-space:nowrap;
+}
+
+.nav-disabled{
+  color:#929b9f;
+  cursor:default;
+}
+
+.nav-disabled small{
+  color:#a1aaae;
+}
+
+.available-label{
+  color:#287454;
+}
+
+
+/* ----- Mobile global menu button ----- */
+
+.mobile-menu-toggle{
+  display:none;
+  width:44px;
+  height:44px;
+  padding:0;
+
+  border:0;
+  border-radius:11px;
+
+  background:rgba(14,111,136,.07);
+  cursor:pointer;
+
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  gap:4px;
+}
+
+.mobile-menu-toggle span{
+  width:20px;
+  height:2px;
+  border-radius:999px;
+  background:var(--ink);
+}
+
+
+/* ----- Local navigation inside section pages ----- */
+
+.section-nav-inline{
+  position:static;
+
+  max-width:920px;
+  margin:24px auto 42px;
+  padding:10px 0;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:5px;
+
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+
+  background:transparent;
+}
+
+.section-nav-label{
+  margin-left:8px;
+  color:var(--muted);
+  font-size:11px;
+  font-weight:700;
+}
+
+.section-nav-inline a{
+  min-height:38px;
+  padding:6px 11px;
+
+  display:inline-flex;
+  align-items:center;
+
+  border-radius:9px;
+
+  color:var(--ink);
+  font-size:11px;
+  font-weight:700;
+
+  transition:
+    background-color .18s ease,
+    color .18s ease;
+}
+
+.section-nav-inline a:hover,
+.section-nav-inline a:focus-visible{
+  background:rgba(14,111,136,.08);
+  color:var(--teal);
+  outline:none;
+}
+
+
+/* Keep anchor headings visible below sticky global header */
+
+#about,
+#features,
+#screenshots,
+#availability,
+#purpose,
+#sections,
+#community{
+  scroll-margin-top:100px;
+}
+
+
+/* ----- Tablet / mobile navigation ----- */
+
+@media(max-width:900px){
+
+  .global-header.site-header{
+    gap:14px;
+  }
+
+  .mobile-menu-toggle{
+    display:flex;
+  }
+
+  .global-nav{
+    position:absolute;
+    top:calc(100% + 8px);
+    right:16px;
+    left:16px;
+
+    display:none;
+    flex-direction:column;
+    align-items:stretch;
+    gap:2px;
+
+    padding:9px;
+
+    border:1px solid var(--line);
+    border-radius:16px;
+
+    background:#fffdf7;
+    box-shadow:0 20px 50px rgba(24,53,89,.16);
+  }
+
+  .global-nav.is-open{
+    display:flex;
+  }
+
+  .global-nav > a,
+  .nav-dropdown-toggle{
+    width:100%;
+    justify-content:flex-start;
+    text-align:right;
+  }
+
+  .nav-dropdown-menu{
+    position:static;
+
+    display:none;
+    width:auto;
+    margin:3px 0 0;
+    padding:5px;
+
+    border:0;
+    box-shadow:none;
+
+    background:rgba(116,193,227,.08);
+
+    opacity:1;
+    visibility:visible;
+    pointer-events:auto;
+    transform:none;
+  }
+
+  .nav-dropdown.is-open .nav-dropdown-menu{
+    display:block;
+  }
+
+  .section-nav-inline{
+    justify-content:flex-start;
+    flex-wrap:nowrap;
+
+    overflow-x:auto;
+    scrollbar-width:none;
+
+    padding-inline:4px;
+  }
+
+  .section-nav-inline::-webkit-scrollbar{
+    display:none;
+  }
+
+  .section-nav-inline > *{
+    flex:0 0 auto;
+  }
+}
+
+
+@media(max-width:680px){
+
+  .lighthouse-header-logo{
+    width:46px;
+    height:46px;
+    flex-basis:46px;
+  }
+
+  .global-header.site-header{
+    padding-inline:16px;
+  }
+
+  .section-nav-inline{
+    margin-top:18px;
+    margin-bottom:30px;
+  }
+}
+
+/* =========================================
+   FINAL store badge normalization
+   ========================================= */
+
+.store-badge-frame{
+  width:190px !important;
+  height:58px !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  overflow:hidden !important;
+}
+
+.store-badge-frame img,
+.store-badge-frame img[src*="google-play"],
+.store-badge-frame img[src*="app-store"]{
+  width:190px !important;
+  height:58px !important;
+  max-width:190px !important;
+  max-height:58px !important;
+
+  object-fit:contain !important;
+  object-position:center !important;
+
+  transform:none !important;
+  margin:0 !important;
+  display:block !important;
+}
+
+.store-badge-card{
+  min-height:112px;
+  grid-template-columns:190px 130px;
+  align-items:center;
+  justify-content:center;
+  gap:24px;
+}
+
+.store-badge-card strong{
+  width:130px;
+  min-width:130px;
+  text-align:center;
+  justify-self:center;
+}
+
+@media(max-width:720px){
+  .store-badge-card{
+    grid-template-columns:1fr;
+    justify-items:center;
+    gap:12px;
+  }
+
+  .store-badge-frame,
+  .store-badge-frame img,
+  .store-badge-frame img[src*="google-play"],
+  .store-badge-frame img[src*="app-store"]{
+    width:180px !important;
+    height:55px !important;
+    max-width:180px !important;
+    max-height:55px !important;
+  }
+
+  .store-badge-card strong{
+    width:auto;
+    min-width:0;
+  }
+}
+
+
+/* =========================================
+   Android-only availability section
+   ========================================= */
+
+.availability{
+  grid-template-columns:minmax(0,1.35fr) minmax(260px,.65fr);
+  gap:48px;
+  align-items:center;
+
+  margin:54px 0;
+  padding:38px 46px;
+}
+
+.availability > div:first-child{
+  max-width:760px;
+}
+
+.availability h2{
+  margin-bottom:12px;
+}
+
+.availability p{
+  margin:0;
+  line-height:1.9;
+}
+
+/* Only one store is currently available */
+.store-status{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.store-badge-card{
+  width:100%;
+  max-width:320px;
+  min-height:auto;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+
+  padding:22px 24px;
+
+  border:1px solid rgba(255,255,255,.18);
+  border-radius:22px;
+  background:rgba(255,255,255,.10);
+}
+
+.store-badge-frame{
+  width:210px !important;
+  height:auto !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  overflow:visible !important;
+}
+
+.store-badge-frame img,
+.store-badge-frame img[src*="google-play"]{
+  width:210px !important;
+  height:auto !important;
+  max-width:100% !important;
+  max-height:none !important;
+
+  object-fit:contain !important;
+  transform:none !important;
+  display:block !important;
+}
+
+.store-badge-card strong{
+  width:auto;
+  min-width:0;
+  margin:0;
+
+  color:#fff;
+  font-size:13px;
+  text-align:center;
+  white-space:nowrap;
+}
+
+
+/* Mobile */
+@media(max-width:720px){
+
+  .availability{
+    grid-template-columns:1fr;
+    gap:26px;
+    padding:30px 22px;
+    text-align:center;
+  }
+
+  .availability > div:first-child{
+    max-width:none;
+  }
+
+  .store-badge-card{
+    max-width:300px;
+    margin-inline:auto;
+  }
+
+  .store-badge-frame,
+  .store-badge-frame img,
+  .store-badge-frame img[src*="google-play"]{
+    width:190px !important;
+  }
+}
+
+
+/* =========================================
+   Android release status — refined layout
+   ========================================= */
+
+.availability{
+  grid-template-columns:300px minmax(0,1fr);
+  gap:56px;
+  align-items:center;
+
+  margin:48px 0;
+  padding:30px 44px;
+
+  min-height:0;
+}
+
+.store-status{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.store-badge-card{
+  width:100%;
+  max-width:300px;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+
+  padding:20px 22px;
+
+  border:1px solid rgba(255,255,255,.22);
+  border-radius:20px;
+
+  background:rgba(255,255,255,.10);
+}
+
+.store-badge-frame{
+  width:200px !important;
+  height:auto !important;
+
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+
+  overflow:visible !important;
+}
+
+.store-badge-frame img,
+.store-badge-frame img[src*="google-play"]{
+  width:200px !important;
+  height:auto !important;
+
+  max-width:100% !important;
+  max-height:none !important;
+
+  object-fit:contain !important;
+  transform:none !important;
+
+  display:block !important;
+}
+
+.store-badge-card strong{
+  margin:0;
+
+  width:auto;
+  min-width:0;
+
+  color:#fff;
+  font-size:13px;
+  font-weight:700;
+
+  text-align:center;
+}
+
+.availability > div:first-child{
+  max-width:760px;
+}
+
+.availability h2{
+  margin:0 0 8px;
+
+  font-size:clamp(32px,3vw,42px);
+  line-height:1.4;
+}
+
+.availability p{
+  margin:0;
+
+  font-size:14px;
+  line-height:1.9;
+
+  color:#d6edf2;
+}
+
+@media(max-width:800px){
+
+  .availability{
+    grid-template-columns:1fr;
+    gap:24px;
+
+    padding:28px 22px;
+
+    text-align:center;
+  }
+
+  .store-badge-card{
+    max-width:280px;
+    margin-inline:auto;
+  }
+
+  .availability > div:first-child{
+    max-width:none;
+  }
+}
+
+
+/* =========================================
+   Android availability — clean horizontal status
+   ========================================= */
+
+.availability{
+  grid-template-columns:minmax(0,1.35fr) minmax(360px,.65fr);
+  gap:44px;
+  align-items:center;
+  padding:38px 46px;
+}
+
+.store-status{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.store-badge-card{
+  width:auto;
+  max-width:none;
+  min-height:0;
+
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  gap:18px;
+
+  padding:0;
+
+  border:0;
+  border-radius:0;
+  background:transparent;
+}
+
+.store-badge-frame{
+  width:auto !important;
+  height:auto !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  overflow:visible !important;
+}
+
+.store-badge-frame img,
+.store-badge-frame img[src*="google-play"]{
+  width:210px !important;
+  height:auto !important;
+  max-width:210px !important;
+  max-height:none !important;
+  object-fit:contain !important;
+  display:block !important;
+  transform:none !important;
+}
+
+.store-badge-card strong{
+  width:auto;
+  min-width:0;
+  margin:0;
+
+  color:#fff;
+  font-size:14px;
+  font-weight:700;
+  white-space:nowrap;
+  text-align:center;
+}
+
+.availability > div:first-child{
+  max-width:760px;
+}
+
+.availability h2{
+  margin:0 0 10px;
+}
+
+.availability p{
+  margin:0;
+  line-height:1.9;
+}
+
+@media(max-width:800px){
+  .availability{
+    grid-template-columns:1fr;
+    gap:26px;
+    padding:30px 22px;
+    text-align:center;
+  }
+
+  .store-badge-card{
+    flex-wrap:wrap;
+  }
+
+  .store-badge-frame img,
+  .store-badge-frame img[src*="google-play"]{
+    width:190px !important;
+    max-width:190px !important;
+  }
+}
+
+
+/* Google Play badge on the right, status on the left */
+.store-badge-card{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  gap:18px;
+
+  padding:0;
+  border:0;
+  background:transparent;
+}
+
+.store-badge-frame{
+  order:1;
+}
+
+.store-badge-card strong{
+  order:2;
+
+  margin:0;
+  width:auto;
+  min-width:0;
+
+  color:#fff;
+  font-size:14px;
+  font-weight:700;
+  white-space:nowrap;
+}
+
+.store-badge-frame img,
+.store-badge-frame img[src*="google-play"]{
+  width:210px !important;
+  height:auto !important;
+  max-width:210px !important;
+  display:block !important;
+}
+
+
+/* Match hero description to normal paragraph size */
+.hero .lead{
+  font-size:1rem;
+}
+
+
+/* Match hero description font with standard site paragraphs */
+.hero .lead{
+  font-family:"Almarai","Noto Sans Arabic",system-ui,sans-serif;
+}
+
+
+/* Homepage introduction — Almarai */
+.lighthouse-lead{
+  font-family:"Almarai",sans-serif;
+}
+
+
+/* Homepage introduction — smaller Almarai text */
+.lighthouse-lead{
+  font-family:"Almarai",sans-serif;
+  font-size:18px;
+}
+
+
+/* Current location in the shared navigation */
+.global-nav .nav-current{
+  color:var(--teal-dark);
+  background:rgba(14,111,136,.10);
+}
+
+.nav-dropdown-menu .nav-current{
+  background:var(--sky);
+  color:var(--teal-dark);
+  font-weight:700;
+}
+
+
+/* =========================================
+   Footer social links
+   ========================================= */
+
+.footer-socials{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  flex-wrap:wrap;
+}
+
+.footer-socials-label{
+  color:var(--muted);
+  font-size:11px;
+  font-weight:700;
+  margin-left:2px;
+}
+
+.footer-socials a{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+
+  min-height:32px;
+  padding:5px 10px;
+
+  border:1px solid var(--line);
+  border-radius:999px;
+
+  background:rgba(255,255,255,.45);
+  color:var(--ink);
+
+  font-size:10px;
+  font-weight:700;
+
+  transition:
+    background-color .18s ease,
+    color .18s ease,
+    border-color .18s ease;
+}
+
+.footer-socials a:hover,
+.footer-socials a:focus-visible{
+  background:rgba(14,111,136,.08);
+  border-color:rgba(14,111,136,.25);
+  color:var(--teal);
+  outline:none;
+}
+
+@media(max-width:680px){
+  .footer-socials{
+    width:100%;
+  }
+}
+
+
+/* Footer social icon buttons */
+.footer-socials .social-icon{
+  width:36px;
+  height:36px;
+  min-height:36px;
+  padding:0;
+  border-radius:50%;
+}
+
+.footer-socials .social-icon svg{
+  width:17px;
+  height:17px;
+  display:block;
+}
+
+.footer-socials .social-facebook svg{
+  fill:currentColor;
+}
+
+.footer-socials .social-instagram svg{
+  fill:none;
+  stroke:currentColor;
+  stroke-width:1.8;
+}
+
+.footer-socials .social-x svg{
+  fill:currentColor;
+}
+
+
+/* =========================================
+   Footer icon links
+   ========================================= */
+
+.footer-icon-link{
+  width:36px;
+  height:36px;
+  min-height:36px;
+  padding:0 !important;
+
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+
+  border:1px solid var(--line);
+  border-radius:50%;
+
+  background:rgba(255,255,255,.45);
+  color:var(--ink);
+
+  transition:
+    background-color .18s ease,
+    color .18s ease,
+    border-color .18s ease,
+    transform .18s ease;
+}
+
+.footer-icon-link:hover,
+.footer-icon-link:focus-visible{
+  background:rgba(14,111,136,.08);
+  border-color:rgba(14,111,136,.25);
+  color:var(--teal);
+  transform:translateY(-1px);
+  outline:none;
+}
+
+.footer-icon-link svg{
+  width:17px;
+  height:17px;
+  display:block;
+}
+
+.footer-email svg,
+.social-facebook svg,
+.social-x svg{
+  fill:currentColor;
+}
+
+.social-instagram svg{
+  fill:none;
+  stroke:currentColor;
+  stroke-width:1.8;
+}
+
+.footer-socials{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  flex-wrap:wrap;
+}
+
+.footer-socials-label{
+  color:var(--muted);
+  font-size:11px;
+  font-weight:700;
+  margin-left:2px;
+}
+
+.footer-year{
+  white-space:nowrap;
+}
+
+@media(max-width:680px){
+  .footer-socials{
+    width:100%;
+  }
+}
+

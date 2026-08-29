@@ -3,183 +3,328 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="الصفحة التعريفية لتطبيق أدعية ومناجات بهائية باللغة العربية.">
+  <meta name="description" content="المنارة البهائية مساحة رقمية عربية تهدف إلى تسهيل الوصول إلى الموارد والمحتوى البهائي وتنظيمه في مكان واحد للناطقين باللغة العربية.">
   <meta name="theme-color" content="#0e6f88">
-  <title>أدعية ومناجات بهائية</title>
 
-  <!-- Calm Arabic typography: no Kufi font -->
+  <title>المنارة البهائية</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700;800&family=Aref+Ruqaa:wght@400;700&family=Changa:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css">
+
+  <!-- Social sharing metadata -->
+  <meta property="og:locale" content="ar_AR">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="المنارة البهائية">
+  <meta property="og:description" content="مساحة رقمية عربية تهدف إلى تسهيل الوصول إلى الموارد والمحتوى البهائي وتنظيمه للناطقين باللغة العربية.">
+  <meta property="og:url" content="https://bahai-lighthouse.com/">
+  <meta property="og:site_name" content="المنارة البهائية">
+  <meta property="og:image" content="https://bahai-lighthouse.com/assets/lighthouse-logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="المنارة البهائية">
+  <meta name="twitter:description" content="مساحة رقمية عربية تهدف إلى تسهيل الوصول إلى الموارد والمحتوى البهائي وتنظيمه للناطقين باللغة العربية.">
+  <meta name="twitter:image" content="https://bahai-lighthouse.com/assets/lighthouse-logo.png">
+
 </head>
-<body>
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="العودة إلى بداية الصفحة">
-      <img src="assets/munajat-logo-centered.jpg" alt="شعار أدعية ومناجات بهائية" class="brand-logo">
-      <span class="brand-copy">
-        <strong>أدعية ومناجات بهائية</strong>
-        <small>تطبيق عربي للصلوات والمناجات البهائية</small>
+
+<body class="lighthouse-site">
+
+<div id="global-header"></div>
+
+
+<main id="top" class="lighthouse-main">
+
+
+<section class="lighthouse-hero">
+
+  <div class="lighthouse-hero-copy">
+
+    <h1>المنارة البهائية</h1>
+
+    <p class="lighthouse-lead">
+      مساحة رقمية باللغة العربية تهدف إلى تسهيل الوصول إلى الموارد
+      والمحتوى البهائي، وتنظيمها في مكان واحد يخدم الناطقين باللغة العربية
+      في مختلف البلدان والمجتمعات.
+    </p>
+
+    <div class="hero-actions">
+      <a class="primary-btn" href="#sections">
+        استكشف أقسام المنارة البهائية
+      </a>
+
+      <a class="secondary-btn" href="prayers.html">
+        الأدعية والمناجاة
+      </a>
+    </div>
+
+  </div>
+
+
+  <div class="lighthouse-symbol">
+    <img
+      src="assets/lighthouse-logo.png"
+      alt="شعار المنارة البهائية"
+      class="lighthouse-hero-logo"
+    >
+  </div>
+
+</section>
+
+
+
+<section id="sections" class="portal-sections">
+
+  <div class="section-heading">
+
+    <h2>أقسام المنارة البهائية</h2>
+
+    <p>
+      ستتوسع أقسام المنارة البهائية تدريجياً. قسم الأدعية والمناجاة متاح حالياً،
+      بينما يجري العمل على إعداد بقية الأقسام.
+    </p>
+
+  </div>
+
+
+  <div class="portal-grid">
+
+
+    <a class="portal-card active-section" href="prayers.html">
+
+      <div class="portal-card-status available">
+        متاح الآن
+      </div>
+
+      <div class="portal-card-icon">
+        ❧
+      </div>
+
+      <h3>الأدعية والمناجاة</h3>
+
+      <p>
+        تطبيق وموارد عربية للأدعية والمناجاة، مع أدوات للقراءة
+        والمفضلة واتجاه القبلة والتسبيح.
+      </p>
+
+      <span class="portal-card-link">
+        الدخول إلى القسم ←
       </span>
+
     </a>
 
-    <nav aria-label="التنقل الرئيسي">
-      <a href="#about">عن التطبيق</a>
-      <a href="#features">المميزات</a>
-      <a href="#screenshots">الصور</a>
-      <a href="#availability">التوفر</a>
-      <a href="privacy.html">الخصوصية</a>
-    </nav>
-  </header>
 
-  <main id="top">
-    <section class="hero" id="about">
-      <div class="hero-copy">
-        <img src="assets/munajat-logo-centered.jpg" alt="الشعار الأصلي لتطبيق أدعية ومناجات بهائية" class="hero-logo">
-        <h1>أدعية ومناجات بهائية</h1>
-        <p class="lead">
-          تطبيق عربي يجمع الصلوات والمناجات البهائية في واجهة هادئة وواضحة،
-          مع أدوات تساعد على القراءة والوصول السريع إلى المحتوى.
-        </p>
 
-        <div class="hero-actions">
-          <a class="primary-btn" href="#screenshots">شاهد التطبيق</a>
-          <a class="secondary-btn" href="privacy.html">سياسة الخصوصية</a>
-        </div>
+    <article class="portal-card maintenance">
 
-        <p class="status-note">
-          نسخة Android قيد الاختبار قبل الإطلاق العام، وإصدار iOS قيد التحضير.
-        </p>
+      <div class="portal-card-status">
+        قيد الإعداد
       </div>
 
-      <div class="hero-device" aria-label="لقطة فعلية من التطبيق">
-        <img src="assets/home.png" alt="الشاشة الرئيسية الفعلية للتطبيق">
-      </div>
-    </section>
-
-    <section id="features" class="features">
-      <div class="section-heading">
-        <h2>تجربة عربية بسيطة</h2>
-        <p>التركيز على القراءة الواضحة، والتنقل السهل، والأدوات الأساسية.</p>
+      <div class="portal-card-icon">
+        📖
       </div>
 
-      <div class="feature-list">
-        <article>
-          <span class="feature-icon">♥</span>
-          <div>
-            <h3>المفضلة</h3>
-            <p>حفظ الأدعية التي تريد الرجوع إليها بسرعة.</p>
-          </div>
-        </article>
+      <h3>المكتبة البهائية</h3>
 
-        <article>
-          <span class="feature-icon">⌖</span>
-          <div>
-            <h3>اتجاه القبلة</h3>
-            <p>بوصلة للمساعدة في تحديد اتجاه القبلة نحو مرقد حضرة بهاء الله.</p>
-          </div>
-        </article>
+      <p>
+        مساحة منظمة للكتب والكتابات والمراجع والمصادر العربية.
+      </p>
 
-        <article>
-          <span class="feature-icon">95</span>
-          <div>
-            <h3>التسبيح</h3>
-            <p>عداد تسبيح بسيط حتى 95 مرة.</p>
-          </div>
-        </article>
+      <span class="maintenance-text">
+        قريباً
+      </span>
 
-        <article>
-          <span class="feature-icon">Aa</span>
-          <div>
-            <h3>قراءة عربية مريحة</h3>
-            <p>واجهة هادئة ونصوص واضحة لقراءة المحتوى بسهولة.</p>
-          </div>
-        </article>
-      </div>
-    </section>
+    </article>
 
-    <section id="screenshots" class="screenshots">
-      <div class="section-heading">
-        <h2>لقطات فعلية من التطبيق</h2>
-        <p>الصور أدناه هي لقطات التطبيق الأصلية كما هي، من دون إعادة تصميم أو تعديل للمحتوى.</p>
+
+
+    <article class="portal-card maintenance">
+
+      <div class="portal-card-status">
+        قيد الإعداد
       </div>
 
-      <div class="screenshot-grid">
-        <figure>
-          <img src="assets/welcome.png" alt="شاشة الترحيب الأصلية في التطبيق">
-          <figcaption>شاشة الترحيب</figcaption>
-        </figure>
-
-        <figure>
-          <img src="assets/home.png" alt="الشاشة الرئيسية الأصلية للتطبيق">
-          <figcaption>الصفحة الرئيسية</figcaption>
-        </figure>
-
-        <figure>
-          <img src="assets/reader.png" alt="شاشة قراءة الدعاء الأصلية">
-          <figcaption>قراءة الدعاء</figcaption>
-        </figure>
-
-        <figure>
-          <img src="assets/qiblih.png" alt="شاشة اتجاه القبلة الأصلية">
-          <figcaption>اتجاه القبلة</figcaption>
-        </figure>
-
-        <figure>
-          <img src="assets/tasbih.png" alt="شاشة التسبيح الأصلية">
-          <figcaption>التسبيح</figcaption>
-        </figure>
-
-        <figure>
-          <img src="assets/favorites.png" alt="شاشة المفضلة الأصلية">
-          <figcaption>المفضلة</figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <section id="availability" class="availability">
-      <div>
-        <h2>Android الآن في الاختبار، و iOS في الطريق</h2>
-        <p>
-          يتم اختبار نسخة Android عبر Google Play قبل الإطلاق العام،
-          كما يتم تجهيز نسخة iOS للنشر عبر App Store.
-        </p>
+      <div class="portal-card-icon">
+        ♪
       </div>
 
-      <div class="store-status">
-        <div class="store-card">
-          <span>Google Play</span>
-          <strong>اختبار داخلي</strong>
-        </div>
-        <div class="store-card">
-          <span>App Store</span>
-          <strong>قيد التحضير</strong>
-        </div>
+      <h3>المكتبة الصوتية</h3>
+
+      <p>
+        محتوى صوتي للقراءة والاستماع يمكن استخدامه بشكل فردي
+        أو في اللقاءات والمناسبات.
+      </p>
+
+      <span class="maintenance-text">
+        قريباً
+      </span>
+
+    </article>
+
+
+
+    <article class="portal-card maintenance">
+
+      <div class="portal-card-status">
+        قيد الإعداد
       </div>
-    </section>
 
-    <section class="bottom-grid single-card">
-      <article>
-        <h2>الخصوصية</h2>
-        <p>
-          يستخدم التطبيق موقع الجهاز عند تشغيل ميزة اتجاه القبلة للمساعدة
-          في تحديد الاتجاه الصحيح بالنسبة إلى موقعك.
-        </p>
-        <a href="privacy.html">قراءة سياسة الخصوصية</a>
-      </article>
-    </section>
-  </main>
+      <div class="portal-card-icon">
+        ✦
+      </div>
 
-  <footer>
-    <div class="footer-brand">
-      <img src="assets/munajat-logo-centered.jpg" alt="">
-      <span>أدعية ومناجات بهائية</span>
-    </div>
+      <h3>المناسبات والأيام المباركة</h3>
+
+      <p>
+        موارد مرتبة بحسب المناسبات والأيام البهائية للمساعدة
+        في الإعداد للبرامج واللقاءات.
+      </p>
+
+      <span class="maintenance-text">
+        قريباً
+      </span>
+
+    </article>
+
+
+
+    <article class="portal-card maintenance">
+
+      <div class="portal-card-status">
+        قيد الإعداد
+      </div>
+
+      <div class="portal-card-icon">
+        ◌
+      </div>
+
+      <h3>موارد للمجتمعات</h3>
+
+      <p>
+        مواد وأدوات يمكن أن تساعد المجتمعات والأفراد
+        في إعداد أنشطة ومناسبات متنوعة.
+      </p>
+
+      <span class="maintenance-text">
+        قريباً
+      </span>
+
+    </article>
+
+
+
+    <article class="portal-card maintenance">
+
+      <div class="portal-card-status">
+        قيد الإعداد
+      </div>
+
+      <div class="portal-card-icon">
+        ◈
+      </div>
+
+      <h3>تطبيقات المنارة البهائية</h3>
+
+      <p>
+        مكان واحد للتعرف على التطبيقات الرقمية التابعة للمشروع
+        والوصول إليها عند توفرها.
+      </p>
+
+      <span class="maintenance-text">
+        قريباً
+      </span>
+
+    </article>
+
+
+  </div>
+
+</section>
+
+
+
+<section id="community" class="community-section">
+
+  <div class="community-copy">
+
+    <h2>
+      ماذا يمكن أن يجد الزائر في المنارة البهائية؟
+    </h2>
+
+    <p>
+      صُممت المنارة البهائية لتكون أكثر من مجرد موقع لتطبيق واحد.
+      الهدف هو بناء مساحة عربية يمكن أن تنمو مع احتياجات المجتمع،
+      بحيث يستطيع الزائر الانتقال بين الأدعية، والكتب، والصوتيات،
+      والمواد المناسبة لمختلف الأنشطة والمناسبات.
+    </p>
+
+    <p>
+      ومع تطوير الأقسام، سيكون لكل قسم هدف واضح ومحتوى منظم،
+      مع الاهتمام بذكر المصادر والمراجع المناسبة للمحتوى المنشور.
+    </p>
+
+  </div>
+
+
+  <div class="community-points">
+
     <div>
-      <a href="privacy.html">سياسة الخصوصية</a>
-      <span>© 2026</span>
+      <strong>01</strong>
+      <span>التعلم والقراءة</span>
     </div>
-  </footer>
+
+    <div>
+      <strong>02</strong>
+      <span>الاستماع</span>
+    </div>
+
+    <div>
+      <strong>03</strong>
+      <span>الاستعداد للمناسبات</span>
+    </div>
+
+    <div>
+      <strong>04</strong>
+      <span>الوصول إلى التطبيقات</span>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<section id="about" class="portal-about">
+
+  <div>
+
+    <h2>
+      حول المنارة البهائية
+    </h2>
+
+    <p>
+      المنارة البهائية مشروع رقمي مستقل يهدف إلى تنظيم وتقديم
+      موارد باللغة العربية بطريقة سهلة الوصول والاستخدام.
+    </p>
+
+    <p>
+      سيستمر الموقع في التطور وإضافة أقسام وخدمات جديدة تدريجياً.
+      وسيتم توضيح مصادر المحتوى ومراجعه داخل الأقسام التي تتطلب ذلك.
+    </p>
+
+  </div>
+
+</section>
+
+</main>
+
+
+<div id="global-footer"></div>
+
+  <script src="site-header.js"></script>
+  <script src="site-footer.js"></script>
 </body>
 </html>
