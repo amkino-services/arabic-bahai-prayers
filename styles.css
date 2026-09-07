@@ -1807,3 +1807,21 @@ footer{
   }
 }
 
+
+
+/* يوميات بهائية — preserve the actual icon shape */
+.bahai-calendar-logo{
+  width:170px;
+  height:auto;
+  border-radius:0;
+  object-fit:contain;
+  box-shadow:none;
+  background:transparent;
+}
+
+@media(max-width:720px){
+  .bahai-calendar-logo{
+    width:130px;
+    height:auto;
+  }
+}

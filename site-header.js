@@ -73,10 +73,10 @@ document.addEventListener('DOMContentLoaded', () => {
               <small>قريباً</small>
             </span>
 
-            <span class="nav-disabled">
+            <a href="calendar.html">
               <span>المناسبات والأيام المباركة</span>
-              <small>قريباً</small>
-            </span>
+              <small class="available-label">متاح</small>
+            </a>
 
             <span class="nav-disabled">
               <span>موارد للمجتمعات</span>
