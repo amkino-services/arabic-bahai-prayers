@@ -53,7 +53,6 @@ document.addEventListener('DOMContentLoaded', () => {
             aria-haspopup="true"
           >
             <span>الأقسام</span>
-            <span class="dropdown-arrow" aria-hidden="true">⌄</span>
           </button>
 
           <div class="nav-dropdown-menu">

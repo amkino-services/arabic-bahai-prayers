@@ -2066,3 +2066,28 @@ footer{
 
   cursor: pointer;
 }
+
+/* Available status in navigation */
+.nav-dropdown-menu a:not(.disabled) small {
+  color: #17845b;
+}
+
+/* Keep available portal cards vertically aligned with the other cards */
+.portal-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.portal-card .portal-card-status {
+  align-self: flex-start;
+}
+
+.portal-card .portal-card-link {
+  margin-top: auto;
+  position: static;
+  align-self: flex-start;
+}
+
+.portal-card p {
+  margin-bottom: 1.5rem;
+}
