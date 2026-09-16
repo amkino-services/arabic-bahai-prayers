@@ -83,10 +83,10 @@ document.addEventListener('DOMContentLoaded', () => {
               <small>قريباً</small>
             </span>
 
-            <span class="nav-disabled">
+            <a href="tools.html">
               <span>تطبيقات المنارة</span>
-              <small>قريباً</small>
-            </span>
+              <small>متاح</small>
+            </a>
 
           </div>
         </div>

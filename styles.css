@@ -1825,3 +1825,32 @@ footer{
     height:auto;
   }
 }
+
+/* Tools page — final responsive grid override */
+.portal-grid.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 6rem;
+}
+
+@media (max-width: 900px) {
+  .portal-grid.tools-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .portal-grid.tools-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Tools page — tighter spacing between introduction and tools */
+.tools-page-intro {
+  padding-bottom: 2rem;
+}
+
+.tools-page-section {
+  padding-top: 2rem;
+}
