@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description"
+        content="محوّل التاريخ البهائي من المنارة البهائية لتحويل التاريخ بين التقويم البديع والتقويم الميلادي.">
+
+  <meta name="theme-color" content="#0e6f88">
+
+  <title>محوّل التاريخ البهائي | المنارة البهائية</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700;800&family=Aref+Ruqaa:wght@400;700&family=Changa:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div id="global-header"></div>
+
+  <main id="top">
+
+    <section class="portal-about tools-page-intro">
+      <div>
+        <h1>محوّل التاريخ البهائي</h1>
+
+        <p>
+          أداة لتحويل التاريخ بين التقويم البديع والتقويم الميلادي.
+        </p>
+
+        <a class="secondary-btn" href="tools.html">
+          العودة إلى تطبيقات المنارة
+        </a>
+      </div>
+    </section>
+
+    <section class="portal-section date-converter-section">
+
+      <div class="section-heading">
+        <h2>تحويل التاريخ</h2>
+
+        <p>
+          اختر التاريخ الذي تريد تحويله.
+        </p>
+      </div>
+
+      
+<div id="date-converter-app" class="date-converter">
+
+  <div class="converter-tabs">
+    <button class="converter-tab active" type="button">
+      ميلادي ← بديع
+    </button>
+
+    <button class="converter-tab" type="button">
+      بديع ← ميلادي
+    </button>
+  </div>
+
+  <div class="converter-card">
+
+    <label for="gregorian-date">
+      التاريخ الميلادي
+    </label>
+
+    <input
+      id="gregorian-date"
+      type="date"
+      class="converter-date-input"
+    >
+
+    <button class="primary-btn converter-button" type="button">
+      تحويل التاريخ
+    </button>
+
+    <div class="converter-result">
+      <span>التاريخ البهائي</span>
+      <strong>—</strong>
+    </div>
+
+  </div>
+
+</div>
+
+    </section>
+
+  </main>
+
+  <div id="global-footer"></div>
+
+  <script src="site-header.js?v=2"></script>
+  <script src="site-footer.js"></script>
+
+  <script src="date-converter.js"></script>
+</body>
+</html>
