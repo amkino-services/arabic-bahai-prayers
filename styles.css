@@ -6669,3 +6669,167 @@ body.sunset-times-page .sunset-times-section {
 }
 
 /* ===== END Homepage Lighthouse landscape hero ===== */
+
+
+/* ===== Sitemap page ===== */
+
+.sitemap-page .sitemap-section{
+  padding-top:64px;
+  padding-bottom:90px;
+}
+
+.sitemap-page .sitemap-grid{
+  display:grid;
+  grid-template-columns:repeat(2, minmax(0, 1fr));
+  gap:24px;
+  margin-top:38px;
+}
+
+.sitemap-page .sitemap-group{
+  background:rgba(255,255,255,.62);
+  border:1px solid var(--line);
+  border-radius:24px;
+  padding:28px;
+  box-shadow:0 12px 34px rgba(23,33,38,.045);
+}
+
+.sitemap-page .sitemap-group h3{
+  margin:0 0 20px;
+  padding-bottom:15px;
+  border-bottom:1px solid var(--line);
+
+  font-family:"Changa","Almarai",sans-serif;
+  font-size:24px;
+  line-height:1.4;
+  color:var(--teal);
+}
+
+.sitemap-page .sitemap-group nav{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+
+.sitemap-page .sitemap-group nav a{
+  display:flex;
+  flex-direction:column;
+  gap:5px;
+
+  padding:14px 16px;
+  border-radius:15px;
+
+  color:var(--ink);
+  text-decoration:none;
+
+  transition:
+    background-color .18s ease,
+    transform .18s ease;
+}
+
+.sitemap-page .sitemap-group nav a:hover{
+  background:rgba(207,234,246,.46);
+  transform:translateX(-3px);
+}
+
+.sitemap-page .sitemap-group nav a:focus-visible{
+  outline:3px solid rgba(14,111,136,.25);
+  outline-offset:2px;
+}
+
+.sitemap-page .sitemap-group nav strong{
+  font-family:"Almarai",sans-serif;
+  font-size:17px;
+  line-height:1.6;
+  color:var(--teal-dark);
+}
+
+.sitemap-page .sitemap-group nav span{
+  font-family:"Almarai",sans-serif;
+  font-size:14px;
+  line-height:1.8;
+  color:var(--muted);
+}
+
+
+/* Sitemap tablet/mobile */
+
+@media(max-width:850px){
+
+  .sitemap-page .sitemap-grid{
+    grid-template-columns:1fr;
+  }
+
+}
+
+@media(max-width:680px){
+
+  .sitemap-page .sitemap-section{
+    padding-top:44px;
+    padding-bottom:64px;
+  }
+
+  .sitemap-page .sitemap-grid{
+    gap:18px;
+    margin-top:28px;
+  }
+
+  .sitemap-page .sitemap-group{
+    padding:21px;
+    border-radius:20px;
+  }
+
+  .sitemap-page .sitemap-group h3{
+    font-size:21px;
+  }
+
+  .sitemap-page .sitemap-group nav a{
+    padding:12px 10px;
+  }
+
+}
+
+/* ===== END Sitemap page ===== */
+
+
+/* ===== Sitemap title typography ===== */
+
+.sitemap-page .tools-page-intro h1{
+  font-family:"Almarai",sans-serif !important;
+  font-weight:800 !important;
+  letter-spacing:0;
+}
+
+/* ===== END Sitemap title typography ===== */
+
+
+/* ===== Sitemap section heading hierarchy ===== */
+
+.sitemap-page .sitemap-section > .section-heading h2{
+  font-family:"Aref Ruqaa",serif;
+  font-size:clamp(30px,3.2vw,44px);
+  line-height:1.35;
+  font-weight:700;
+  color:var(--teal-dark);
+  margin-bottom:10px;
+}
+
+/* ===== END Sitemap section heading hierarchy ===== */
+
+
+/* ===== Date converter section title typography ===== */
+
+.date-converter-page .date-converter-section > .section-heading h2{
+  font-family:"Aref Ruqaa",serif;
+  font-weight:700;
+}
+
+/* ===== END Date converter section title typography ===== */
+
+
+/* ===== Privacy page title alignment ===== */
+
+.privacy-page .privacy-card > h1{
+  text-align:center;
+}
+
+/* ===== END Privacy page title alignment ===== */

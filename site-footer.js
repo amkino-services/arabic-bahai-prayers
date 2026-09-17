@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       <div class="footer-links">
         <a href="index.html">الرئيسية</a>
-        <a href="prayers.html">الأدعية والمناجاة</a>
+        <a href="sitemap.html">خريطة الموقع</a>
         <a href="privacy.html">سياسة الخصوصية</a>
 
         <a class="footer-icon-link footer-email"
