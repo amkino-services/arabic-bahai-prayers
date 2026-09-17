@@ -6538,3 +6538,134 @@ body.sunset-times-page .sunset-times-section {
     margin-bottom: 56px !important;
   }
 }
+
+
+/* ===== Homepage — Lighthouse landscape hero ===== */
+
+.lighthouse-site .lighthouse-hero{
+  position:relative;
+  isolation:isolate;
+  min-height:680px;
+}
+
+/* Full-width lighthouse landscape */
+.lighthouse-site .lighthouse-hero::before{
+  content:"";
+  position:absolute;
+  z-index:-2;
+
+  top:0;
+  bottom:0;
+  left:50%;
+
+  width:100vw;
+  transform:translateX(-50%);
+
+  background-image:url("assets/lighthouse-hero-background.png");
+  background-repeat:no-repeat;
+
+  /*
+    Show the complete height of the original landscape.
+    This prevents the lighthouse from being cropped.
+  */
+  background-size:auto 100%;
+  background-position:left center;
+
+  /*
+    Continue the sky/ocean color behind any horizontal
+    space not occupied by the image.
+  */
+  background-color:#c7e8f6;
+
+  pointer-events:none;
+}
+
+/*
+  Soft readable area behind the Arabic copy.
+  The landscape remains visible underneath.
+*/
+.lighthouse-site .lighthouse-hero::after{
+  content:"";
+  position:absolute;
+  z-index:-1;
+
+  inset:0 auto 0 50%;
+  width:100vw;
+
+  transform:translateX(-50%);
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(252,248,236,0) 0%,
+      rgba(252,248,236,.03) 32%,
+      rgba(252,248,236,.22) 55%,
+      rgba(252,248,236,.58) 82%,
+      rgba(252,248,236,.72) 100%
+    );
+
+  pointer-events:none;
+}
+
+.lighthouse-site .lighthouse-hero-copy{
+  position:relative;
+  z-index:2;
+}
+
+/* Lighthouse is now part of the background image */
+.lighthouse-site .lighthouse-symbol{
+  visibility:hidden;
+}
+
+.lighthouse-site .lighthouse-hero h1{
+  text-shadow:0 2px 16px rgba(255,255,255,.72);
+}
+
+.lighthouse-site .lighthouse-lead{
+  color:#243f52;
+  text-shadow:0 1px 10px rgba(255,255,255,.82);
+}
+
+
+/* Tablet */
+
+@media(max-width:1000px){
+
+  .lighthouse-site .lighthouse-hero::before{
+    background-position:35% center;
+  }
+
+  .lighthouse-site .lighthouse-hero::after{
+    background:rgba(252,248,236,.46);
+  }
+
+  .lighthouse-site .lighthouse-symbol{
+    display:none;
+  }
+}
+
+
+/* Mobile */
+
+@media(max-width:680px){
+
+  .lighthouse-site .lighthouse-hero{
+    min-height:620px;
+  }
+
+  .lighthouse-site .lighthouse-hero::before{
+    background-position:30% center;
+  }
+
+  .lighthouse-site .lighthouse-hero::after{
+    background:
+      linear-gradient(
+        to bottom,
+        rgba(252,248,236,.26) 0%,
+        rgba(252,248,236,.46) 45%,
+        rgba(252,248,236,.72) 100%
+      );
+  }
+}
+
+/* ===== END Homepage Lighthouse landscape hero ===== */
