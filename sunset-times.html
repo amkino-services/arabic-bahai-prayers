@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description"
+        content="مواقيت الشروق والغروب من المنارة البهائية لتحويل التاريخ بين التقويم البديع والتقويم الميلادي.">
+
+  <meta name="theme-color" content="#0e6f88">
+
+  <title>مواقيت الشروق والغروب | المنارة البهائية</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700;800&family=Aref+Ruqaa:wght@400;700&family=Changa:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div id="global-header"></div>
+
+  <main id="top">
+
+    <section class="portal-about tools-page-intro">
+      <div>
+        <h1>مواقيت الشروق والغروب</h1>
+
+        <p>
+          أداة لمعرفة أوقات شروق الشمس وغروبها حسب الموقع والتاريخ.
+        </p>
+
+        <a class="secondary-btn" href="tools.html">
+          العودة إلى تطبيقات المنارة
+        </a>
+      </div>
+    </section>
+
+    <section class="portal-section sunset-times-section">
+      <div class="section-heading">
+        <p>حدد موقعك والتاريخ لمعرفة أوقات الشروق والغروب.</p>
+      </div>
+
+      <div id="sunset-times-app" class="date-converter">
+        <div class="converter-card">
+
+          <label for="sunset-location">الموقع</label>
+          <input
+            id="sunset-location"
+            class="converter-date-input"
+            type="text"
+            placeholder="اسم المدينة أو الموقع..."
+            placeholdأدخل اسم المدينة أو الموقع"
+            autocomplete="off"
+          >
+
+          <button
+            id="use-current-location"
+            class="secondary-btn sunset-location-button"
+            type="button"
+          >
+            استخدام موقعي الحالي
+          </button>
+
+          <label for="sunset-date">التاريخ</label>
+          <input
+            id="sunset-date"
+            class="converter-date-input"
+            type="date"
+          >
+
+          <button
+            id="calculate-sunset"
+            class="primary-btn converter-button"
+            type="button"
+          >
+            معرفة أوقات الشروق والغروب
+          </button>
+
+          <div class="converter-result">
+            <span>وقت شروق الشمس</span>
+            <strong id="sunrise-result">—</strong>
+          </div>
+
+          <div class="converter-result">
+            <span>وقت غروب الشمس</span>
+            <strong id="sunset-result">—</strong>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="global-footer"></div>
+
+  <script src="site-header.js?v=2"></script>
+  <script src="site-footer.js"></script>
+
+  <script src="sunset-times.js"></script>
+</body>
+</html>

@@ -2091,3 +2091,30 @@ footer{
 .portal-card p {
   margin-bottom: 1.5rem;
 }
+
+/* Keep long tool-card titles balanced */
+.tools-grid .portal-card h3 {
+  min-height: 2.8em;
+  display: flex;
+  align-items: center;
+}
+
+
+/* Keep portal card titles consistent when the whole card is clickable */
+.portal-card h3 {
+  color: var(--ink);
+}
+
+/* Keep descriptions consistent inside clickable portal cards */
+.portal-card p {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+/* Homepage SVG icon assets */
+.portal-card-icon img {
+  width: 40px;
+  height: 40px;
+  display: block;
+  object-fit: contain;
+}
