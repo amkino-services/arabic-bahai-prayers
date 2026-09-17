@@ -2118,3 +2118,24 @@ footer{
   display: block;
   object-fit: contain;
 }
+
+/* Align homepage portal icons consistently */
+.portal-card .portal-card-icon {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  margin-bottom: 0;
+}
+
+.portal-card > h3,
+.portal-card > .portal-card-link > h3 {
+  margin-top: 86px;
+}
+
+/* Normalize outline SVGs on the digital tools page */
+.tools-grid .portal-card-icon img[src$="sunrise.svg"],
+.tools-grid .portal-card-icon img[src$="calendar-generator.svg"],
+.tools-grid .portal-card-icon img[src$="occasions.svg"] {
+  width: 36px;
+  height: 36px;
+}
