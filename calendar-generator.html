@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>مولّد التقويم البهائي | المنارة البهائية</title>
+
+  <meta
+    name="description"
+    content="مولّد عربي للتقويم البهائي لعرض أشهر السنة البهائية وأيام الهاء والتواريخ الميلادية المقابلة."
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700;800&family=Aref+Ruqaa:wght@400;700&family=Changa:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="calendar-generator-page">
+
+  <div id="global-header"></div>
+
+  <main>
+
+    <section class="tool-page-hero">
+      <span class="tool-page-eyebrow">تطبيقات المنارة</span>
+
+      <h1>مولّد التقويم البهائي</h1>
+
+      <p>
+        اختر السنة البهائية لعرض أشهر التقويم البديع وأيام الهاء
+        والتواريخ الميلادية المقابلة لها.
+      </p>
+
+      <a class="secondary-btn" href="tools.html">
+        العودة إلى تطبيقات المنارة
+      </a>
+    </section>
+
+
+    <section
+      class="calendar-generator-controls"
+      aria-labelledby="generator-title"
+    >
+
+      <div class="calendar-generator-intro">
+        <span>إنشاء التقويم</span>
+
+        <h2 id="generator-title">اختر السنة البهائية</h2>
+
+        <p>
+          يغطي الجدول المعتمد حالياً السنوات من 172 إلى 220 ب.إ.
+        </p>
+      </div>
+
+      <div class="calendar-generator-form">
+
+        <label for="calendar-year">
+          السنة البهائية
+        </label>
+
+        <div class="calendar-year-select">
+          <select id="calendar-year"></select>
+        </div>
+
+        <button id="generate-calendar" type="button">
+          إنشاء التقويم
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <section
+      id="calendar-output"
+      class="calendar-generator-output"
+      aria-live="polite"
+    >
+
+      <div class="calendar-output-heading">
+
+        <div>
+          <span class="calendar-output-eyebrow">
+            التقويم البديع
+          </span>
+
+          <h2 id="calendar-output-title"></h2>
+        </div>
+
+        <p id="calendar-output-range"></p>
+
+      </div>
+
+      <div class="calendar-print-heading">
+
+        <div class="calendar-print-symbol" aria-hidden="true">
+          <svg viewBox="0 0 100 100" role="img">
+            <text
+              x="50"
+              y="50"
+              class="calendar-star-number"
+              text-anchor="middle"
+              dominant-baseline="central"
+            >19</text>
+
+            <polygon points="50.000,7.000 92.347,42.533 64.707,90.407 12.761,71.500 22.360,17.060 77.640,17.060 87.239,71.500 35.293,90.407 7.653,42.533" />
+          </svg>
+        </div>
+
+        <div class="calendar-print-title-group">
+          <h1 id="calendar-print-title">التقويم البهائي</h1>
+          <p id="calendar-print-range"></p>
+        </div>
+
+      </div>
+
+      <div class="calendar-output-actions">
+        <button id="print-calendar" type="button">
+          طباعة التقويم / حفظ PDF
+        </button>
+      </div>
+
+      <div
+        id="calendar-months"
+        class="calendar-months-grid"
+      ></div>
+
+    </section>
+
+
+    <section class="calendar-generator-note">
+
+      <h2>حول التواريخ</h2>
+
+      <p>
+        يعتمد هذا المولّد على جدول معتمد لتواريخ النيروز يمتد حتى السنة
+        221 ب.إ.، مما يتيح إنشاء السنوات البهائية الكاملة من 172 إلى 220 ب.إ.
+        ولا يتم تقدير تواريخ خارج النطاق المتاح في الجدول.
+      </p>
+
+    </section>
+
+  </main>
+
+  <div id="global-footer"></div>
+
+  <script src="site-header.js?v=2"></script>
+  <script src="site-footer.js"></script>
+  <script src="calendar-generator.js"></script>
+
+</body>
+</html>

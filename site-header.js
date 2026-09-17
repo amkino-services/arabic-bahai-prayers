@@ -141,8 +141,112 @@ document.addEventListener('DOMContentLoaded', () => {
   const currentPage = window.location.pathname.split('/').pop() || 'index.html';
 
   if (currentPage === 'index.html') {
-    const homeLink = target.querySelector('.global-nav > a[href="index.html"]');
-    if (homeLink) homeLink.classList.add('nav-current');
+    // Homepage section-aware navigation
+    const homeLink = target.querySelector(
+      '.global-nav > a[href="index.html"]'
+    );
+
+    const purposeLink = target.querySelector(
+      '.global-nav > a[href="index.html#purpose"]'
+    );
+
+    const communityLink = target.querySelector(
+      '.global-nav > a[href="index.html#community"]'
+    );
+
+    const aboutLink = target.querySelector(
+      '.global-nav > a[href="index.html#about"]'
+    );
+
+    const sections = [
+      {
+        id: 'top',
+        element: document.getElementById('top'),
+        control: homeLink,
+      },
+      {
+        id: 'purpose',
+        element: document.getElementById('purpose'),
+        control: purposeLink,
+      },
+      {
+        id: 'sections',
+        element: document.getElementById('sections'),
+        control: dropdownToggle,
+      },
+      {
+        id: 'community',
+        element: document.getElementById('community'),
+        control: communityLink,
+      },
+      {
+        id: 'about',
+        element: document.getElementById('about'),
+        control: aboutLink,
+      },
+    ].filter((item) => item.element && item.control);
+
+    const controls = [
+      homeLink,
+      purposeLink,
+      dropdownToggle,
+      communityLink,
+      aboutLink,
+    ].filter(Boolean);
+
+    const setCurrentSection = (activeControl) => {
+      controls.forEach((control) => {
+        control.classList.toggle(
+          'nav-current',
+          control === activeControl
+        );
+      });
+    };
+
+    const updateCurrentSection = () => {
+      const headerHeight =
+        target.querySelector('.site-header')
+          ?.getBoundingClientRect().height || 0;
+
+      const probe = window.scrollY + headerHeight + 120;
+
+      let active = sections[0];
+
+      sections.forEach((item) => {
+        const top =
+          window.scrollY +
+          item.element.getBoundingClientRect().top;
+
+        if (top <= probe) {
+          active = item;
+        }
+      });
+
+      if (active) {
+        setCurrentSection(active.control);
+      }
+    };
+
+    updateCurrentSection();
+
+    let ticking = false;
+
+    window.addEventListener(
+      'scroll',
+      () => {
+        if (ticking) return;
+
+        ticking = true;
+
+        window.requestAnimationFrame(() => {
+          updateCurrentSection();
+          ticking = false;
+        });
+      },
+      { passive: true }
+    );
+
+    window.addEventListener('resize', updateCurrentSection);
   }
 
   if (currentPage === 'prayers.html') {
@@ -155,4 +259,5 @@ document.addEventListener('DOMContentLoaded', () => {
       dropdownToggle.classList.add('nav-current');
     }
   }
+
 });

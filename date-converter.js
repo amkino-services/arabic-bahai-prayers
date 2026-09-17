@@ -469,3 +469,6 @@ function showBadiToGregorian() {
 tabs[0].addEventListener("click", showGregorianToBadi);
 tabs[1].addEventListener("click", showBadiToGregorian);
 
+/* Initialize the interface to match the active default tab. */
+showGregorianToBadi();
+

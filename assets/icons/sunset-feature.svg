@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <!-- Half sun -->
+  <path d="M15 29
+           A9 9 0 0 1 33 29"
+        fill="none"
+        stroke="#0e6f88"
+        stroke-width="3"
+        stroke-linecap="round"/>
+
+  <!-- Horizon -->
+  <path d="M9 29h30"
+        fill="none"
+        stroke="#0e6f88"
+        stroke-width="3"
+        stroke-linecap="round"/>
+
+  <!-- Minimal rays -->
+  <path d="M24 11v6
+           M12.5 17.5l4.2 4.2
+           M35.5 17.5l-4.2 4.2"
+        fill="none"
+        stroke="#0e6f88"
+        stroke-width="2.7"
+        stroke-linecap="round"/>
+
+  <!-- Small lower horizon -->
+  <path d="M15 36h18"
+        fill="none"
+        stroke="#0e6f88"
+        stroke-width="2.4"
+        stroke-linecap="round"/>
+</svg>
