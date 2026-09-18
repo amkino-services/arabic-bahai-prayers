@@ -7,8 +7,15 @@ document.addEventListener('DOMContentLoaded', () => {
     <footer class="lighthouse-footer">
 
       <div class="footer-identity">
-        <strong>المنارة البهائية</strong>
-        <span>مساحة رقمية بهائية لخدمة المجتمع</span>
+        <img
+          class="footer-brand-logo"
+          src="assets/lighthouse-logo.svg"
+          alt="المنارة البهائية"
+        >
+        <div class="footer-identity-text">
+          <strong>المنارة البهائية</strong>
+          <span>مساحة رقمية بهائية لخدمة المجتمع</span>
+        </div>
       </div>
 
       <div class="footer-links">
@@ -16,7 +23,10 @@ document.addEventListener('DOMContentLoaded', () => {
         <a href="sitemap.html">خريطة الموقع</a>
         <a href="privacy.html">سياسة الخصوصية</a>
 
-        <a class="footer-icon-link footer-email"
+        <div class="footer-socials" aria-label="تابع المنارة">
+          <span class="footer-socials-label">تواصل معنا</span>
+
+          <a class="footer-icon-link footer-email"
            href="mailto:contact@bahai-lighthouse.com"
            aria-label="البريد الإلكتروني"
            title="contact@bahai-lighthouse.com">
@@ -24,9 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
             <path d="M3 5h18a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm0 2v.4l9 5.7 9-5.7V7H3zm18 10V9.8l-8.5 5.4a1 1 0 0 1-1 0L3 9.8V17h18z"/>
           </svg>
         </a>
-
-        <div class="footer-socials" aria-label="تابع المنارة">
-          <span class="footer-socials-label">تابع المنارة</span>
 
           <a class="footer-icon-link social-facebook"
              href="https://www.facebook.com/bahai.lighthouse/"
