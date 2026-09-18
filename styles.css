@@ -6835,3 +6835,19 @@ body.sunset-times-page .sunset-times-section {
 }
 
 /* ===== END Privacy page title alignment ===== */
+
+/* ===== Privacy page typography refinement ===== */
+
+.privacy-page .privacy-card > h1{
+  font-family:"Almarai","Noto Sans Arabic",sans-serif;
+  font-weight:800;
+  color:var(--ink);
+}
+
+.privacy-page .privacy-card > h2{
+  font-family:"Aref Ruqaa","Almarai",serif;
+  font-weight:700;
+  color:var(--teal-dark);
+}
+
+/* ===== END Privacy page typography refinement ===== */
