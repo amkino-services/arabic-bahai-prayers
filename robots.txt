@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bahai-lighthouse.com/sitemap.xml
