@@ -1808,7 +1808,6 @@ footer{
 }
 
 
-
 /* يوميات بهائية — preserve the actual icon shape */
 .bahai-calendar-logo{
   width:170px;
@@ -3887,7 +3886,6 @@ body:has(#purpose) .lighthouse-footer{
 }
 
 
-
 /* ===== Lighthouse tools — unified Arabic typography ===== */
 
 /*
@@ -4616,7 +4614,6 @@ body:has(#purpose) .lighthouse-footer{
 }
 
 
-
 /* ===== Calendar print Arabic observance clipping fix ===== */
 
 @media print{
@@ -4652,7 +4649,6 @@ body:has(#purpose) .lighthouse-footer{
   }
 
 }
-
 
 
 /* ===== Calendar print observance final spacing balance ===== */
@@ -4701,7 +4697,6 @@ body:has(#purpose) .lighthouse-footer{
 }
 
 
-
 /* ===== Calendar print month title/day-count separation ===== */
 
 @media print{
@@ -4744,7 +4739,6 @@ body:has(#purpose) .lighthouse-footer{
 }
 
 
-
 /* ===== Calendar print duration dates centered ===== */
 
 @media print{
@@ -4764,7 +4758,6 @@ body:has(#purpose) .lighthouse-footer{
   }
 
 }
-
 
 
 /* ===== Calendar print duration vertical middle final ===== */
@@ -4802,7 +4795,6 @@ body:has(#purpose) .lighthouse-footer{
 }
 
 
-
 /* ===== Calendar print duration text horizontal middle ===== */
 
 @media print{
@@ -4826,7 +4818,6 @@ body:has(#purpose) .lighthouse-footer{
   }
 
 }
-
 
 
 /* ===== Calendar print fixed separator and right dates ===== */
@@ -4898,7 +4889,6 @@ body:has(#purpose) .lighthouse-footer{
   }
 
 }
-
 
 
 /* ===== Calendar print observance collision fix ===== */
@@ -4979,7 +4969,6 @@ body:has(#purpose) .lighthouse-footer{
   }
 
 }
-
 
 
 /* ===== PRINT CALENDAR — FINAL COLLISION-SAFE LAYOUT ===== */
@@ -5158,7 +5147,6 @@ body:has(#purpose) .lighthouse-footer{
 }
 
 
-
 /* ===== Calendar year select — refined arrow ===== */
 
 .calendar-generator-page #calendar-year{
@@ -5201,7 +5189,6 @@ body:has(#purpose) .lighthouse-footer{
   outline:none;
   box-shadow:0 0 0 3px rgba(14,111,136,.10);
 }
-
 
 
 /* ===== Calendar year select — final clean chevron ===== */
@@ -5286,7 +5273,6 @@ body:has(#purpose) .lighthouse-footer{
 }
 
 
-
 /* ===== Occasions hero return button ===== */
 
 .occasions-page .tool-page-hero .secondary-btn{
@@ -5295,7 +5281,6 @@ body:has(#purpose) .lighthouse-footer{
   justify-content:center;
   margin-top:34px;
 }
-
 
 
 /* ===== Huququllah page ===== */
@@ -6447,7 +6432,6 @@ body:has(#purpose) .lighthouse-footer{
 }
 
 
-
 /* Almarai titles for Calendar Generator and Huququllah */
 .calendar-generator-page h1,
 .huququllah-page h1 {
@@ -6509,7 +6493,6 @@ body.sunset-times-page h1 {
 /* Tools page — Digital Tools section title */
 
 
-
 /* Tools page main title */
 body.tools-page .tools-page-intro h1 {
   font-family: "Almarai", sans-serif !important;
@@ -6523,9 +6506,6 @@ body.tools-page .tools-page-intro h1 {
     font-size: 38px !important;
   }
 }
-
-
-
 
 
 /* Sunset times — gap between tool section and footer */
@@ -7215,5 +7195,188 @@ body.sunset-times-page .sunset-times-section {
 
   .lighthouse-footer .footer-year{
     margin-top:-2px !important;
+  }
+}
+
+/* =========================================================
+   Homepage newsletter
+   ========================================================= */
+
+.homepage-newsletter {
+  padding: 56px 24px;
+}
+
+.homepage-newsletter-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 42px 48px;
+  border-radius: 18px;
+  background: var(--teal);
+  color: #fff;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(360px, .9fr);
+  align-items: center;
+  gap: 56px;
+}
+
+.homepage-newsletter-copy {
+  text-align: right;
+}
+
+.homepage-newsletter-eyebrow {
+  display: inline-block;
+  margin-bottom: 8px;
+  color: var(--sky);
+  font-family: "Almarai", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.homepage-newsletter-copy h2 {
+  margin: 0 0 12px;
+  color: #fff;
+  font-family: "Aref Ruqaa", "Noto Sans Arabic", serif;
+  font-size: clamp(28px, 3vw, 40px);
+  line-height: 1.35;
+}
+
+.homepage-newsletter-copy p {
+  margin: 0;
+  max-width: 620px;
+  color: #d6edf2;
+  font-family: "Almarai", sans-serif;
+  font-size: 15px;
+  line-height: 2;
+}
+
+.homepage-newsletter-form {
+  position: relative;
+  direction: rtl;
+  font-family: "Almarai", sans-serif;
+}
+
+.homepage-newsletter-form > label {
+  display: block;
+  margin-bottom: 8px;
+  color: #fff;
+  font-family: "Almarai", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.homepage-newsletter-fields {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  direction: rtl;
+  overflow: visible;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.homepage-newsletter-fields input {
+  min-width: 0;
+  height: 58px;
+  flex: 1;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+  padding: 20px 20px 10px;
+  background: #fff;
+  color: var(--ink);
+  font-family: "Almarai", sans-serif;
+  font-size: 14px;
+  border-radius: 0 10px 10px 0;
+}
+
+
+.homepage-newsletter-placeholder {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  color: #929b9f;
+  font-family: "Almarai", sans-serif;
+  font-size: 11px;
+  line-height: 1.8;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.homepage-newsletter-fields input:focus + .homepage-newsletter-placeholder,
+.homepage-newsletter-fields input:not(:placeholder-shown) + .homepage-newsletter-placeholder {
+  display: none;
+}
+
+.homepage-newsletter-fields button {
+  flex: 0 0 auto;
+  border: 0;
+  padding: 14px 24px;
+  background: var(--gold);
+  color: #fff;
+  cursor: pointer;
+  font-family: "Almarai", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  border-radius: 10px 0 0 10px;
+  transition:
+    background-color .35s ease,
+    transform .35s ease,
+    box-shadow .35s ease;
+}
+
+.homepage-newsletter-fields button:hover {
+  background: rgba(221, 169, 64, .78);
+  color: #fff;
+  filter: none;
+}
+
+.homepage-newsletter-captcha {
+  margin-top: 12px;
+  direction: ltr;
+}
+
+.homepage-newsletter-note {
+  margin: 8px 2px 0;
+  color: #d6edf2;
+  font-family: "Almarai", sans-serif;
+  font-size: 11px;
+}
+
+/* Brevo anti-spam field */
+.homepage-newsletter-form .input--hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+@media (max-width: 800px) {
+  .homepage-newsletter {
+    padding: 32px 16px;
+  }
+
+  .homepage-newsletter-inner {
+    padding: 30px 24px;
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+}
+
+@media (max-width: 520px) {
+  .homepage-newsletter-fields {
+    display: grid;
+  }
+
+  .homepage-newsletter-fields button {
+    width: 100%;
   }
 }

@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700;800&family=Aref+Ruqaa:wght@400;700&family=Changa:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20260923-newsletter">
 
   <!-- Social sharing metadata -->
   <meta property="og:locale" content="ar_AR">
@@ -373,6 +373,78 @@
 
 </section>
 
+
+<section class="homepage-newsletter" aria-labelledby="newsletter-title">
+  <div class="homepage-newsletter-inner">
+
+    <div class="homepage-newsletter-copy">
+      <span class="homepage-newsletter-eyebrow">ابقَ على اطلاع</span>
+
+      <h2 id="newsletter-title">اشترك في نشرة المنارة البهائية</h2>
+
+      <p>
+        اشترك ليصلك جديد المنارة البهائية من موارد وأدوات
+        وتطبيقات ومحتوى باللغة العربية.
+      </p>
+    </div>
+
+    <form
+      id="sib-form"
+      class="homepage-newsletter-form"
+      action="https://d8d0f2da.sibforms.com/serve/MUIFADLoeOJVa_dgS-KQxssZnGxf_ujsjsxQ8zTb2Wosy8HGaFEG2uN_yGPnk9tVJ0qoXkI728nZyQpMney9CkU_pAq62KgpqRFULWXZ8YRj-ujXtBxVZPmVLal_mUcSTdkiJnyobNa4VgB3EPEdEgWN6JQZJvrrq9ysGZctQb3d35S5MClBLf_Y05Y0ewdFhcQO9qw19ab1wYPXIw=="
+      method="post"
+      data-type="subscription"
+    >
+      <label for="EMAIL">البريد الإلكتروني</label>
+
+      <div class="homepage-newsletter-fields">
+        <input
+          id="EMAIL"
+          name="EMAIL"
+          type="email"
+          inputmode="email"
+          autocomplete="email"
+          placeholder=""
+          data-required="true"
+          required
+        >
+        <span class="homepage-newsletter-placeholder" aria-hidden="true">
+          أدخل بريدك الإلكتروني
+        </span>
+
+        <button type="submit" form="sib-form">اشترك الآن</button>
+      </div>
+
+      <div class="homepage-newsletter-captcha">
+        <div
+          class="cf-turnstile g-recaptcha"
+          data-sitekey="0x4AAAAAAFA8eGdEHSDNJQAX"
+          id="sib-captcha"
+          data-callback="handleCaptchaResponse"
+          data-language="ar"
+        ></div>
+      </div>
+
+      <p class="homepage-newsletter-note">
+        ستصلك رسالة لتأكيد اشتراكك.
+      </p>
+
+      <input
+        type="text"
+        name="email_address_check"
+        value=""
+        class="input--hidden"
+        tabindex="-1"
+        autocomplete="off"
+        aria-hidden="true"
+      >
+
+      <input type="hidden" name="locale" value="ar">
+    </form>
+
+  </div>
+</section>
+
 </main>
 
 
@@ -380,5 +452,47 @@
 
   <script src="site-header.js?v=2"></script>
   <script src="site-footer.js?v=20260918-2"></script>
+
+<script>
+  function handleCaptchaResponse() {
+    var event = new Event('captchaChange');
+    document.getElementById('sib-captcha').dispatchEvent(event);
+    window.grecaptcha = window.turnstile;
+  }
+
+  window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
+  window.LOCALE = 'ar';
+
+  window.EMAIL_INVALID_MESSAGE =
+    window.SMS_INVALID_MESSAGE =
+    "المعلومات المُدخلة غير صحيحة. يُرجى التحقق من البريد الإلكتروني والمحاولة مرة أخرى.";
+
+  window.REQUIRED_ERROR_MESSAGE =
+    "يُرجى إدخال بريدك الإلكتروني.";
+
+  window.GENERIC_INVALID_MESSAGE =
+    "المعلومات المُدخلة غير صحيحة. يُرجى التحقق من البريد الإلكتروني والمحاولة مرة أخرى.";
+
+  window.INVALID_NUMBER =
+    "المعلومات المُدخلة غير صحيحة. يُرجى التحقق من البريد الإلكتروني والمحاولة مرة أخرى.";
+
+  window.INVALID_DATE = 'Please enter a valid date';
+  window.REQUIRED_MULTISELECT_MESSAGE = 'Please select at least 1 option';
+
+  window.translation = {
+    common: {
+      selectedList: '{quantity} list selected',
+      selectedLists: '{quantity} lists selected',
+      selectedOption: '{quantity} selected',
+      selectedOptions: '{quantity} selected'
+    }
+  };
+
+  var AUTOHIDE = Boolean(0);
+</script>
+
+<script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
 </body>
 </html>
