@@ -7215,7 +7215,7 @@ body.sunset-times-page .sunset-times-section {
   color: #fff;
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(360px, .9fr);
-  align-items: center;
+  align-items: start;
   gap: 56px;
 }
 
@@ -7378,5 +7378,42 @@ body.sunset-times-page .sunset-times-section {
 
   .homepage-newsletter-fields button {
     width: 100%;
+  }
+}
+
+/* Newsletter desktop alignment */
+@media (min-width: 801px) {
+  .homepage-newsletter-inner {
+    padding-bottom: 42px;
+  }
+
+  .homepage-newsletter-form {
+    transform: none;
+  }
+
+  .homepage-newsletter-captcha {
+    margin-top: 18px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+
+@media (min-width: 801px) {
+  .homepage-newsletter-eyebrow,
+  .homepage-newsletter-form > label {
+    margin: 0 0 8px;
+    line-height: 1.8;
+  }
+
+  .homepage-newsletter-copy,
+  .homepage-newsletter-form {
+    align-self: start;
+  }
+
+  .homepage-newsletter-captcha {
+    margin-top: 18px;
+    display: flex;
+    justify-content: flex-end;
   }
 }
