@@ -7481,3 +7481,308 @@ body.sunset-times-page .sunset-times-section {
     gap: 0.25rem;
   }
 }
+
+
+/* Calendar Generator — About Dates v2 */
+
+.calendar-generator-about {
+  max-width: 1080px;
+  margin: 2rem auto 4rem;
+  padding: 2rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.4rem;
+  background: rgba(14, 111, 136, 0.055);
+  border: 1px solid rgba(14, 111, 136, 0.13);
+  border-radius: 24px;
+}
+
+.calendar-generator-about-icon {
+  flex: 0 0 54px;
+  width: 54px;
+  height: 54px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(14, 111, 136, 0.10);
+  border: 1px solid rgba(14, 111, 136, 0.13);
+  color: #0e6f88;
+  font-weight: 800;
+}
+
+.calendar-generator-about-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.calendar-generator-about-eyebrow {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: #0e6f88;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.calendar-generator-about h2 {
+  margin: 0 0 0.75rem;
+  color: #172126;
+}
+
+.calendar-generator-about-lead {
+  max-width: 850px;
+  margin: 0;
+  color: #69757a;
+  line-height: 1.9;
+}
+
+.calendar-generator-about-facts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin: 1.4rem 0;
+}
+
+.calendar-generator-about-fact {
+  padding: 1.05rem;
+  background: rgba(255, 253, 247, 0.82);
+  border: 1px solid rgba(14, 111, 136, 0.10);
+  border-radius: 16px;
+}
+
+.calendar-generator-about-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 30px;
+  margin-bottom: 0.65rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  background: rgba(14, 111, 136, 0.09);
+  color: #0e6f88;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.calendar-generator-about-fact strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: #172126;
+}
+
+.calendar-generator-about-fact p {
+  margin: 0;
+  color: #69757a;
+  font-size: 0.86rem;
+  line-height: 1.75;
+}
+
+.calendar-generator-about-footer {
+  padding-top: 0.2rem;
+}
+
+.calendar-generator-about-footer p {
+  margin: 0;
+  color: #69757a;
+  line-height: 1.85;
+}
+
+.calendar-generator-about-footer a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.9rem;
+  color: #0e6f88;
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.calendar-generator-about-footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 760px) {
+  .calendar-generator-about {
+    padding: 1.4rem;
+    margin: 1.5rem auto 3rem;
+  }
+
+  .calendar-generator-about-facts {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 520px) {
+  .calendar-generator-about {
+    flex-direction: column;
+  }
+}
+
+/* Calendar Generator — About title typography */
+.calendar-generator-page .calendar-generator-about h2 {
+  font-family: "Aref Ruqaa", "Almarai", serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+
+/* Calendar Generator — Unified Controls Card */
+
+.calendar-generator-page .calendar-generator-controls {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(320px, .95fr);
+  gap: 2.5rem;
+  align-items: center;
+  background: rgba(14, 111, 136, 0.055);
+  border: 1px solid rgba(14, 111, 136, 0.13);
+  border-radius: 24px;
+}
+
+/* Right-side introduction */
+
+.calendar-generator-page .calendar-generator-intro {
+  position: relative;
+  min-width: 0;
+  padding: 0 4.6rem 0 0;
+  display: block;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+}
+
+.calendar-generator-page .calendar-generator-intro-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 54px;
+  height: 54px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(14, 111, 136, 0.10);
+  border: 1px solid rgba(14, 111, 136, 0.13);
+  color: var(--teal);
+}
+
+.calendar-generator-page .calendar-generator-intro-icon svg {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.calendar-generator-page .calendar-generator-intro > span {
+  display: block;
+  margin: 0 0 .35rem;
+  padding: 0;
+  color: var(--teal);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.calendar-generator-page .calendar-generator-intro h2 {
+  margin: 0 0 .55rem;
+  padding: 0;
+  font-family: "Aref Ruqaa", "Almarai", serif;
+  font-size: clamp(30px, 3vw, 38px);
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--ink);
+}
+
+.calendar-generator-page .calendar-generator-intro p {
+  margin: 0;
+  padding: 0;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+/* Left-side year controls */
+
+.calendar-generator-page .calendar-generator-form {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: end;
+  padding: 1.15rem;
+  background: rgba(255, 253, 247, 0.82);
+  border: 1px solid rgba(14, 111, 136, 0.10);
+  border-radius: 16px;
+}
+
+.calendar-generator-page .calendar-generator-form label {
+  grid-column: 1 / -1;
+  margin: 0 0 2px;
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.calendar-generator-page .calendar-year-select {
+  min-width: 0;
+}
+
+.calendar-generator-page #calendar-year {
+  width: 100%;
+  min-height: 48px;
+  background: #fff;
+}
+
+.calendar-generator-page #generate-calendar {
+  min-height: 48px;
+  white-space: nowrap;
+}
+
+/* Keep "حول التواريخ" in Ruqaa */
+
+.calendar-generator-page .calendar-generator-about h2 {
+  font-family: "Aref Ruqaa", "Almarai", serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+/* Responsive */
+
+@media (max-width: 820px) {
+  .calendar-generator-page .calendar-generator-controls {
+    grid-template-columns: 1fr;
+    gap: 1.4rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .calendar-generator-page .calendar-generator-controls {
+    padding: 1.4rem;
+  }
+
+  .calendar-generator-page .calendar-generator-intro {
+    padding-right: 3.8rem;
+  }
+
+  .calendar-generator-page .calendar-generator-intro-icon {
+    width: 46px;
+    height: 46px;
+  }
+
+  .calendar-generator-page .calendar-generator-form {
+    grid-template-columns: 1fr;
+  }
+
+  .calendar-generator-page .calendar-generator-form label {
+    grid-column: 1;
+  }
+
+  .calendar-generator-page #generate-calendar {
+    width: 100%;
+  }
+}
