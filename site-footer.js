@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       <div class="footer-links">
         <a href="index.html">الرئيسية</a>
-        <a href="sitemap.html">خريطة الموقع</a>
+        <a href="credits.html">المصادر والاعتمادات</a>
         <a href="privacy.html">سياسة الخصوصية</a>
 
         <div class="footer-socials" aria-label="تابع المنارة">
