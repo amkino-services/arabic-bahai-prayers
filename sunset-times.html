@@ -55,22 +55,129 @@
       </div>
     </section>
 
-    <section class="portal-section sunset-times-section">
-      <div class="section-heading">
-        <p>حدد موقعك والتاريخ لمعرفة أوقات الشروق والغروب.</p>
+    <section
+      class="sunset-about"
+      aria-labelledby="sunset-about-title"
+    >
+
+      <div class="sunset-about-icon" aria-hidden="true">
+        ☼
+      </div>
+
+      <div class="sunset-about-content">
+
+        <span class="sunset-about-eyebrow">
+          عن اليوم البهائي
+        </span>
+
+        <h2 id="sunset-about-title">
+          أهمية وقت الغروب في التقويم البهائي
+        </h2>
+
+        <p class="sunset-about-lead">
+          يمتد اليوم البهائي من غروب الشمس إلى غروب الشمس في اليوم التالي،
+          ولذلك تساعد معرفة وقت الغروب في الموقع الجغرافي المختار على تحديد
+          بداية اليوم البهائي ونهايته.
+        </p>
+
+        <div class="sunset-about-facts">
+
+          <div class="sunset-about-fact">
+            <span class="sunset-about-symbol">☼</span>
+            <strong>بداية اليوم البهائي</strong>
+            <p>
+              يبدأ اليوم البهائي عند غروب الشمس ويستمر حتى غروب الشمس
+              في اليوم التالي.
+            </p>
+          </div>
+
+          <div class="sunset-about-fact">
+            <span class="sunset-about-symbol">⌖</span>
+            <strong>الموقع الجغرافي</strong>
+            <p>
+              يختلف وقت الشروق والغروب بحسب الموقع الجغرافي المختار
+              وخطوط الطول والعرض.
+            </p>
+          </div>
+
+          <div class="sunset-about-fact">
+            <span class="sunset-about-symbol">↻</span>
+            <strong>التغيّر خلال السنة</strong>
+            <p>
+              تتغيّر أوقات الشروق والغروب من يوم إلى آخر مع تغيّر
+              طول النهار خلال السنة.
+            </p>
+          </div>
+
+        </div>
+
+        <div class="sunset-about-footer">
+          <p>
+            استخدم الأداة أدناه باختيار المدينة أو موقع الجهاز والتاريخ
+            لمعرفة وقتي شروق الشمس وغروبها للموقع المحدد.
+          </p>
+
+          <a
+            href="https://ganbahai.org.il/ar/%D8%A7%D9%84%D8%AA%D9%91%D8%B9%D8%A7%D9%84%D9%8A%D9%85-%D8%A7%D9%84%D8%A8%D9%87%D8%A7%D8%A6%D9%8A%D9%91%D8%A9-%D9%88%D8%AD%D9%8A%D8%A7%D8%A9-%D8%A7%D9%84%D9%85%D8%AC%D8%AA%D9%85%D8%B9/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            للمزيد: التقويم البهائي والأيام المقدسة — المركز البهائي العالمي
+            <span aria-hidden="true">←</span>
+          </a>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section
+      class="portal-section sunset-times-section"
+      aria-labelledby="sunset-tool-title"
+    >
+
+      <div class="sunset-tool-copy">
+
+        <div class="sunset-tool-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" focusable="false">
+            <path d="M12 21s6-5.2 6-11a6 6 0 1 0-12 0c0 5.8 6 11 6 11Z"/>
+            <circle cx="12" cy="10" r="2.2"/>
+          </svg>
+        </div>
+
+        <div class="sunset-tool-text">
+          <span class="sunset-tool-eyebrow">
+            حساب المواقيت
+          </span>
+
+          <h2 id="sunset-tool-title">
+            اختر الموقع والتاريخ
+          </h2>
+
+          <p>
+            حدد موقعك والتاريخ لمعرفة أوقات شروق الشمس وغروبها.
+          </p>
+        </div>
+
       </div>
 
       <div id="sunset-times-app" class="date-converter">
         <div class="converter-card">
 
           <label for="sunset-location">الموقع</label>
-          <input
-            id="sunset-location"
-            class="converter-date-input"
-            type="text"
-            placeholder="أدخل اسم المدينة أو الموقع"
-            autocomplete="off"
-          >
+          <div class="sunset-location-field">
+            <input
+              id="sunset-location"
+              class="converter-date-input"
+              type="text"
+              placeholder=" "
+              autocomplete="off"
+              aria-label="أدخل اسم المدينة أو الموقع"
+            >
+            <span class="sunset-location-placeholder" aria-hidden="true">
+              أدخل اسم المدينة أو الموقع
+            </span>
+          </div>
 
           <button
             id="use-current-location"
@@ -95,12 +202,19 @@
             معرفة أوقات الشروق والغروب
           </button>
 
-          <div class="converter-result">
+          <p
+            id="sunset-status"
+            class="sunset-status"
+            role="status"
+            aria-live="polite"
+          ></p>
+
+          <div class="converter-result sunset-sunrise-result">
             <span>وقت شروق الشمس</span>
             <strong id="sunrise-result">—</strong>
           </div>
 
-          <div class="converter-result">
+          <div class="converter-result sunset-sunset-result">
             <span>وقت غروب الشمس</span>
             <strong id="sunset-result">—</strong>
           </div>
@@ -109,42 +223,7 @@
       </div>
     </section>
 
-    <section class="portal-section">
-      <div class="section-heading">
-        <h2>أهمية وقت الغروب في التقويم البهائي</h2>
-      </div>
 
-      <div class="huququllah-reading-card">
-        <p>
-          يمتد اليوم البهائي من غروب الشمس إلى غروب الشمس في
-          اليوم التالي. ولهذا فإن معرفة وقت الغروب في الموقع
-          الجغرافي المختار تساعد على تحديد بداية اليوم البهائي
-          ونهايته.
-        </p>
-
-        <p>
-          تتيح هذه الأداة اختيار المدينة أو استخدام موقع الجهاز،
-          ثم اختيار التاريخ لمعرفة وقتي شروق الشمس وغروبها بحسب
-          الموقع والتاريخ المحددين.
-        </p>
-
-        <p>
-          قد تختلف الأوقات من مكان إلى آخر ومن يوم إلى آخر بسبب
-          الموقع الجغرافي وتغيّر طول النهار خلال السنة.
-        </p>
-
-        <p>
-          للمزيد عن بنية التقويم البهائي، راجع
-          <a
-            href="https://www.bahai.org/action/devotional-life/calendar"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            التقويم البهائي على الموقع الرسمي للجامعة البهائية العالمية
-          </a>.
-        </p>
-      </div>
-    </section>
 
   </main>
 
@@ -153,6 +232,6 @@
   <script src="site-header.js?v=2"></script>
   <script src="site-footer.js?v=20260918-2"></script>
 
-  <script src="sunset-times.js"></script>
+  <script src="sunset-times.js?v=20260924-2"></script>
 </body>
 </html>

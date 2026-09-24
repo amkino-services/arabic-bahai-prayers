@@ -7786,3 +7786,1785 @@ body.sunset-times-page .sunset-times-section {
     width: 100%;
   }
 }
+
+
+/* Sunset Times — About Sunset Card */
+
+.sunset-times-page .sunset-about {
+  max-width: 1080px;
+  margin: 0 auto 2rem;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  gap: 1.35rem;
+  align-items: start;
+  background: rgba(14, 111, 136, 0.055);
+  border: 1px solid rgba(14, 111, 136, 0.13);
+  border-radius: 24px;
+}
+
+.sunset-times-page .sunset-about-icon {
+  width: 54px;
+  height: 54px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(14, 111, 136, 0.10);
+  border: 1px solid rgba(14, 111, 136, 0.13);
+  color: var(--teal);
+  font-family: "Almarai", sans-serif;
+  font-size: 23px;
+  font-weight: 800;
+}
+
+.sunset-times-page .sunset-about-content {
+  min-width: 0;
+}
+
+.sunset-times-page .sunset-about-eyebrow {
+  display: block;
+  margin-bottom: .3rem;
+  color: var(--teal);
+  font-family: "Changa", "Almarai", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.sunset-times-page .sunset-about h2 {
+  margin: 0 0 .65rem;
+  font-family: "Aref Ruqaa", "Almarai", serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--ink);
+}
+
+.sunset-times-page .sunset-about-lead {
+  max-width: 850px;
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.9;
+}
+
+.sunset-times-page .sunset-about-facts {
+  margin-top: 1.35rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.sunset-times-page .sunset-about-fact {
+  min-width: 0;
+  padding: 1.15rem;
+  background: rgba(255, 253, 247, 0.82);
+  border: 1px solid rgba(14, 111, 136, 0.10);
+  border-radius: 16px;
+}
+
+.sunset-times-page .sunset-about-symbol {
+  display: inline-grid;
+  place-items: center;
+  min-width: 30px;
+  height: 30px;
+  margin-bottom: .7rem;
+  padding: 0 8px;
+  border-radius: 999px;
+  background: rgba(14, 111, 136, 0.10);
+  color: var(--teal);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.sunset-times-page .sunset-about-fact strong {
+  display: block;
+  margin-bottom: .4rem;
+  color: var(--ink);
+  font-family: "Almarai", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.sunset-times-page .sunset-about-fact p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.sunset-times-page .sunset-about-footer {
+  margin-top: 1.2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(14, 111, 136, 0.11);
+}
+
+.sunset-times-page .sunset-about-footer p {
+  margin: 0 0 .55rem;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.sunset-times-page .sunset-about-footer a {
+  color: var(--teal);
+  font-size: 13px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.sunset-times-page .sunset-about-footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 760px) {
+  .sunset-times-page .sunset-about {
+    grid-template-columns: 1fr;
+    padding: 1.4rem;
+  }
+
+  .sunset-times-page .sunset-about-facts {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Sunset Times — Unified Calculator */
+
+.sunset-times-page .sunset-times-section {
+  max-width: 1080px;
+  margin: 0 auto 80px !important;
+  padding: 2rem;
+  display: block;
+  background: rgba(14, 111, 136, 0.055);
+  border: 1px solid rgba(14, 111, 136, 0.13);
+  border-radius: 24px;
+}
+
+/* Heading sits above the tool */
+
+.sunset-times-page .sunset-tool-copy {
+  min-width: 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.15rem;
+  margin-bottom: 1.5rem;
+}
+
+.sunset-times-page .sunset-tool-icon {
+  flex: 0 0 54px;
+  width: 54px;
+  height: 54px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(14, 111, 136, 0.10);
+  border: 1px solid rgba(14, 111, 136, 0.13);
+  color: var(--teal);
+}
+
+.sunset-times-page .sunset-tool-icon svg {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.sunset-times-page .sunset-tool-text {
+  min-width: 0;
+}
+
+.sunset-times-page .sunset-tool-eyebrow {
+  display: block;
+  margin-bottom: .3rem;
+  color: var(--teal);
+  font-family: "Changa", "Almarai", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.sunset-times-page .sunset-tool-copy h2 {
+  margin: 0 0 .45rem;
+  font-family: "Aref Ruqaa", "Almarai", serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--ink);
+}
+
+.sunset-times-page .sunset-tool-copy p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+/* Tool panel underneath */
+
+.sunset-times-page #sunset-times-app {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+.sunset-times-page #sunset-times-app .converter-card {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 1.35rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 1rem 1.25rem;
+  align-items: end;
+  background: rgba(255, 253, 247, 0.82);
+  border: 1px solid rgba(14, 111, 136, 0.10);
+  border-radius: 16px;
+  box-shadow: none;
+}
+
+/* Location occupies first row */
+
+.sunset-times-page #sunset-times-app label[for="sunset-location"] {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+
+.sunset-times-page #sunset-location {
+  grid-column: 1 / -1;
+  width: 100%;
+  min-height: 48px;
+}
+
+.sunset-times-page #use-current-location {
+  grid-column: 1 / -1;
+  justify-self: start;
+  margin: 0;
+}
+
+/* Date */
+
+.sunset-times-page #sunset-times-app label[for="sunset-date"] {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+
+.sunset-times-page #sunset-date {
+  grid-column: 1;
+  width: 100%;
+  min-height: 48px;
+}
+
+/* Calculate button beside date */
+
+.sunset-times-page #calculate-sunset {
+  grid-column: 2;
+  width: 100%;
+  min-height: 48px;
+  margin: 0;
+}
+
+/* Results underneath */
+
+.sunset-times-page #sunset-times-app .converter-result {
+  margin: 0;
+  min-height: 105px;
+  border-radius: 14px;
+}
+
+.sunset-times-page #sunset-times-app .converter-result:nth-of-type(1) {
+  grid-column: 1;
+}
+
+.sunset-times-page #sunset-times-app .converter-result:nth-of-type(2) {
+  grid-column: 2;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+  .sunset-times-page .sunset-times-section {
+    padding: 1.4rem;
+    margin-bottom: 56px !important;
+  }
+
+  .sunset-times-page .sunset-tool-copy {
+    gap: .9rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .sunset-times-page .sunset-tool-icon {
+    flex-basis: 46px;
+    width: 46px;
+    height: 46px;
+  }
+
+  .sunset-times-page #sunset-times-app .converter-card {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  .sunset-times-page #sunset-location,
+  .sunset-times-page #use-current-location,
+  .sunset-times-page #sunset-times-app label[for="sunset-location"],
+  .sunset-times-page #sunset-times-app label[for="sunset-date"],
+  .sunset-times-page #sunset-date,
+  .sunset-times-page #calculate-sunset,
+  .sunset-times-page #sunset-times-app .converter-result:nth-of-type(1),
+  .sunset-times-page #sunset-times-app .converter-result:nth-of-type(2) {
+    grid-column: 1;
+  }
+
+  .sunset-times-page #use-current-location {
+    justify-self: stretch;
+    width: 100%;
+  }
+}
+
+/* Sunset Times — Calculator alignment refinement */
+
+@media (min-width: 701px) {
+
+  /* Keep the inner tool compact and centered */
+  .sunset-times-page #sunset-times-app .converter-card {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 1.25rem;
+    row-gap: 1rem;
+  }
+
+  /* Location label */
+  .sunset-times-page #sunset-times-app label[for="sunset-location"] {
+    grid-column: 1 / -1;
+    width: min(100%, 760px);
+    justify-self: center;
+  }
+
+  /* Location field: no longer excessively wide */
+  .sunset-times-page #sunset-location {
+    grid-column: 1 / -1;
+    width: min(100%, 760px);
+    justify-self: center;
+  }
+
+  /* Current-location button follows the same compact width */
+  .sunset-times-page #use-current-location {
+    grid-column: 1 / -1;
+    justify-self: center;
+    margin: 0;
+  }
+
+  /* Date label sits over the date field */
+  .sunset-times-page #sunset-times-app label[for="sunset-date"] {
+    grid-column: 2;
+    grid-row: auto;
+    margin: 0;
+  }
+
+  /* Date and calculate button become a matched row */
+  .sunset-times-page #sunset-date {
+    grid-column: 2;
+    width: 100%;
+    height: 52px;
+    min-height: 52px;
+    margin: 0;
+  }
+
+  .sunset-times-page #calculate-sunset {
+    grid-column: 1;
+    width: 100%;
+    height: 52px;
+    min-height: 52px;
+    margin: 0;
+    align-self: end;
+  }
+
+  /* Results stay perfectly balanced */
+  .sunset-times-page #sunset-times-app .converter-result:nth-of-type(1),
+  .sunset-times-page #sunset-times-app .converter-result:nth-of-type(2) {
+    width: 100%;
+    min-height: 105px;
+  }
+}
+
+
+/* Sunset Times — Calculator final alignment */
+
+@media (min-width: 701px) {
+
+  .sunset-times-page #sunset-times-app .converter-card {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 1.25rem;
+    row-gap: 1rem;
+    align-items: end;
+  }
+
+  /*
+   * LOCATION
+   * Label and current-location button share one row.
+   */
+
+  .sunset-times-page #sunset-times-app label[for="sunset-location"] {
+    grid-column: 2;
+    grid-row: 1;
+    width: 100%;
+    margin: 0;
+    align-self: center;
+    justify-self: stretch;
+  }
+
+  .sunset-times-page #use-current-location {
+    grid-column: 1;
+    grid-row: 1;
+    width: auto;
+    margin: 0;
+    justify-self: start;
+    align-self: center;
+  }
+
+  /*
+   * Location field directly below that row.
+   * Compact, centered, and no longer page-wide.
+   */
+
+  .sunset-times-page #sunset-location {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    width: min(100%, 760px);
+    min-height: 52px;
+    justify-self: center;
+    margin: 0;
+  }
+
+  /*
+   * DATE
+   * Date label above its field on the right.
+   */
+
+  .sunset-times-page #sunset-times-app label[for="sunset-date"] {
+    grid-column: 2;
+    grid-row: 3;
+    width: 100%;
+    margin: 0;
+    align-self: end;
+  }
+
+  /*
+   * Date field and calculate button:
+   * same row, same width, same height.
+   */
+
+  .sunset-times-page #sunset-date {
+    grid-column: 2;
+    grid-row: 4;
+    width: 100%;
+    height: 52px;
+    min-height: 52px;
+    margin: 0;
+  }
+
+  .sunset-times-page #calculate-sunset {
+    grid-column: 1;
+    grid-row: 4;
+    width: 100%;
+    height: 52px;
+    min-height: 52px;
+    margin: 0;
+    align-self: stretch;
+  }
+
+  /*
+   * Results stay perfectly aligned underneath.
+   */
+
+  .sunset-times-page #sunset-times-app .converter-result:nth-of-type(1) {
+    grid-column: 2;
+    grid-row: 5;
+    width: 100%;
+    margin: 0;
+  }
+
+  .sunset-times-page #sunset-times-app .converter-result:nth-of-type(2) {
+    grid-column: 1;
+    grid-row: 5;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+/* Sunset Times — Final calculator layout */
+
+.sunset-times-page #sunset-times-app .converter-card {
+  text-align: right;
+}
+
+/*
+ * Let Almarai use its natural metrics.
+ * Do not force a fixed height on Arabic form controls.
+ */
+.sunset-times-page #sunset-location,
+.sunset-times-page #sunset-date,
+.sunset-times-page #use-current-location,
+.sunset-times-page #calculate-sunset {
+  box-sizing: border-box;
+  min-height: 54px;
+  height: auto;
+  margin: 0;
+  font-family: "Almarai", "Noto Sans Arabic", system-ui, sans-serif;
+  line-height: 1.8;
+}
+
+/* Inputs */
+.sunset-times-page #sunset-location,
+.sunset-times-page #sunset-date {
+  width: 100%;
+  padding: 12px 16px;
+}
+
+/* Buttons */
+.sunset-times-page #use-current-location,
+.sunset-times-page #calculate-sunset {
+  width: 100%;
+  padding: 12px 18px;
+}
+
+/* Labels */
+.sunset-times-page #sunset-times-app label {
+  line-height: 1.8;
+}
+
+/* Status belongs to the form, never to a result card */
+.sunset-times-page #sunset-status {
+  margin: 0;
+  min-height: 0;
+  color: var(--teal);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.sunset-times-page #sunset-status:empty {
+  display: none;
+}
+
+
+/* Desktop calculator arrangement */
+@media (min-width: 701px) {
+
+  .sunset-times-page #sunset-times-app .converter-card {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 1.25rem;
+    row-gap: 1rem;
+    align-items: stretch;
+  }
+
+  /*
+   * RTL grid:
+   * column 1 = visual RIGHT
+   * column 2 = visual LEFT
+   */
+
+  /* Location label */
+  .sunset-times-page #sunset-times-app label[for="sunset-location"] {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    width: 100%;
+    margin: 0;
+    text-align: right;
+  }
+
+  /* Location field — RIGHT */
+  .sunset-times-page #sunset-location {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  /* Current-location button — LEFT */
+  .sunset-times-page #use-current-location {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  /* Date label */
+  .sunset-times-page #sunset-times-app label[for="sunset-date"] {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    width: 100%;
+    margin: .5rem 0 0;
+    text-align: right;
+  }
+
+  /* Date field — RIGHT */
+  .sunset-times-page #sunset-date {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  /* Calculate button — LEFT */
+  .sunset-times-page #calculate-sunset {
+    grid-column: 2;
+    grid-row: 4;
+  }
+
+  /* Optional status message */
+  .sunset-times-page #sunset-status {
+    grid-column: 1 / -1;
+    grid-row: 5;
+  }
+
+  /* Sunrise — RIGHT */
+  .sunset-times-page #sunset-times-app .converter-result:nth-of-type(1) {
+    grid-column: 1;
+    grid-row: 6;
+    width: 100%;
+    margin: 0;
+  }
+
+  /* Sunset — LEFT */
+  .sunset-times-page #sunset-times-app .converter-result:nth-of-type(2) {
+    grid-column: 2;
+    grid-row: 6;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+
+/* Mobile — natural vertical flow */
+@media (max-width: 700px) {
+
+  .sunset-times-page #sunset-times-app .converter-card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .sunset-times-page #sunset-times-app label {
+    margin: 4px 0 0;
+  }
+
+  .sunset-times-page #sunset-location,
+  .sunset-times-page #sunset-date,
+  .sunset-times-page #use-current-location,
+  .sunset-times-page #calculate-sunset,
+  .sunset-times-page #sunset-times-app .converter-result {
+    width: 100%;
+  }
+}
+
+
+/* Sunset Times — Almarai control typography fix */
+
+/*
+ * Almarai requires an explicit, generous line box.
+ * Do not use font:inherit or native control line-height here.
+ */
+
+.sunset-times-page #sunset-times-app label {
+  font-family: "Almarai", Tahoma, Arial, sans-serif !important;
+  font-size: 16px !important;
+  line-height: 32px !important;
+}
+
+.sunset-times-page #sunset-location,
+.sunset-times-page #sunset-date {
+  font-family: "Almarai", Tahoma, Arial, sans-serif !important;
+  font-size: 16px !important;
+  line-height: 32px !important;
+
+  height: auto !important;
+  min-height: 60px !important;
+
+  padding-top: 14px !important;
+  padding-bottom: 14px !important;
+  padding-inline: 16px !important;
+
+  box-sizing: border-box !important;
+}
+
+/* Placeholder gets the exact same Almarai metrics. */
+
+
+/* WebKit/Chromium date field has its own internal text box. */
+.sunset-times-page #sunset-date::-webkit-datetime-edit {
+  font-family: "Almarai", Tahoma, Arial, sans-serif !important;
+  font-size: 16px !important;
+  line-height: 32px !important;
+  padding: 0 !important;
+}
+
+.sunset-times-page #sunset-date::-webkit-datetime-edit-fields-wrapper {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+
+/* Match the two action controls to the fields. */
+.sunset-times-page #use-current-location,
+.sunset-times-page #calculate-sunset {
+  font-family: "Almarai", Tahoma, Arial, sans-serif !important;
+  font-size: 16px !important;
+  line-height: 32px !important;
+
+  height: auto !important;
+  min-height: 60px !important;
+
+  padding-top: 14px !important;
+  padding-bottom: 14px !important;
+  padding-inline: 18px !important;
+
+  box-sizing: border-box !important;
+}
+
+
+
+/*
+ * The input's typed Arabic renders correctly.
+ * Therefore the placeholder must use exactly the same typography
+ * instead of maintaining an independent line box.
+ */
+
+/* Sunset Times — custom Arabic location placeholder */
+
+.sunset-times-page .sunset-location-field {
+  position: relative;
+  min-width: 0;
+
+  /* Same desktop grid position previously occupied by the input. */
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.sunset-times-page .sunset-location-field #sunset-location {
+  width: 100%;
+  margin: 0;
+}
+
+.sunset-times-page .sunset-location-placeholder {
+  position: absolute;
+
+  top: 50%;
+  right: 16px;
+
+  transform: translateY(-50%);
+
+  color: #69757a;
+
+  font-family: "Almarai", "Noto Sans Arabic", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+
+  direction: rtl;
+  text-align: right;
+
+  pointer-events: none;
+  white-space: nowrap;
+
+  /*
+   * Normal HTML text instead of browser ::placeholder rendering.
+   * This avoids the Arabic glyph clipping seen in Chromium/Brave.
+   */
+}
+
+/* Hide our placeholder while the field has text. */
+.sunset-times-page .sunset-location-field:has(#sunset-location:not(:placeholder-shown))
+  .sunset-location-placeholder {
+  display: none;
+}
+
+/*
+ * There is deliberately no native placeholder text, but an empty
+ * placeholder attribute gives :placeholder-shown a reliable empty-state.
+ */
+@media (max-width: 700px) {
+  .sunset-times-page .sunset-location-field {
+    width: 100%;
+  }
+}
+
+
+/* Sunset Times — stable result card positioning */
+
+/*
+ * Use semantic classes rather than nth-of-type().
+ * The custom location placeholder wrapper therefore cannot
+ * affect result-card placement.
+ */
+
+@media (min-width: 701px) {
+
+  .sunset-times-page #sunset-times-app .sunset-sunrise-result {
+    grid-column: 1 !important;
+    grid-row: 6 !important;
+    width: 100%;
+    margin: 0;
+  }
+
+  .sunset-times-page #sunset-times-app .sunset-sunset-result {
+    grid-column: 2 !important;
+    grid-row: 6 !important;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media (max-width: 700px) {
+
+  .sunset-times-page #sunset-times-app .sunset-sunrise-result,
+  .sunset-times-page #sunset-times-app .sunset-sunset-result {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+
+/* Date Converter — unified page design */
+
+
+/* ==========================================================
+   ABOUT THE BADÍʿ CALENDAR
+   ========================================================== */
+
+.date-converter-page .date-converter-about {
+  max-width: 1080px;
+  margin: 0 auto 2rem;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  gap: 1.35rem;
+  align-items: start;
+  background: rgba(14, 111, 136, 0.055);
+  border: 1px solid rgba(14, 111, 136, 0.13);
+  border-radius: 24px;
+}
+
+.date-converter-page .date-converter-about-icon {
+  width: 54px;
+  height: 54px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(14, 111, 136, 0.10);
+  border: 1px solid rgba(14, 111, 136, 0.13);
+  color: var(--teal);
+  font-family: "Almarai", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.date-converter-page .date-converter-about-content {
+  min-width: 0;
+}
+
+.date-converter-page .date-converter-about-eyebrow {
+  display: block;
+  margin-bottom: .3rem;
+  color: var(--teal);
+  font-family: "Changa", "Almarai", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.date-converter-page .date-converter-about h2 {
+  margin: 0 0 .65rem;
+  font-family: "Aref Ruqaa", "Almarai", serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--ink);
+}
+
+.date-converter-page .date-converter-about-lead {
+  max-width: 850px;
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.9;
+}
+
+.date-converter-page .date-converter-about-facts {
+  margin-top: 1.35rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.date-converter-page .date-converter-about-fact {
+  min-width: 0;
+  padding: 1.15rem;
+  background: rgba(255, 253, 247, 0.82);
+  border: 1px solid rgba(14, 111, 136, 0.10);
+  border-radius: 16px;
+}
+
+.date-converter-page .date-converter-about-symbol {
+  display: inline-grid;
+  place-items: center;
+  min-width: 30px;
+  height: 30px;
+  margin-bottom: .7rem;
+  padding: 0 8px;
+  border-radius: 999px;
+  background: rgba(14, 111, 136, 0.10);
+  color: var(--teal);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.date-converter-page .date-converter-about-fact strong {
+  display: block;
+  margin-bottom: .4rem;
+  color: var(--ink);
+  font-family: "Almarai", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.date-converter-page .date-converter-about-fact p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.date-converter-page .date-converter-about-footer {
+  margin-top: 1.2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(14, 111, 136, 0.11);
+}
+
+.date-converter-page .date-converter-about-footer p {
+  margin: 0 0 .55rem;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.date-converter-page .date-converter-about-footer a {
+  color: var(--teal);
+  font-size: 13px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.date-converter-page .date-converter-about-footer a:hover {
+  text-decoration: underline;
+}
+
+
+/* ==========================================================
+   UNIFIED CONVERTER
+   ========================================================== */
+
+.date-converter-page .date-converter-section {
+  max-width: 1080px;
+  margin: 0 auto 80px !important;
+  padding: 2rem;
+  display: block;
+  background: rgba(14, 111, 136, 0.055);
+  border: 1px solid rgba(14, 111, 136, 0.13);
+  border-radius: 24px;
+}
+
+.date-converter-page .date-converter-tool-copy {
+  min-width: 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.15rem;
+  margin-bottom: 1.5rem;
+}
+
+.date-converter-page .date-converter-tool-icon {
+  flex: 0 0 54px;
+  width: 54px;
+  height: 54px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(14, 111, 136, 0.10);
+  border: 1px solid rgba(14, 111, 136, 0.13);
+  color: var(--teal);
+}
+
+.date-converter-page .date-converter-tool-icon svg {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.date-converter-page .date-converter-tool-text {
+  min-width: 0;
+}
+
+.date-converter-page .date-converter-tool-eyebrow {
+  display: block;
+  margin-bottom: .3rem;
+  color: var(--teal);
+  font-family: "Changa", "Almarai", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.date-converter-page .date-converter-tool-copy h2 {
+  margin: 0 0 .45rem;
+  font-family: "Aref Ruqaa", "Almarai", serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--ink);
+}
+
+.date-converter-page .date-converter-tool-copy p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+
+/* Converter application */
+
+.date-converter-page #date-converter-app {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+.date-converter-page #date-converter-app .converter-tabs {
+  margin-bottom: 1rem;
+}
+
+.date-converter-page #date-converter-app .converter-card {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 1.35rem;
+  background: rgba(255, 253, 247, 0.82);
+  border: 1px solid rgba(14, 111, 136, 0.10);
+  border-radius: 16px;
+  box-shadow: none;
+}
+
+
+/* ==========================================================
+   RESPONSIVE
+   ========================================================== */
+
+@media (max-width: 760px) {
+
+  .date-converter-page .date-converter-about {
+    grid-template-columns: 1fr;
+    padding: 1.4rem;
+  }
+
+  .date-converter-page .date-converter-about-facts {
+    grid-template-columns: 1fr;
+  }
+
+  .date-converter-page .date-converter-section {
+    padding: 1.4rem;
+  }
+
+  .date-converter-page .date-converter-tool-copy {
+    gap: .9rem;
+  }
+}
+
+
+
+/* Huququllah — unified polished sections */
+
+
+/* ----------------------------------------------------------
+   Shared outer-card treatment
+   ---------------------------------------------------------- */
+
+.huququllah-page .huququllah-intro,
+.huququllah-page .huququllah-principles,
+.huququllah-page .huququllah-calculator-preview {
+  max-width: 1080px;
+  margin: 0 auto 2rem;
+  padding: 2rem;
+  background: rgba(14, 111, 136, 0.055);
+  border: 1px solid rgba(14, 111, 136, 0.13);
+  border-radius: 24px;
+}
+
+
+/* ----------------------------------------------------------
+   Definition card
+   ---------------------------------------------------------- */
+
+.huququllah-page .huququllah-intro {
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  gap: 1.35rem;
+  align-items: start;
+}
+
+.huququllah-page .huququllah-intro-icon,
+.huququllah-page .huququllah-principles-icon {
+  width: 54px;
+  height: 54px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(14, 111, 136, 0.10);
+  border: 1px solid rgba(14, 111, 136, 0.13);
+  color: var(--teal);
+  font-family: "Almarai", sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.huququllah-page .huququllah-intro-content,
+.huququllah-page .huququllah-principles-content {
+  min-width: 0;
+}
+
+.huququllah-page .huququllah-card-eyebrow {
+  display: block;
+  margin-bottom: .3rem;
+  color: var(--teal);
+  font-family: "Changa", "Almarai", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.huququllah-page .huququllah-intro h2,
+.huququllah-page .huququllah-principles h2,
+.huququllah-page .huququllah-calculator-tool-copy h2 {
+  margin: 0 0 .65rem;
+  color: var(--ink);
+  font-family: "Aref Ruqaa", "Almarai", serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.huququllah-page .huququllah-intro-lead,
+.huququllah-page .huququllah-principles-lead {
+  max-width: 850px;
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.9;
+}
+
+.huququllah-page .huququllah-intro-note {
+  margin-top: 1.25rem;
+  padding: 1.15rem 1.25rem;
+  background: rgba(255, 253, 247, 0.82);
+  border: 1px solid rgba(14, 111, 136, 0.10);
+  border-radius: 16px;
+}
+
+.huququllah-page .huququllah-intro-note p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+
+/* ----------------------------------------------------------
+   Principles
+   ---------------------------------------------------------- */
+
+.huququllah-page .huququllah-principles {
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  gap: 1.35rem;
+  align-items: start;
+}
+
+.huququllah-page .huququllah-principle-grid {
+  max-width: none;
+  margin: 1.35rem 0 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.huququllah-page .huququllah-principle-grid article {
+  min-height: 0;
+  padding: 1.15rem;
+  background: rgba(255, 253, 247, 0.82);
+  border: 1px solid rgba(14, 111, 136, 0.10);
+  border-radius: 16px;
+  text-align: right;
+}
+
+.huququllah-page .huququllah-principle-grid strong {
+  display: inline-grid;
+  place-items: center;
+  width: auto;
+  min-width: 30px;
+  height: 30px;
+  margin: 0 0 .7rem;
+  padding: 0 8px;
+  border-radius: 999px;
+  background: rgba(14, 111, 136, 0.10);
+  border: 0;
+  color: var(--teal);
+  font-family: "Almarai", sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.huququllah-page .huququllah-principle-grid h3 {
+  margin: 0 0 .4rem;
+  color: var(--ink);
+  font-family: "Almarai", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.huququllah-page .huququllah-principle-grid p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+
+/* ----------------------------------------------------------
+   Calculator
+   ---------------------------------------------------------- */
+
+.huququllah-page .huququllah-calculator-preview {
+  margin-bottom: 2rem;
+}
+
+.huququllah-page .huququllah-calculator-tool-copy {
+  min-width: 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.15rem;
+  margin-bottom: 1.5rem;
+}
+
+.huququllah-page .huququllah-calculator-tool-icon {
+  flex: 0 0 54px;
+  width: 54px;
+  height: 54px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(14, 111, 136, 0.10);
+  border: 1px solid rgba(14, 111, 136, 0.13);
+  color: var(--teal);
+}
+
+.huququllah-page .huququllah-calculator-tool-icon svg {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.huququllah-page .huququllah-calculator-tool-text {
+  min-width: 0;
+}
+
+.huququllah-page .huququllah-calculator-tool-copy h2 {
+  margin-bottom: .45rem;
+}
+
+.huququllah-page .huququllah-calculator-tool-copy p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.huququllah-page .huququllah-calculator-shell {
+  width: 100%;
+  margin: 0;
+  background: rgba(255, 253, 247, 0.82);
+  border: 1px solid rgba(14, 111, 136, 0.10);
+  border-radius: 16px;
+  box-shadow: none;
+}
+
+
+/* ----------------------------------------------------------
+   Responsive
+   ---------------------------------------------------------- */
+
+@media (max-width: 900px) {
+
+  .huququllah-page .huququllah-principle-grid {
+    grid-template-columns: 1fr;
+    max-width: none;
+  }
+}
+
+@media (max-width: 760px) {
+
+  .huququllah-page .huququllah-intro,
+  .huququllah-page .huququllah-principles {
+    grid-template-columns: 1fr;
+    padding: 1.4rem;
+  }
+
+  .huququllah-page .huququllah-calculator-preview {
+    padding: 1.4rem;
+  }
+
+  .huququllah-page .huququllah-calculator-tool-copy {
+    gap: .9rem;
+  }
+}
+
+
+
+/* Huququllah — exact unified card widths */
+
+.huququllah-page .huququllah-intro,
+.huququllah-page .huququllah-principles,
+.huququllah-page .huququllah-calculator-preview,
+.huququllah-page .huququllah-privacy {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1080px;
+}
+
+/* Huququllah — calculator inner container alignment */
+
+.huququllah-page .huququllah-calculator-preview
+  .huququllah-calculator-shell {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 1.35rem;
+  border-radius: 16px;
+  background: rgba(255, 253, 247, 0.82);
+  border: 1px solid rgba(14, 111, 136, 0.10);
+}
+
+/* Reduce oversized empty space in the first calculator step */
+.huququllah-page .huququllah-calculator-header {
+  padding: 2rem 2rem 1.5rem;
+}
+
+.huququllah-page #huququllah-calculator {
+  padding: 0 2rem 2rem;
+}
+
+/* Keep calculator content aligned consistently */
+.huququllah-page .huququllah-form-grid {
+  padding-top: 1.5rem;
+}
+
+.huququllah-page .huququllah-form-next {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+@media (max-width: 700px) {
+  .huququllah-page .huququllah-calculator-header {
+    padding: 1.5rem 1.25rem 1.25rem;
+  }
+
+  .huququllah-page #huququllah-calculator {
+    padding: 0 1.25rem 1.5rem;
+  }
+}
+
+
+/* Huququllah — calculator section unified with cards */
+
+/*
+  The calculator is a normal Huququllah outer card.
+  Its heading uses the same icon + content grid as the
+  definition, principles, privacy, guidance and sources cards.
+*/
+
+.huququllah-page .huququllah-calculator-preview {
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  column-gap: 1.35rem;
+  align-items: start;
+}
+
+
+/* Header becomes the same card-heading structure */
+
+.huququllah-page .huququllah-calculator-tool-copy {
+  display: contents;
+}
+
+.huququllah-page .huququllah-calculator-tool-icon {
+  grid-column: 1;
+  grid-row: 1;
+  margin: 0;
+}
+
+.huququllah-page .huququllah-calculator-tool-text {
+  grid-column: 2;
+  grid-row: 1;
+  min-width: 0;
+}
+
+.huququllah-page .huququllah-calculator-tool-text p {
+  max-width: 850px;
+}
+
+
+/*
+  Calculator itself belongs to the content column,
+  directly beneath the heading — instead of behaving
+  like a separate full-width section.
+*/
+
+.huququllah-page .huququllah-calculator-preview
+  .huququllah-calculator-shell {
+  grid-column: 2;
+  grid-row: 2;
+  width: 100%;
+  margin: 1.35rem 0 0;
+}
+
+
+/* Mobile returns to a simple stacked card */
+
+@media (max-width: 760px) {
+
+  .huququllah-page .huququllah-calculator-preview {
+    grid-template-columns: 1fr;
+  }
+
+  .huququllah-page .huququllah-calculator-tool-copy {
+    display: flex;
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .huququllah-page .huququllah-calculator-preview
+    .huququllah-calculator-shell {
+    grid-column: 1;
+    grid-row: 2;
+    width: 100%;
+    margin-top: 1.25rem;
+  }
+}
+
+/* Huququllah — unify lower cards with upper section design */
+
+/*
+  Privacy, guidance and sources now use the same visual
+  proportions as the definition, principles and calculator cards.
+*/
+
+.huququllah-page .huququllah-privacy {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto 2rem;
+  padding: 2rem;
+
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  align-items: start;
+  gap: 1.35rem;
+
+  background: rgba(14, 111, 136, 0.055);
+  border: 1px solid rgba(14, 111, 136, 0.13);
+  border-radius: 24px;
+
+  text-align: right;
+}
+
+
+/* Same icon dimensions as the upper cards */
+
+.huququllah-page .huququllah-privacy-icon {
+  width: 54px;
+  height: 54px;
+  margin: 0;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 50%;
+  background: rgba(14, 111, 136, 0.10);
+  border: 1px solid rgba(14, 111, 136, 0.13);
+
+  color: var(--teal);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+/* Same eyebrow treatment */
+
+.huququllah-page .huququllah-privacy span {
+  display: block;
+  margin: 0 0 .3rem;
+
+  color: var(--teal);
+  font-family: "Changa", "Almarai", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+
+/* Same title proportions */
+
+.huququllah-page .huququllah-privacy h2 {
+  margin: 0 0 .65rem;
+
+  color: var(--ink);
+  font-family: "Aref Ruqaa", "Almarai", serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+
+/* Same body-copy treatment */
+
+.huququllah-page .huququllah-privacy p {
+  margin: 0;
+  max-width: 850px;
+
+  color: var(--muted);
+  font-family: "Almarai", sans-serif;
+  line-height: 1.9;
+}
+
+
+/* Source links stay inside the content column */
+
+.huququllah-page .huququllah-sources-card
+  .huququllah-source-links {
+  margin-top: 1.25rem;
+}
+
+
+/* Mobile — same stacked behavior as the upper cards */
+
+@media (max-width: 760px) {
+
+  .huququllah-page .huququllah-privacy {
+    grid-template-columns: 1fr;
+    padding: 1.4rem;
+    text-align: right;
+  }
+
+  .huququllah-page .huququllah-privacy-icon {
+    margin: 0;
+  }
+
+  .huququllah-page .huququllah-privacy h2 {
+    font-size: 30px;
+  }
+}
+
+
+/* Date Converter — exact outer-card alignment */
+
+/*
+   Keep the two primary Date Converter sections on exactly
+   the same outer geometry.
+*/
+.date-converter-page .date-converter-about,
+.date-converter-page .date-converter-section {
+  box-sizing: border-box;
+  width: calc(100% - 2rem) !important;
+  max-width: 1080px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 2rem !important;
+  border: 1px solid rgba(14, 111, 136, 0.13) !important;
+  border-radius: 24px !important;
+  background: rgba(14, 111, 136, 0.055) !important;
+}
+
+.date-converter-page .date-converter-about {
+  margin-top: 0 !important;
+  margin-bottom: 2rem !important;
+}
+
+.date-converter-page .date-converter-section {
+  margin-top: 0 !important;
+  margin-bottom: 80px !important;
+}
+
+/* The application remains a nested inner component,
+   without changing the width of its outer section. */
+.date-converter-page .date-converter-section #date-converter-app {
+  box-sizing: border-box;
+  width: 100% !important;
+  max-width: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+@media (max-width: 760px) {
+  .date-converter-page .date-converter-about,
+  .date-converter-page .date-converter-section {
+    width: calc(100% - 1.5rem) !important;
+    padding: 1.25rem !important;
+  }
+}
+
+
+/* Date Converter — match About section internal grid */
+
+/*
+   Make "تحويل التاريخ" use the same internal skeleton as
+   "عن التقويم البديع":
+
+   58px icon column + one content column.
+
+   The converter application itself belongs to the content
+   column rather than stretching beneath the icon column.
+*/
+@media (min-width: 761px) {
+
+  .date-converter-page .date-converter-section {
+    display: grid !important;
+    grid-template-columns: 58px minmax(0, 1fr) !important;
+    column-gap: 1.35rem !important;
+    align-items: start !important;
+  }
+
+  /*
+     The existing header wrapper becomes transparent to the
+     grid so its icon and text can occupy the same two columns
+     used by the About card.
+  */
+  .date-converter-page .date-converter-tool-copy {
+    display: contents !important;
+  }
+
+  .date-converter-page .date-converter-tool-icon {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    margin: 0 !important;
+  }
+
+  .date-converter-page .date-converter-tool-text {
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+    min-width: 0 !important;
+    margin: 0 0 1.5rem !important;
+  }
+
+  .date-converter-page #date-converter-app {
+    grid-column: 2 !important;
+    grid-row: 2 !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    min-width: 0 !important;
+  }
+}
+
+
+/* Mobile keeps the natural stacked layout. */
+@media (max-width: 760px) {
+
+  .date-converter-page .date-converter-section {
+    display: block !important;
+  }
+
+  .date-converter-page .date-converter-tool-copy {
+    display: flex !important;
+    align-items: flex-start !important;
+    gap: 1.15rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .date-converter-page #date-converter-app {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+}
+
+/* Sunset Times — align calculator section with information section */
+
+/*
+ * Match the same structural grid used by the information card:
+ * icon column + content column.
+ */
+.sunset-times-page .sunset-times-section {
+  display: grid !important;
+  grid-template-columns: 58px minmax(0, 1fr) !important;
+  column-gap: 1.35rem !important;
+  row-gap: 1.5rem !important;
+  align-items: start !important;
+}
+
+/*
+ * The existing tool-copy wrapper already contains both the icon
+ * and heading text. Let its children participate directly in the
+ * outer grid.
+ */
+.sunset-times-page .sunset-times-section .sunset-tool-copy {
+  display: contents !important;
+}
+
+.sunset-times-page .sunset-times-section .sunset-tool-icon {
+  grid-column: 1 !important;
+  grid-row: 1 !important;
+  margin: 0 !important;
+}
+
+.sunset-times-page .sunset-times-section .sunset-tool-text {
+  grid-column: 2 !important;
+  grid-row: 1 !important;
+  min-width: 0 !important;
+}
+
+/*
+ * Keep the complete calculator directly beneath the heading,
+ * aligned with the heading rather than extending beneath the icon.
+ */
+.sunset-times-page .sunset-times-section #sunset-times-app {
+  grid-column: 2 !important;
+  grid-row: 2 !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+}
+
+/* Keep the inner calculator panel fluid inside that content column. */
+.sunset-times-page .sunset-times-section #sunset-times-app .converter-card {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Mobile returns to a simple vertical card layout. */
+@media (max-width: 760px) {
+
+  .sunset-times-page .sunset-times-section {
+    grid-template-columns: 1fr !important;
+    row-gap: 1rem !important;
+  }
+
+  .sunset-times-page .sunset-times-section .sunset-tool-copy {
+    display: flex !important;
+    grid-column: 1 !important;
+    grid-row: auto !important;
+    margin-bottom: .5rem !important;
+  }
+
+  .sunset-times-page .sunset-times-section .sunset-tool-icon,
+  .sunset-times-page .sunset-times-section .sunset-tool-text {
+    grid-column: auto !important;
+    grid-row: auto !important;
+  }
+
+  .sunset-times-page .sunset-times-section #sunset-times-app {
+    grid-column: 1 !important;
+    grid-row: auto !important;
+  }
+}

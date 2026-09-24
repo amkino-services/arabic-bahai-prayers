@@ -33,10 +33,13 @@ document.addEventListener("DOMContentLoaded", () => {
         locationInput.value =
           `${latitude.toFixed(5)}, ${longitude.toFixed(5)}`;
 
-        result.textContent = "تم تحديد الموقع ✓";
+        // Keep sunrise/sunset result cards reserved for solar times.
+        locationButton.textContent = "تم تحديد الموقع ✓";
 
-        locationButton.disabled = false;
-        locationButton.textContent = "استخدام موقعي الحالي";
+        setTimeout(() => {
+          locationButton.disabled = false;
+          locationButton.textContent = "استخدام موقعي الحالي";
+        }, 1200);
       },
 
       () => {
@@ -174,10 +177,13 @@ document.addEventListener("DOMContentLoaded", () => {
   const calculateButton = document.getElementById("calculate-sunset");
   const result = document.getElementById("sunset-result");
   const sunriseResult = document.getElementById("sunrise-result");
+  const status = document.getElementById("sunset-status");
 
   calculateButton.addEventListener("click", async () => {
+    status.textContent = "";
+
     if (!dateInput.value) {
-      result.textContent = "يرجى اختيار التاريخ.";
+      status.textContent = "يرجى اختيار التاريخ.";
       return;
     }
 
@@ -199,7 +205,7 @@ document.addEventListener("DOMContentLoaded", () => {
       ) {
         [latitude, longitude] = coordinates;
       } else {
-        result.textContent = "جارٍ البحث عن الموقع...";
+        calculateButton.textContent = "جارٍ البحث عن الموقع...";
 
         const place = await geocodeLocation(
           locationInput.value
@@ -222,7 +228,12 @@ document.addEventListener("DOMContentLoaded", () => {
       );
 
       if (sunsetUTC === null) {
-        result.textContent =
+        result.textContent = "—";
+        sunriseResult.textContent = sunriseUTC === null
+          ? "—"
+          : sunriseResult.textContent;
+
+        status.textContent =
           "لا يمكن حساب الغروب لهذا الموقع في هذا التاريخ.";
         return;
       }
@@ -247,7 +258,7 @@ document.addEventListener("DOMContentLoaded", () => {
       );
 
     } catch (error) {
-      result.textContent = error.message;
+      status.textContent = error.message;
     } finally {
       calculateButton.disabled = false;
       calculateButton.textContent = "معرفة أوقات الشروق والغروب";
