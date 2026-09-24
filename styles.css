@@ -7417,3 +7417,67 @@ body.sunset-times-page .sunset-times-section {
     justify-content: flex-end;
   }
 }
+
+/* Huququllah — unified lower information cards */
+.huququllah-guidance-card,
+.huququllah-sources-card {
+  margin-top: 2rem;
+}
+
+.huququllah-guidance-card .huququllah-privacy-icon,
+.huququllah-sources-card .huququllah-privacy-icon {
+  flex: 0 0 auto;
+}
+
+.huququllah-guidance-card p + p,
+.huququllah-sources-card p + p {
+  margin-top: 0.8rem;
+}
+
+.huququllah-source-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  margin-top: 1.25rem;
+}
+
+.huququllah-source-links a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(14, 111, 136, 0.14);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.46);
+  text-decoration: none;
+  transition:
+    transform 160ms ease,
+    border-color 160ms ease,
+    background 160ms ease;
+}
+
+.huququllah-source-links a:hover {
+  transform: translateY(-1px);
+  border-color: rgba(14, 111, 136, 0.3);
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.huququllah-source-links strong {
+  color: var(--ink, #172126);
+  font-weight: 700;
+}
+
+.huququllah-source-links span {
+  color: var(--teal, #0e6f88);
+  white-space: nowrap;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 700px) {
+  .huququllah-source-links a {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}
