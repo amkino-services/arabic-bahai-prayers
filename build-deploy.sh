@@ -21,7 +21,7 @@ while IFS= read -r file; do
       ;;
 
     # Public website files.
-    *.html|*.js|*.css|*.xml|*.txt|assets/*)
+    _headers|_redirects|*.html|*.js|*.css|*.xml|*.txt|assets/*)
       mkdir -p "$DEPLOY_DIR/$(dirname "$file")"
       cp "$file" "$DEPLOY_DIR/$file"
       echo "COPY  $file"
