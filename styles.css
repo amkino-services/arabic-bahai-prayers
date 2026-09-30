@@ -10282,3 +10282,39 @@ body.sunset-times-page .sunset-times-section {
     page-break-after: avoid !important;
   }
 }
+
+
+/* ===== App testing status page ===== */
+.testing-page {
+  font-family: 'Almarai', sans-serif;
+}
+
+.testing-page-main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 48px 20px 72px;
+}
+
+.testing-page-intro {
+  text-align: center;
+}
+
+.testing-page-app-icon {
+  border-radius: 24px;
+  margin-bottom: 20px;
+}
+
+.testing-status-card {
+  max-width: 680px;
+  margin: 36px auto 0;
+  padding: 30px;
+  text-align: center;
+}
+
+.testing-status-card p {
+  line-height: 2;
+}
+
+.testing-page-action {
+  margin-top: 30px;
+}
