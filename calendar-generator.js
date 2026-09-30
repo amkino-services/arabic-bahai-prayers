@@ -361,20 +361,20 @@ function createObservancesMarkup(year, month) {
     <div class="calendar-month-observances">
       ${observances.map(item => `
         <div class="calendar-observance ${item.type}">
-          <span class="calendar-observance-day">
-            ${item.day}
-          </span>
-
-          <span class="calendar-observance-title">
-            ${item.title}
-          </span>
-
           <span class="calendar-observance-gregorian">
             ${new Intl.DateTimeFormat("ar", {
               day: "numeric",
               month: "short",
               timeZone: "UTC"
             }).format(item.gregorian)}
+          </span>
+
+          <span class="calendar-observance-title">
+            ${item.title}
+          </span>
+
+          <span class="calendar-observance-day">
+            ${item.day}
           </span>
         </div>
       `).join("")}
@@ -397,16 +397,16 @@ function createMonthCard(name, number, start, days, special = false, year = null
       : `الشهر ${number}`;
 
   article.innerHTML = `
-    <div class="calendar-month-top">
-      <span>${label}</span>
-      <strong>${days}</strong>
+    <div class="calendar-month-header">
+      <div class="calendar-month-badge">19</div>
+      <div class="calendar-month-meta">
+        <span class="calendar-month-label">${label}</span>
+        <h3>${name}</h3>
+        <p class="calendar-month-duration">
+          ${days} ${days === 1 ? "يوم" : "أيام"}
+        </p>
+      </div>
     </div>
-
-    <h3>${name}</h3>
-
-    <p class="calendar-month-duration">
-      ${days} ${days === 1 ? "يوم" : "أيام"}
-    </p>
 
     ${
       !special && year !== null

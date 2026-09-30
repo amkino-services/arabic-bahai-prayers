@@ -10,6 +10,7 @@
   --line:#d8dee1;
   --shadow:0 22px 60px rgba(31,52,61,.12);
 }
+
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{
@@ -19,6 +20,7 @@ body{
   font-family:"Almarai","Noto Sans Arabic",system-ui,sans-serif;
   line-height:1.9;
 }
+
 img{max-width:100%;display:block}
 a{color:inherit;text-decoration:none}
 
@@ -3521,44 +3523,53 @@ body:has(#purpose) .lighthouse-footer{
   border-radius:22px;
 }
 
-.calendar-generator-page .calendar-month-top{
+.calendar-generator-page .calendar-month-header{
   display:flex;
-  align-items:center;
+  align-items:flex-start;
   justify-content:space-between;
-  gap:14px;
-  margin-bottom:26px;
+  gap:18px;
+  margin-bottom:18px;
 }
 
-.calendar-generator-page .calendar-month-top span{
-  color:var(--muted);
-  font-size:11px;
-  font-weight:700;
-}
-
-.calendar-generator-page .calendar-month-top strong{
+.calendar-generator-page .calendar-month-badge{
   display:flex;
   align-items:center;
   justify-content:center;
-  min-width:36px;
-  height:36px;
-  padding:0 8px;
+  width:64px;
+  height:64px;
+  flex-shrink:0;
 
-  border-radius:11px;
+  border-radius:16px;
   background:var(--sky);
   color:var(--teal);
+  font-size:28px;
+  font-weight:800;
+  line-height:1;
+}
+
+.calendar-generator-page .calendar-month-meta{
+  flex:1;
+  text-align:right;
+}
+
+.calendar-generator-page .calendar-month-label{
+  display:block;
+  margin-bottom:6px;
+  color:var(--muted);
   font-size:13px;
+  font-weight:700;
 }
 
 .calendar-generator-page .calendar-month-card h3{
-  margin:0 0 10px;
+  margin:0 0 8px;
   font-family:"Aref Ruqaa",serif;
-  font-size:28px;
-  line-height:1.2;
+  font-size:42px;
+  line-height:1.1;
   color:var(--ink);
 }
 
 .calendar-generator-page .calendar-month-duration{
-  margin:0 0 22px;
+  margin:0;
   color:var(--muted);
   font-size:12px;
 }
@@ -3570,8 +3581,9 @@ body:has(#purpose) .lighthouse-footer{
   padding-top:15px;
   border-top:1px solid var(--line);
   color:var(--muted);
-  font-size:11px;
+  font-size:12px;
   line-height:1.6;
+  text-align:left;
 }
 
 
@@ -3734,7 +3746,7 @@ body:has(#purpose) .lighthouse-footer{
 
 @page{
   size:A4 landscape;
-  margin:7mm;
+  margin:6mm 8mm;
 }
 
 @media print{
@@ -3755,6 +3767,7 @@ body:has(#purpose) .lighthouse-footer{
   .calendar-generator-page #global-header,
   .calendar-generator-page #global-footer,
   .calendar-generator-page .tool-page-hero,
+  .calendar-generator-page .calendar-generator-about,
   .calendar-generator-page .calendar-generator-controls,
   .calendar-generator-page .calendar-output-heading,
   .calendar-generator-page .calendar-output-actions,
@@ -3775,18 +3788,51 @@ body:has(#purpose) .lighthouse-footer{
   }
 
   .calendar-generator-page .calendar-print-heading{
-    display:block !important;
-    margin:0 0 3.5mm !important;
-    padding:0 0 2.5mm !important;
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    position:relative !important;
+    min-height:17mm !important;
+    margin:0 0 3mm !important;
+    padding:0 0 2mm !important;
     text-align:center !important;
     border-bottom:1px solid #bfcdd1 !important;
   }
 
-  .calendar-generator-page .calendar-print-heading > span{
+  .calendar-generator-page .calendar-print-title-group{
+    text-align:center !important;
+  }
+
+  .calendar-generator-page .calendar-print-symbol{
+    display:flex !important;
+    position:absolute !important;
+    right:3mm !important;
+    top:50% !important;
+    width:12mm !important;
+    height:12mm !important;
+    transform:translateY(-50%) !important;
+    align-items:center !important;
+    justify-content:center !important;
+  }
+
+  .calendar-generator-page .calendar-print-symbol svg{
     display:block !important;
-    margin:0 0 1mm !important;
+    width:100% !important;
+    height:100% !important;
+  }
+
+  .calendar-generator-page .calendar-print-symbol polygon{
+    fill:none !important;
+    stroke:#0e6f88 !important;
+    stroke-width:4 !important;
+    stroke-linejoin:round !important;
+  }
+
+  .calendar-generator-page .calendar-print-symbol .calendar-star-number{
+    fill:#0e6f88 !important;
     font-size:7pt !important;
     font-weight:700 !important;
+    font-family:"Aref Ruqaa","Almarai",serif !important;
   }
 
   .calendar-generator-page .calendar-print-heading h1{
@@ -3801,35 +3847,30 @@ body:has(#purpose) .lighthouse-footer{
     line-height:1.2 !important;
   }
 
-  /*
-   * 20 cards total:
-   * 19 Bahá’í months + Ayyám-i-Há.
-   * Five columns × four rows keeps the complete year on one A4
-   * landscape sheet.
-   */
   .calendar-generator-page .calendar-months-grid{
     display:grid !important;
     grid-template-columns:repeat(5, minmax(0, 1fr)) !important;
-    grid-template-rows:repeat(4, auto) !important;
     gap:2mm !important;
     width:100% !important;
     margin:0 !important;
+    align-items:stretch !important;
   }
 
   .calendar-generator-page .calendar-month-card{
     display:flex !important;
     flex-direction:column !important;
     min-height:0 !important;
-    height:37mm !important;
+    height:auto !important;
     margin:0 !important;
-    padding:2.6mm !important;
-    border:0.3mm solid #c8d5d9 !important;
+    padding:2.2mm 2.4mm !important;
+    border:0.25mm solid #c8d5d9 !important;
     border-radius:2mm !important;
     background:#fff !important;
     box-shadow:none !important;
-    overflow:hidden !important;
+    overflow:visible !important;
     break-inside:avoid !important;
     page-break-inside:avoid !important;
+    box-sizing:border-box !important;
   }
 
   .calendar-generator-page .calendar-month-card.intercalary{
@@ -3837,54 +3878,169 @@ body:has(#purpose) .lighthouse-footer{
     border-color:#9db8bf !important;
   }
 
-  .calendar-generator-page .calendar-month-top{
+  .calendar-generator-page .calendar-month-header{
     display:flex !important;
     justify-content:space-between !important;
+    align-items:flex-start !important;
+    gap:1.5mm !important;
+    margin:0 0 1.2mm !important;
+  }
+
+  .calendar-generator-page .calendar-month-badge{
+    display:flex !important;
     align-items:center !important;
-    gap:2mm !important;
-    margin:0 !important;
-    font-size:6.5pt !important;
+    justify-content:center !important;
+    width:6mm !important;
+    height:6mm !important;
+    flex-shrink:0 !important;
+    border-radius:1.3mm !important;
+    background:var(--sky) !important;
+    color:var(--teal) !important;
+    font-size:5pt !important;
+    font-weight:800 !important;
     line-height:1 !important;
   }
 
-  .calendar-generator-page .calendar-month-top strong{
-    min-width:5mm !important;
-    height:auto !important;
-    padding:1mm !important;
-    border-radius:1.5mm !important;
-    font-size:6.5pt !important;
-    line-height:1 !important;
+  .calendar-generator-page .calendar-month-meta{
+    flex:1 !important;
+    min-width:0 !important;
+    text-align:right !important;
+  }
+
+  .calendar-generator-page .calendar-month-label{
+    display:block !important;
+    margin-bottom:.5mm !important;
+    font-size:4.1pt !important;
+    line-height:1.2 !important;
   }
 
   .calendar-generator-page .calendar-month-card h3{
-    margin:2.2mm 0 .8mm !important;
-    font-size:11pt !important;
+    margin:0 0 .6mm !important;
+    font-size:8.6pt !important;
     line-height:1.1 !important;
   }
 
   .calendar-generator-page .calendar-month-duration{
     margin:0 !important;
-    font-size:6.5pt !important;
-    line-height:1.1 !important;
+    font-size:4.8pt !important;
+    line-height:1.2 !important;
+  }
+
+  .calendar-generator-page .calendar-month-card{
+    height:31mm !important;
+    min-height:31mm !important;
+    max-height:31mm !important;
+    overflow:hidden !important;
+  }
+
+  .calendar-generator-page .calendar-month-observances{
+    display:grid !important;
+    grid-template-columns:1fr !important;
+    gap:.28mm !important;
+    width:100% !important;
+    margin:.18mm 0 .42mm !important;
+    padding:0 !important;
+    overflow:hidden !important;
+  }
+
+  .calendar-generator-page .calendar-observance{
+    display:grid !important;
+    grid-template-columns:1fr 3.3mm !important;
+    align-items:center !important;
+    gap:.35mm !important;
+    width:100% !important;
+    min-height:2.75mm !important;
+    height:2.75mm !important;
+    max-height:2.75mm !important;
+    margin:0 !important;
+    padding:.08mm .18mm !important;
+    box-sizing:border-box !important;
+    border-radius:.6mm !important;
+    overflow:hidden !important;
+    font-size:2.6pt !important;
+    line-height:1.05 !important;
+  }
+
+  .calendar-generator-page .calendar-observance-gregorian{
+    display:none !important;
+  }
+
+  .calendar-generator-page .calendar-observance-title{
+    display:block !important;
+    min-width:0 !important;
+    margin:0 !important;
+    padding:0 !important;
+    font-size:2.6pt !important;
+    font-weight:700 !important;
+    line-height:1.05 !important;
+    white-space:nowrap !important;
+    overflow:hidden !important;
+    text-overflow:ellipsis !important;
+    text-align:right !important;
+    direction:rtl !important;
+  }
+
+  .calendar-generator-page .calendar-observance-day{
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    width:2.8mm !important;
+    height:2.8mm !important;
+    min-width:2.8mm !important;
+    min-height:2.8mm !important;
+    padding:0 !important;
+    box-sizing:border-box !important;
+    border:0.15mm solid currentColor !important;
+    border-radius:.9mm !important;
+    background:rgba(255,255,255,.45) !important;
+    color:currentColor !important;
+    font-size:2.2pt !important;
+    font-weight:800 !important;
+    line-height:1 !important;
+    text-align:center !important;
+    direction:ltr !important;
+    unicode-bidi:isolate !important;
+    overflow:hidden !important;
+  }
+
+  .calendar-generator-page .calendar-observance:nth-child(n + 3){
+    display:none !important;
   }
 
   .calendar-generator-page .calendar-month-dates{
-    display:grid !important;
-    gap:.6mm !important;
+    display:block !important;
     margin-top:auto !important;
-    padding-top:1.5mm !important;
-    border-top:.25mm solid #d6dfe2 !important;
-    font-size:6.2pt !important;
-    line-height:1.15 !important;
+    padding-top:.5mm !important;
+    border-top:.2mm solid #d6dfe2 !important;
+    font-size:3.4pt !important;
+    line-height:1.1 !important;
+    text-align:right !important;
+    overflow:hidden !important;
   }
-
   .calendar-generator-page .calendar-month-dates span{
+    display:block !important;
     margin:0 !important;
     padding:0 !important;
+    white-space:nowrap !important;
+    overflow:hidden !important;
+  }
+
+  .calendar-generator-page .calendar-observance.feast{
+    background:rgba(14,111,136,.055) !important;
+    color:#0e6f88 !important;
+  }
+
+  .calendar-generator-page .calendar-observance.holy{
+    background:rgba(183,137,46,.065) !important;
+    color:#765718 !important;
+  }
+
+  .calendar-generator-page .calendar-observance.commemoration{
+    background:rgba(24,53,89,.05) !important;
+    color:#183559 !important;
   }
 
 }
-
 
 /* ===== Lighthouse tools — unified Arabic typography ===== */
 
@@ -4080,7 +4236,7 @@ body:has(#purpose) .lighthouse-footer{
     margin:0 0 2.2mm !important;
     padding:0 !important;
     font-family:"Aref Ruqaa","Almarai",serif !important;
-    font-size:17pt !important;
+    font-size:22pt !important;
     font-weight:700 !important;
     line-height:1.25 !important;
     text-align:center !important;
@@ -4195,8 +4351,8 @@ body:has(#purpose) .lighthouse-footer{
   .calendar-generator-page .calendar-star-number{
     fill:#0e6f88 !important;
     stroke:none !important;
-    font-family:"Almarai","Noto Sans Arabic",sans-serif !important;
-    font-size:34px !important;
+    font-family:"Aref Ruqaa","Almarai",serif !important;
+    font-size:38px !important;
     font-weight:800 !important;
   }
 
@@ -4499,19 +4655,19 @@ body:has(#purpose) .lighthouse-footer{
 
 .calendar-generator-page .calendar-month-observances{
   display:grid;
-  gap:7px;
+  gap:9px;
   margin:4px 0 18px;
 }
 
 .calendar-generator-page .calendar-observance{
   display:grid;
-  grid-template-columns:28px minmax(0,1fr) auto;
+  grid-template-columns: minmax(72px, auto) minmax(0, 1fr) 32px;
   align-items:center;
-  gap:8px;
-  padding:7px 9px;
-  border-radius:10px;
+  gap:10px;
+  padding:8px 10px;
+  border-radius:12px;
   font-family:"Almarai","Noto Sans Arabic",sans-serif;
-  font-size:10px;
+  font-size:11px;
   line-height:1.45;
 }
 
@@ -4530,25 +4686,44 @@ body:has(#purpose) .lighthouse-footer{
   color:#183559;
 }
 
-.calendar-generator-page .calendar-observance-day{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  width:24px;
-  height:24px;
-  border:1px solid currentColor;
-  border-radius:50%;
-  font-weight:800;
+.calendar-generator-page .calendar-observance-gregorian{
+  color:var(--muted);
+  font-size:11px;
+  white-space:nowrap;
+  text-align:left;
 }
 
 .calendar-generator-page .calendar-observance-title{
   font-weight:700;
+  text-align:right;
 }
 
-.calendar-generator-page .calendar-observance-gregorian{
-  white-space:nowrap;
-  opacity:.75;
-  font-size:9px;
+.calendar-generator-page .calendar-observance-day{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:28px;
+  height:28px;
+  border-radius:50%;
+  background:#111;
+  color:#fff;
+  font-weight:800;
+  line-height:1;
+  text-align:center;
+  direction:ltr;
+  unicode-bidi:isolate;
+}
+
+.calendar-generator-page .calendar-observance.feast .calendar-observance-day{
+  background:#0e6f88;
+}
+
+.calendar-generator-page .calendar-observance.holy .calendar-observance-day{
+  background:#765718;
+}
+
+.calendar-generator-page .calendar-observance.commemoration .calendar-observance-day{
+  background:#183559;
 }
 
 
@@ -4577,7 +4752,6 @@ body:has(#purpose) .lighthouse-footer{
   .calendar-generator-page .calendar-observance-day{
     width:3mm !important;
     height:3mm !important;
-    border-width:.2mm !important;
     font-size:4.7pt !important;
   }
 
@@ -9814,5 +9988,297 @@ body.sunset-times-page .sunset-times-section {
 @media (max-width: 420px) {
   .credits-page .credits-fonts {
     grid-template-columns: 1fr;
+  }
+}
+
+/* ==========================================================
+   BAHÁ’Í CALENDAR — FINAL PRINT OVERRIDES
+   Approved PDF layout
+   ========================================================== */
+
+@media print {
+
+  /* ---------- Pure white printed page ---------- */
+
+  html {
+    background-color: #e7d0a4 !important;
+    background-image: url("assets/parchment-paper.svg") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+  }
+
+  body,
+  body.calendar-generator-page {
+    background: transparent !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  body.calendar-generator-page {
+    box-sizing: border-box !important;
+    min-height: 210mm !important;
+    padding: 7mm !important;
+  }
+
+  .calendar-generator-page main,
+  .calendar-generator-page .calendar-generator-output,
+  .calendar-generator-page .calendar-months-grid {
+    background: transparent !important;
+    background-image: none !important;
+  }
+
+
+  /* ---------- Month cards ---------- */
+
+  .calendar-generator-page .calendar-month-card {
+    position: relative !important;
+
+    height: 37mm !important;
+    min-height: 37mm !important;
+    max-height: 37mm !important;
+
+    padding: 2.1mm 2.4mm 10.2mm !important;
+
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+
+    background-color: rgba(255,253,246,.82) !important;
+    background-image: linear-gradient(135deg, rgba(255,255,255,.28), rgba(225,212,186,.08)) !important;
+  }
+
+  .calendar-generator-page .calendar-month-card.intercalary {
+    background-color: rgba(237,239,224,.82) !important;
+    background-image: linear-gradient(135deg, rgba(255,255,255,.24), rgba(205,211,188,.10)) !important;
+  }
+
+
+  /* ---------- Month heading ---------- */
+
+  .calendar-generator-page .calendar-month-top {
+    flex: 0 0 auto !important;
+    margin: 0 0 .35mm !important;
+  }
+
+  .calendar-generator-page .calendar-month-card h3 {
+    display: block !important;
+    position: relative !important;
+
+    top: -.55mm !important;
+
+    margin: .25mm 0 .65mm !important;
+    padding: 0 !important;
+
+    min-height: 3.4mm !important;
+
+    font-size: 9.5pt !important;
+    line-height: 1.05 !important;
+
+    overflow: visible !important;
+  }
+
+  .calendar-generator-page .calendar-month-duration {
+    display: block !important;
+    position: relative !important;
+
+    top: -.25mm !important;
+
+    margin: 0 0 .25mm !important;
+    padding: 0 !important;
+
+    min-height: 2.2mm !important;
+
+    font-size: 5.5pt !important;
+    line-height: 1 !important;
+
+    overflow: visible !important;
+  }
+
+
+  /* ---------- Observance list ---------- */
+
+  .calendar-generator-page .calendar-month-observances {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: .75mm !important;
+    width: 100% !important;
+    margin: 1mm 0 .9mm !important;
+    padding: 0 !important;
+    overflow: visible !important;
+  }
+
+  .calendar-generator-page .calendar-observance {
+    display: grid !important;
+    grid-template-columns: 10mm minmax(0, 1fr) 5mm !important;
+    align-items: center !important;
+    gap: .8mm !important;
+    width: 100% !important;
+    min-height: 4.8mm !important;
+    height: auto !important;
+    max-height: none !important;
+    margin: 0 !important;
+    padding: .3mm .55mm !important;
+    box-sizing: border-box !important;
+    border-radius: .8mm !important;
+    overflow: visible !important;
+    font-family: "Almarai", "Noto Sans Arabic", sans-serif !important;
+    font-size: 4.7pt !important;
+    line-height: 1.45 !important;
+    white-space: normal !important;
+  }
+
+  .calendar-generator-page .calendar-observance-day {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 4mm !important;
+    height: 4mm !important;
+    min-width: 4mm !important;
+    min-height: 4mm !important;
+    max-width: 4mm !important;
+    max-height: 4mm !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    border: .15mm solid currentColor !important;
+    border-radius: 1.3mm !important;
+    background: rgba(255,255,255,.5) !important;
+    color: currentColor !important;
+    font-family: "Almarai", "Noto Sans Arabic", sans-serif !important;
+    font-size: 4.1pt !important;
+    font-weight: 800 !important;
+    line-height: 1 !important;
+    text-align: center !important;
+    direction: ltr !important;
+    unicode-bidi: isolate !important;
+    overflow: visible !important;
+  }
+
+  .calendar-generator-page .calendar-observance-title {
+    display: block !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    padding: .05mm 0 !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    white-space: normal !important;
+    word-break: break-word !important;
+    font-size: 4.7pt !important;
+    font-weight: 700 !important;
+    line-height: 1.45 !important;
+    text-align: right !important;
+    direction: rtl !important;
+  }
+
+  .calendar-generator-page .calendar-observance-gregorian {
+    display: block !important;
+    width: 10mm !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 4.1pt !important;
+    font-weight: 400 !important;
+    line-height: 1.35 !important;
+    white-space: normal !important;
+    text-align: left !important;
+    direction: rtl !important;
+    opacity: .8 !important;
+  }
+
+  .calendar-generator-page .calendar-observance.feast {
+    background: rgba(14,111,136,.055) !important;
+    color: #0e6f88 !important;
+  }
+
+  .calendar-generator-page .calendar-observance.holy {
+    background: rgba(183,137,46,.065) !important;
+    color: #765718 !important;
+  }
+
+  .calendar-generator-page .calendar-observance.commemoration {
+    background: rgba(24,53,89,.05) !important;
+    color: #183559 !important;
+  }
+
+  .calendar-generator-page .calendar-month-dates {
+    margin-top: auto !important;
+    padding-top: .8mm !important;
+    font-size: 5.4pt !important;
+    line-height: 1.2 !important;
+    border-top: .25mm solid #d6dfe2 !important;
+  }
+
+}
+
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 5mm;
+  }
+
+  .calendar-generator-page {
+    min-height: 0 !important;
+    height: auto !important;
+    padding: 0 !important;
+  }
+
+  .calendar-generator-page,
+  .calendar-generator-page main,
+  .calendar-generator-page .calendar-generator-output {
+    height: auto !important;
+    max-height: 200mm !important;
+    overflow: hidden !important;
+  }
+
+  .calendar-generator-page .calendar-print-symbol .calendar-star-number {
+    font-size: 22px !important;
+    font-weight: 800 !important;
+  }
+
+  .calendar-generator-page .calendar-months-grid {
+    grid-template-rows: repeat(4, 1fr) !important;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  .calendar-generator-page .calendar-month-card {
+    height: 37mm !important;
+    min-height: 37mm !important;
+    max-height: 37mm !important;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+}
+
+/* ===== Calendar print — prevent trailing blank page FINAL ===== */
+@media print {
+  html,
+  body.calendar-generator-page {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+  }
+
+  body.calendar-generator-page > #global-header,
+  body.calendar-generator-page > #global-footer {
+    display: none !important;
+  }
+
+  .calendar-generator-page main {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+  }
+
+  .calendar-generator-page .calendar-generator-output {
+    margin: 0 !important;
+    break-after: avoid !important;
+    page-break-after: avoid !important;
   }
 }
