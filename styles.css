@@ -10318,3 +10318,14 @@ body.sunset-times-page .sunset-times-section {
 .testing-page-action {
   margin-top: 30px;
 }
+
+/* Prayers page — Google Play download link */
+.prayers-page a.store-badge-card{
+  color:inherit;
+  text-decoration:none;
+}
+
+.prayers-page a.store-badge-card:hover,
+.prayers-page a.store-badge-card:focus{
+  text-decoration:none;
+}
