@@ -115,18 +115,14 @@
   },
   "visual_evidence": [
     {
-      "id": "youth-neighborhood-brunch",
-      "type": "photograph",
-      "supports": [
-        "youth_led_service",
-        "community_building",
-        "diversity_and_belonging"
-      ],
-      "caption_ar": "شباب من ماتونغي ينظمون وجبات مفتوحة لسكان الحي بهدف تعزيز التعارف والصداقة بين الجيران.",
-      "source_type": "institutional_bahai_news",
-      "publisher": "Bahá’í World News Service",
+      "id": "public-cleanup",
+      "type": "photo",
+      "caption_ar": "شباب ومشاركون في جهود بناء المجتمع في ماتونغي يشاركون مع السكان والعاملين في البلدية في خدمة الأماكن العامة.",
+      "local_path": "assets/community/web/matonge-brussels-public-cleanup.jpg",
+      "original_local_path": "assets/community/matonge-brussels-public-cleanup.png",
       "source_url": "https://news.bahai.org/story/1883/belgium-five-brunches-one-neighborhood",
-      "source_image_hint": "Youth preparing and hosting neighborhood brunches.",
+      "source_page": "https://news.bahai.org/story/1883/belgium-five-brunches-one-neighborhood",
+      "publisher": "Bahá’í World News Service",
       "usage_status": "approved_bwns_terms",
       "attribution": "Bahá’í World News Service",
       "usage_requirements": [
@@ -135,23 +131,55 @@
         "resize_only",
         "preserve_original_context"
       ],
-      "terms_url": "https://news.bahai.org/legal",
-      "local_path": "assets/community/web/matonge-brussels.jpg",
-      "original_local_path": "assets/community/matonge-brussels.jpg"
+      "terms_url": "https://news.bahai.org/legal"
     },
     {
-      "id": "intergenerational-neighborhood",
-      "type": "photograph",
-      "supports": [
-        "intergenerational_relationships",
-        "social_cohesion",
-        "consultation"
-      ],
-      "caption_ar": "سكان من أجيال وخلفيات مختلفة يلتقون في إحدى المبادرات المجتمعية في ماتونغي.",
-      "source_type": "institutional_bahai_news",
-      "publisher": "Bahá’í World News Service",
+      "id": "preparing-meals",
+      "type": "photo",
+      "caption_ar": "شباب من الحي يشاركون في إعداد الطعام وتقديمه ضمن المبادرة المجتمعية التي تولّوا مسؤولية تنظيمها.",
+      "local_path": "assets/community/web/matonge-brussels-preparing-meals.jpg",
+      "original_local_path": "assets/community/matonge-brussels-preparing-meals.jpg",
       "source_url": "https://news.bahai.org/story/1883/belgium-five-brunches-one-neighborhood",
-      "source_image_hint": "Residents at a neighborhood brunch and intergenerational community activities.",
+      "source_page": "https://news.bahai.org/story/1883/belgium-five-brunches-one-neighborhood",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "neighborhood-brunch",
+      "type": "photo",
+      "caption_ar": "سكان ماتونغي يجتمعون في أحد اللقاءات الخمسة التي نظّمها الشباب لتعزيز التعارف والروابط بين الجيران.",
+      "local_path": "assets/community/web/matonge-brussels-neighborhood-brunch.jpg",
+      "original_local_path": "assets/community/matonge-brussels-neighborhood-brunch.jpg",
+      "source_url": "https://news.bahai.org/story/1883/belgium-five-brunches-one-neighborhood",
+      "source_page": "https://news.bahai.org/story/1883/belgium-five-brunches-one-neighborhood",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "intergenerational-friendship",
+      "type": "photo",
+      "caption_ar": "جمعت اللقاءات سكانًا من أجيال وخلفيات متعددة وفتحت المجال لبناء علاقات وصداقات جديدة داخل الحي.",
+      "local_path": "assets/community/web/matonge-brussels-intergenerational-friendship.jpg",
+      "original_local_path": "assets/community/matonge-brussels-intergenerational-friendship.jpg",
+      "source_url": "https://news.bahai.org/story/1883/belgium-five-brunches-one-neighborhood",
+      "source_page": "https://news.bahai.org/story/1883/belgium-five-brunches-one-neighborhood",
+      "publisher": "Bahá’í World News Service",
       "usage_status": "approved_bwns_terms",
       "attribution": "Bahá’í World News Service",
       "usage_requirements": [
@@ -164,17 +192,70 @@
     },
     {
       "id": "youth-reflection",
-      "type": "photograph",
-      "supports": [
-        "youth_agency",
-        "capacity_building",
-        "consultation"
-      ],
-      "caption_ar": "شباب يتأملون في المبادرات المجتمعية التي يشاركون في تنظيمها في حيهم.",
-      "source_type": "institutional_bahai_news",
-      "publisher": "Bahá’í World News Service",
+      "type": "photo",
+      "caption_ar": "شباب يتأملون في جهود بناء المجتمع وما تعلّموه من تحمّل المسؤولية والعمل مع الآخرين.",
+      "local_path": "assets/community/web/matonge-brussels-youth-reflection.jpg",
+      "original_local_path": "assets/community/matonge-brussels-youth-reflection.jpg",
       "source_url": "https://news.bahai.org/story/1883/belgium-five-brunches-one-neighborhood",
-      "source_image_hint": "Young people reflecting on community-building initiatives.",
+      "source_page": "https://news.bahai.org/story/1883/belgium-five-brunches-one-neighborhood",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "capacity-for-service",
+      "type": "photo",
+      "caption_ar": "أسهمت الأنشطة في تنمية قدرة الشباب على الخدمة والتعاون والمساهمة بصورة أوسع في حياة المجتمع.",
+      "local_path": "assets/community/web/matonge-brussels-capacity-for-service.jpg",
+      "original_local_path": "assets/community/matonge-brussels-capacity-for-service.jpg",
+      "source_url": "https://news.bahai.org/story/1883/belgium-five-brunches-one-neighborhood",
+      "source_page": "https://news.bahai.org/story/1883/belgium-five-brunches-one-neighborhood",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "community-conversation",
+      "type": "photo",
+      "caption_ar": "أتاحت اللقاءات للسكان التشاور حول قضايا تمس الحياة اليومية، من التربية والعلاقات إلى البيئة والتماسك الاجتماعي.",
+      "local_path": "assets/community/web/matonge-brussels-community-conversation.jpg",
+      "original_local_path": "assets/community/matonge-brussels-community-conversation.jpg",
+      "source_url": "https://news.bahai.org/story/1883/belgium-five-brunches-one-neighborhood",
+      "source_page": "https://news.bahai.org/story/1883/belgium-five-brunches-one-neighborhood",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "neighbors-together",
+      "type": "photo",
+      "caption_ar": "سكان وشباب يجتمعون في فضاء مجتمعي يعكس اتساع العلاقات والتعاون داخل حي ماتونغي.",
+      "local_path": "assets/community/web/matonge-brussels-neighbors-together.jpg",
+      "original_local_path": "assets/community/matonge-brussels-neighbors-together.jpg",
+      "source_url": "https://news.bahai.org/story/1883/belgium-five-brunches-one-neighborhood",
+      "source_page": "https://news.bahai.org/story/1883/belgium-five-brunches-one-neighborhood",
+      "publisher": "Bahá’í World News Service",
       "usage_status": "approved_bwns_terms",
       "attribution": "Bahá’í World News Service",
       "usage_requirements": [
@@ -187,9 +268,9 @@
     }
   ],
   "primary_visual": {
-    "evidence_id": "youth-neighborhood-brunch",
-    "local_path": "assets/community/web/matonge-brussels.jpg",
-    "original_local_path": "assets/community/matonge-brussels.jpg",
+    "evidence_id": "neighborhood-brunch",
+    "local_path": "assets/community/web/matonge-brussels-neighborhood-brunch.jpg",
+    "original_local_path": "assets/community/matonge-brussels-neighborhood-brunch.jpg",
     "display_role": "primary_documentary_image"
   }
 }
