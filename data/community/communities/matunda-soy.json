@@ -184,41 +184,134 @@
       "original_local_path": "assets/community/matunda-soy.jpg"
     },
     {
-      "id": "community-participation",
       "type": "photograph",
+      "source_type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal",
+      "id": "devotional-program",
+      "supports": [
+        "devotional_life",
+        "worship",
+        "community_building"
+      ],
+      "caption_ar": "برنامج تعبدي داخل مشرق الأذكار المحلي في ماتوندا سوي، حيث يجتمع المشاركون للدعاء والتأمل.",
+      "source_url": "https://news.bahai.org/story/1560/houses-worship-bahai-temples-focal-points-centenary-commemorations",
+      "source_image_hint": "Devotional program inside the House of Worship.",
+      "local_path": "assets/community/web/matunda-soy-devotional-program.jpg",
+      "original_local_path": "assets/community/matunda-soy-devotional-program.jpg"
+    },
+    {
+      "type": "photograph",
+      "source_type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal",
+      "id": "youth-music",
+      "supports": [
+        "youth",
+        "education",
+        "community_life"
+      ],
+      "caption_ar": "شباب يشاركون في أداء موسيقي ضمن أنشطة مرتبطة بحياة المجتمع في ماتوندا سوي.",
+      "source_url": "https://news.bahai.org/story/1560/houses-worship-bahai-temples-focal-points-centenary-commemorations",
+      "source_image_hint": "Musical performances by young people.",
+      "local_path": "assets/community/web/matunda-soy-youth-music.jpg",
+      "original_local_path": "assets/community/matunda-soy-youth-music.jpg"
+    },
+    {
+      "type": "photograph",
+      "source_type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal",
+      "id": "plant-nursery",
+      "supports": [
+        "youth",
+        "service",
+        "community_building"
+      ],
+      "caption_ar": "مشتل في موقع مشرق الأذكار، ضمن مسار من العمل المشترك والعناية بالمحيط الذي أصبح أيضًا فضاءً للقاء والتعلّم.",
+      "source_url": "https://news.bahai.org/story/1434/africa-temple-rises-anticipation-another",
+      "source_image_hint": "Onsite plant nursery.",
+      "local_path": "assets/community/web/matunda-soy-plant-nursery.jpg",
+      "original_local_path": "assets/community/matunda-soy-plant-nursery.jpg"
+    },
+    {
+      "type": "photograph",
+      "source_type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal",
+      "id": "community-gardens",
+      "supports": [
+        "service",
+        "collective_action",
+        "community_building"
+      ],
+      "caption_ar": "مشاركة محلية في الأعمال المرتبطة بتهيئة حدائق مشرق الأذكار والعناية بمحيطه.",
+      "source_url": "https://news.bahai.org/story/1493/drc-temple-foundations-complete-landscaping-begins-kenya",
+      "source_image_hint": "Preparations for the gardens and landscaping.",
+      "local_path": "assets/community/web/matunda-soy-community-gardens.jpg",
+      "original_local_path": "assets/community/matunda-soy-community-gardens.jpg"
+    },
+    {
+      "type": "photograph",
+      "source_type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal",
+      "id": "community-participation",
       "supports": [
         "community_building",
         "collective_action",
         "worship_and_service"
       ],
-      "caption_ar": "أفراد من المجتمع يناقشون مستقبل مشرق الأذكار ودوره في حياة ماتوندا سوي.",
-      "source_type": "institutional_bahai_news",
-      "publisher": "Bahá’í World News Service",
+      "caption_ar": "أفراد من المجتمع يتشاورون حول مستقبل مشرق الأذكار ودوره في حياة ماتوندا سوي.",
       "source_url": "https://news.bahai.org/story/1473/work-progresses-houses-worship-drc-kenya",
       "source_image_hint": "Members of the community discussing the future of the temple.",
-      "usage_status": "approved_bwns_terms",
-      "attribution": "Bahá’í World News Service",
-      "usage_requirements": [
-        "retain_original_caption",
-        "attribute_to_bwns",
-        "resize_only",
-        "preserve_original_context"
-      ],
-      "terms_url": "https://news.bahai.org/legal"
+      "local_path": "assets/community/web/matunda-soy-community-consultation.jpg",
+      "original_local_path": "assets/community/matunda-soy-community-consultation.jpg"
     },
     {
-      "id": "families-and-devotional-life",
       "type": "photograph",
-      "supports": [
-        "devotional_life",
-        "families",
-        "unity"
-      ],
-      "caption_ar": "توثق تغطية افتتاح مشرق الأذكار تطور الحياة التعبدية في المنطقة ومشاركة الأسر والجيران فيها.",
       "source_type": "institutional_bahai_news",
       "publisher": "Bahá’í World News Service",
-      "source_url": "https://news.bahai.org/story/1511/kenya-first-local-bahai-temple-africa-opens-doors",
-      "source_image_hint": "Opening coverage and photographs of residents participating in community and devotional life.",
       "usage_status": "approved_bwns_terms",
       "attribution": "Bahá’í World News Service",
       "usage_requirements": [
@@ -227,7 +320,43 @@
         "resize_only",
         "preserve_original_context"
       ],
-      "terms_url": "https://news.bahai.org/legal"
+      "terms_url": "https://news.bahai.org/legal",
+      "id": "groundbreaking",
+      "supports": [
+        "community_building",
+        "house_of_worship",
+        "collective_participation"
+      ],
+      "caption_ar": "مشاركة مجتمعية في وضع حجر الأساس لمشرق الأذكار المحلي في ماتوندا سوي.",
+      "source_url": "https://news.bahai.org/story/1317/",
+      "source_image_hint": "Groundbreaking gathering for the local House of Worship.",
+      "local_path": "assets/community/web/matunda-soy-groundbreaking.jpg",
+      "original_local_path": "assets/community/matunda-soy-groundbreaking.jpg"
+    },
+    {
+      "type": "photograph",
+      "source_type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal",
+      "id": "opening-community",
+      "supports": [
+        "house_of_worship",
+        "devotional_life",
+        "community_building"
+      ],
+      "caption_ar": "مشرق الأذكار المحلي في ماتوندا سوي بعد اكتماله، في محطة جديدة من حياة العبادة والخدمة في المنطقة.",
+      "source_url": "https://news.bahai.org/story/1511/kenya-first-local-bahai-temple-africa-opens-doors",
+      "source_image_hint": "Opening of the completed local House of Worship.",
+      "local_path": "assets/community/web/matunda-soy-opening-community.jpg",
+      "original_local_path": "assets/community/matunda-soy-opening-community.jpg"
     }
   ],
   "primary_visual": {
