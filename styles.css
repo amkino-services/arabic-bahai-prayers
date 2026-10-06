@@ -11722,10 +11722,13 @@ body.sunset-times-page .sunset-times-section {
 
 /* Community story credits button */
 #community-story-sources {
-  display: grid;
-  justify-items: center;
   width: 100%;
-  text-align: center;
+}
+
+#community-story-sources .community-story-credits-btn {
+  position: relative;
+  left: 50vw;
+  transform: translateX(-50%);
 }
 
 #community-story-sources .community-story-credits-btn {
