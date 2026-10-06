@@ -11581,3 +11581,9 @@ body.sunset-times-page .sunset-times-section {
   font-size: 14px;
   line-height: 1.7;
 }
+
+/* Community path action — match Resources action size */
+.community-path-action {
+  margin-top: 26px;
+  font-size: inherit;
+}
