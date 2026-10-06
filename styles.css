@@ -11555,3 +11555,8 @@ body.sunset-times-page .sunset-times-section {
   font-weight: 400;
   opacity: .75;
 }
+
+/* Community hero — gap between eyebrow and main title */
+.community-hero h1 {
+  margin-top: 30px;
+}
