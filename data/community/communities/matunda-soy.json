@@ -1,0 +1,239 @@
+{
+  "id": "matunda-soy",
+  "slug": "matunda-soy",
+  "status": "researched",
+  "public": false,
+  "name": {
+    "ar": "ماتوندا سوي",
+    "en": "Matunda Soy"
+  },
+  "geography": {
+    "continent_id": "africa",
+    "continent_ar": "أفريقيا",
+    "continent_en": "Africa",
+    "country_ar": "كينيا",
+    "country_en": "Kenya",
+    "region_ar": "ماتوندا سوي"
+  },
+  "introduction_ar": "تقدم ماتوندا سوي في كينيا مثالًا على تطور حياة مجتمعية تجمع بين العبادة، والتعليم، وتنمية القدرة على الخدمة، ومشاركة السكان في بناء مجتمع أكثر وحدة.",
+  "learning_focus": {
+    "primary": "worship_and_community_life",
+    "secondary": [
+      "community_building",
+      "education",
+      "youth",
+      "capacity_building",
+      "unity",
+      "house_of_worship"
+    ]
+  },
+  "developments": [
+    {
+      "id": "community-origins",
+      "period": "1970s",
+      "category": "community_history",
+      "summary_ar": "تشير الشهادات المنشورة عند افتتاح مشرق الأذكار إلى أن الحياة البهائية المنظمة في المنطقة ترجع إلى سبعينيات القرن العشرين، حين كانت مجموعات صغيرة تجتمع في البيوت للصلاة.",
+      "source_ids": [
+        "bwns-opening-2021"
+      ]
+    },
+    {
+      "id": "local-temple-announcement",
+      "date": "2012-04-21",
+      "category": "house_of_worship",
+      "summary_ar": "أعلن بيت العدل الأعظم أن ماتوندا سوي واحدة من خمسة تجمعات سيجري التشاور بشأن إقامة أول مشارق الأذكار المحلية فيها.",
+      "source_ids": [
+        "uhj-ridvan-2012"
+      ]
+    },
+    {
+      "id": "youth-conference",
+      "period": "2013",
+      "category": "youth",
+      "summary_ar": "كانت ماتوندا سوي من المواقع التي استضافت مؤتمرًا للشباب ضمن سلسلة عالمية من المؤتمرات الهادفة إلى تعزيز قدرة الشباب على الإسهام في بناء مجتمع أفضل.",
+      "source_ids": [
+        "uhj-youth-conferences-2013",
+        "bwns-youth-conferences"
+      ]
+    },
+    {
+      "id": "community-school",
+      "category": "education",
+      "summary_ar": "توثق مقابلة بحثية مستقلة مبادرة تعليمية مجتمعية في ماتوندا سوي، شارك فيها أفراد من المجتمع، بمن فيهم غير البهائيين، في تحمل مسؤولية تعليم الأطفال والتطوع بالتدريس.",
+      "source_ids": [
+        "berkley-education-interview"
+      ]
+    },
+    {
+      "id": "temple-design",
+      "date": "2018-04-15",
+      "category": "worship_and_service",
+      "summary_ar": "عند الكشف عن تصميم مشرق الأذكار، وُصف المسار المؤدي إليه بأنه بدأ بجهود شعبية لتنمية روح تعبدية وعملية تعليمية تبني القدرة على خدمة الإنسانية.",
+      "source_ids": [
+        "bwns-design-2018"
+      ]
+    },
+    {
+      "id": "groundbreaking",
+      "date": "2019-03-23",
+      "category": "community_building",
+      "summary_ar": "عكس حفل وضع حجر الأساس مشاركة المجتمع الأوسع، ووُصفت جهود بناء المجتمع في المنطقة بأنها تشمل البهائيين وغيرهم وتدعو مختلف الأعمار إلى الإسهام في النمو الروحي وتنمية المجتمع.",
+      "source_ids": [
+        "bwns-groundbreaking-2019"
+      ]
+    },
+    {
+      "id": "devotional-life",
+      "period": "2021",
+      "category": "devotional_life",
+      "summary_ar": "عند افتتاح مشرق الأذكار، أفاد أحد أفراد المؤسسات المحلية بأن أكثر من 300 أسرة أصبحت تقيم لقاءات تعبدية بصورة منتظمة مع جيرانها، مفتوحة للناس بغض النظر عن انتمائهم الديني.",
+      "source_ids": [
+        "bwns-opening-2021"
+      ]
+    },
+    {
+      "id": "temple-dedication",
+      "date": "2021-05-23",
+      "category": "house_of_worship",
+      "summary_ar": "افتتح أول مشرق أذكار بهائي محلي في أفريقيا في ماتوندا سوي، بوصفه مكانًا مفتوحًا للجميع ترتبط فيه الصلاة والتأمل بخدمة المجتمع.",
+      "source_ids": [
+        "uhj-dedication-2021",
+        "bwns-opening-2021"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "uhj-ridvan-2012",
+      "type": "authoritative_bahai_text",
+      "publisher": "The Universal House of Justice",
+      "url": "https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/20120421_001/1"
+    },
+    {
+      "id": "uhj-youth-conferences-2013",
+      "type": "authoritative_bahai_text",
+      "publisher": "The Universal House of Justice",
+      "url": "https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/20130208_001/1"
+    },
+    {
+      "id": "bwns-youth-conferences",
+      "type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "url": "https://news.bahai.org/community-news/youth-conferences"
+    },
+    {
+      "id": "bwns-design-2018",
+      "type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "url": "https://news.bahai.org/story/1251/local-temple-design-unveiled-kenya"
+    },
+    {
+      "id": "bwns-groundbreaking-2019",
+      "type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "url": "https://news.bahai.org/story/1317/"
+    },
+    {
+      "id": "uhj-dedication-2021",
+      "type": "authoritative_bahai_text",
+      "publisher": "The Universal House of Justice",
+      "url": "https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/20210523_001/1"
+    },
+    {
+      "id": "bwns-opening-2021",
+      "type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "url": "https://news.bahai.org/story/1511/kenya-first-local-bahai-temple-africa-opens-doors"
+    },
+    {
+      "id": "berkley-education-interview",
+      "type": "independent_research_interview",
+      "publisher": "Berkley Center for Religion, Peace & World Affairs, Georgetown University",
+      "url": "https://berkleycenter.georgetown.edu/interviews/a-discussion-with-joy-mboya-executive-director-of-the-godown-arts-centre"
+    }
+  ],
+  "editorial": {
+    "review_status": "research_in_progress",
+    "source_policy": "Prefer authoritative and institutional sources; identify independent sources separately.",
+    "causality_rule": "Do not imply that the House of Worship caused community development or that community growth automatically led to the House of Worship unless a cited source explicitly supports that relationship."
+  },
+  "visual_evidence": [
+    {
+      "id": "collective-devotions",
+      "type": "photograph",
+      "supports": [
+        "devotional_life",
+        "unity",
+        "community_building"
+      ],
+      "caption_ar": "سكان من ماتوندا سوي يجتمعون للصلاة الجماعية، في تعبير عن الحياة التعبدية المفتوحة لمختلف أفراد المجتمع.",
+      "source_type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "source_url": "https://news.bahai.org/story/1434/africa-temple-rises-anticipation-another",
+      "source_image_hint": "People of different religions gathering for collective devotions at the temple site.",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal",
+      "local_path": "assets/community/web/matunda-soy.jpg",
+      "original_local_path": "assets/community/matunda-soy.jpg"
+    },
+    {
+      "id": "community-participation",
+      "type": "photograph",
+      "supports": [
+        "community_building",
+        "collective_action",
+        "worship_and_service"
+      ],
+      "caption_ar": "أفراد من المجتمع يناقشون مستقبل مشرق الأذكار ودوره في حياة ماتوندا سوي.",
+      "source_type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "source_url": "https://news.bahai.org/story/1473/work-progresses-houses-worship-drc-kenya",
+      "source_image_hint": "Members of the community discussing the future of the temple.",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "families-and-devotional-life",
+      "type": "photograph",
+      "supports": [
+        "devotional_life",
+        "families",
+        "unity"
+      ],
+      "caption_ar": "توثق تغطية افتتاح مشرق الأذكار تطور الحياة التعبدية في المنطقة ومشاركة الأسر والجيران فيها.",
+      "source_type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "source_url": "https://news.bahai.org/story/1511/kenya-first-local-bahai-temple-africa-opens-doors",
+      "source_image_hint": "Opening coverage and photographs of residents participating in community and devotional life.",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    }
+  ],
+  "primary_visual": {
+    "evidence_id": "collective-devotions",
+    "local_path": "assets/community/web/matunda-soy.jpg",
+    "original_local_path": "assets/community/matunda-soy.jpg",
+    "display_role": "primary_documentary_image"
+  }
+}

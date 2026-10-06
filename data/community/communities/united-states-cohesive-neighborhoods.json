@@ -1,0 +1,159 @@
+{
+  "id": "united-states-cohesive-neighborhoods",
+  "slug": "united-states-cohesive-neighborhoods",
+  "record_type": "learning_collection",
+  "status": "researched",
+  "public": false,
+  "name": {
+    "ar": "أحياء مترابطة في الولايات المتحدة",
+    "en": "Cohesive Neighborhoods in the United States"
+  },
+  "geography": {
+    "continent_id": "north-america",
+    "continent_ar": "أمريكا الشمالية",
+    "continent_en": "North America",
+    "country_ar": "الولايات المتحدة الأمريكية",
+    "country_en": "United States",
+    "scope_ar": "تجارب من عدة مجتمعات وأحياء",
+    "scope_en": "Experiences from multiple communities and neighborhoods"
+  },
+  "introduction_ar": "يجمع هذا الملف خبرات من عدة أحياء ومجتمعات في الولايات المتحدة حول بناء روابط الصداقة بين أشخاص من خلفيات متنوعة، وتنمية قدرة الشباب على الخدمة، واستخدام التربية الأخلاقية والروحية والعمل الجماعي للإسهام في حياة الحي.",
+  "learning_focus": {
+    "primary": "cohesive_neighborhoods",
+    "secondary": [
+      "youth_and_service",
+      "moral_and_spiritual_education",
+      "friendship_across_difference",
+      "community_building",
+      "collective_action",
+      "racial_unity",
+      "devotional_life",
+      "common_good"
+    ]
+  },
+  "collection_note_ar": "هذا الملف ليس دراسة لموقع واحد. فهو يجمع خبرات موثقة من مجتمعات وأحياء مختلفة في الولايات المتحدة، ولذلك يجب عدم نسبة جميع الأمثلة إلى مدينة أو حي واحد.",
+  "developments": [
+    {
+      "id": "neighbor-visiting",
+      "period": "documented 2025",
+      "category": "relationship_building",
+      "summary_ar": "تصف إحدى الخبرات ممارسة بسيطة بدأت بزيارة الجيران وبناء علاقات في حي متنوع، مما ساعد على إقامة جسور وصداقة بين أشخاص يعيشون بالقرب من بعضهم ولكنهم لم يكونوا بالضرورة يعرفون بعضهم بعضًا.",
+      "source_ids": [
+        "bwns-us-neighborhoods-2025"
+      ]
+    },
+    {
+      "id": "moral-spiritual-education",
+      "period": "documented 2025",
+      "category": "education",
+      "summary_ar": "تقع برامج التربية الأخلاقية والروحية في قلب عدد من هذه الجهود، وتهدف إلى مساعدة الشباب على تنمية قدرتهم على الإسهام في تطوير أحيائهم ومجتمعاتهم.",
+      "source_ids": [
+        "bwns-us-neighborhoods-2025"
+      ]
+    },
+    {
+      "id": "youth-service",
+      "period": "documented 2025",
+      "category": "youth",
+      "summary_ar": "تظهر الخبرات شبابًا يكتشفون أن الغاية من تنمية قدراتهم لا تقتصر على تحسين حياتهم الشخصية، بل تشمل أيضًا الإسهام في حياة المجتمع والخير العام.",
+      "source_ids": [
+        "bwns-us-neighborhoods-2025"
+      ]
+    },
+    {
+      "id": "devotion-and-friendship",
+      "period": "documented 2025",
+      "category": "devotional_life",
+      "summary_ar": "في بعض الأحياء، ساهمت الصداقة والصلاة المشتركة والمشاركة في مبادرات بناء المجتمع في تقريب أشخاص من خلفيات متنوعة.",
+      "source_ids": [
+        "bwns-us-neighborhoods-2025"
+      ]
+    },
+    {
+      "id": "racial-history-and-unity",
+      "period": "documented 2025",
+      "category": "racial_unity",
+      "summary_ar": "تتضمن الخبرات الموثقة مثالًا لشباب من أتلانتا تأملوا في تاريخ الظلم العنصري وعلاقته بمبدأ وحدة الجنس البشري بعد زيارة متحف Legacy Museum.",
+      "source_ids": [
+        "bwns-us-neighborhoods-2025"
+      ]
+    },
+    {
+      "id": "overcoming-divisions",
+      "period": "documented 2025",
+      "category": "social_cohesion",
+      "summary_ar": "تشير الخبرات إلى أحياء بدأت فيها مجموعات متنوعة، كان التفاعل بينها محدودًا سابقًا، في تكوين علاقات أوثق من خلال المشاركة في العمل الجماعي.",
+      "source_ids": [
+        "bwns-us-neighborhoods-2025"
+      ]
+    },
+    {
+      "id": "public-discourse-unity",
+      "period": "2020-2025",
+      "category": "public_discourse",
+      "summary_ar": "تتصل هذه الخبرات بحوار أوسع في الولايات المتحدة حول الوحدة والعدالة والهوية المشتركة، وكيف يمكن للتعاون والروابط بين أصحاب الخلفيات المختلفة أن تسهم في بناء مجتمع أكثر عدلًا وترابطًا.",
+      "source_ids": [
+        "bwns-us-neighborhoods-2025",
+        "bwns-unified-america-2021"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "bwns-us-neighborhoods-2025",
+      "type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "title": "Fostering cohesive neighborhoods in the United States",
+      "date": "2025-09-23",
+      "url": "https://news.bahai.org/podcasts/in-conversation/1821/in-conversation-fostering-cohesive-neighborhoods-united-states"
+    },
+    {
+      "id": "bwns-unified-america-2021",
+      "type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "title": "A path toward a unified America",
+      "url": "https://news.bahai.org/en/podcasts/1514/path-toward-unified-america"
+    }
+  ],
+  "editorial": {
+    "review_status": "research_in_progress",
+    "source_policy": "This is intentionally a learning collection based on documented experiences from multiple US localities. Future research may separate sufficiently documented local experiences into individual local_case records.",
+    "geographic_rule": "Never present all examples in this collection as occurring in one city, neighborhood or community.",
+    "causality_rule": "Describe changes and relationships only to the extent supported by the cited sources."
+  },
+  "visual_evidence": [
+    {
+      "id": "cohesive-neighborhoods-documentary",
+      "type": "video_and_photographic_documentation",
+      "supports": [
+        "youth_and_service",
+        "friendship_across_difference",
+        "community_building",
+        "moral_and_spiritual_education"
+      ],
+      "caption_ar": "توثق هذه المادة خبرات من عدة أحياء في الولايات المتحدة حول بناء الصداقة بين أشخاص من خلفيات متنوعة وخدمة الشباب للخير العام.",
+      "source_type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "source_url": "https://news.bahai.org/podcasts/in-conversation/1821/in-conversation-fostering-cohesive-neighborhoods-united-states",
+      "source_image_hint": "Podcast/video documentary imagery accompanying experiences from multiple US communities.",
+      "usage_status": "approved_bwns_terms",
+      "geographic_warning": "Do not attribute this visual evidence to one locality unless the source explicitly identifies that locality.",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal",
+      "local_path": "assets/community/web/united-states-cohesive-neighborhoods.jpg",
+      "original_local_path": "assets/community/united-states-cohesive-neighborhoods.jpg"
+    }
+  ],
+  "primary_visual": {
+    "evidence_id": "cohesive-neighborhoods-documentary",
+    "local_path": "assets/community/web/united-states-cohesive-neighborhoods.jpg",
+    "original_local_path": "assets/community/united-states-cohesive-neighborhoods.jpg",
+    "display_role": "primary_documentary_image"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "coverage_goal": {
+    "regions": [
+      "africa",
+      "asia",
+      "europe",
+      "north-america",
+      "south-america",
+      "oceania"
+    ],
+    "principle": "quality_and_learning_before_geographic_quota"
+  },
+  "communities": [
+    {
+      "id": "norte-del-cauca",
+      "name_ar": "نورتي ديل كاوكا",
+      "name_en": "Norte del Cauca",
+      "continent_id": "south-america",
+      "country_ar": "كولومبيا",
+      "country_en": "Colombia",
+      "status": "researched",
+      "public": false,
+      "data": "communities/norte-del-cauca.json"
+    },
+    {
+      "id": "matunda-soy",
+      "name_ar": "ماتوندا سوي",
+      "name_en": "Matunda Soy",
+      "continent_id": "africa",
+      "country_ar": "كينيا",
+      "country_en": "Kenya",
+      "status": "researched",
+      "public": false,
+      "data": "communities/matunda-soy.json"
+    },
+    {
+      "id": "battambang",
+      "name_ar": "باتامبانغ",
+      "name_en": "Battambang",
+      "continent_id": "asia",
+      "country_ar": "كمبوديا",
+      "country_en": "Cambodia",
+      "status": "researched",
+      "public": false,
+      "data": "communities/battambang.json"
+    },
+    {
+      "id": "tanna",
+      "name_ar": "تانا",
+      "name_en": "Tanna",
+      "continent_id": "oceania",
+      "country_ar": "فانواتو",
+      "country_en": "Vanuatu",
+      "status": "researched",
+      "public": false,
+      "data": "communities/tanna.json"
+    },
+    {
+      "id": "matonge-brussels",
+      "name_ar": "ماتونغي — بروكسل",
+      "name_en": "Matongé — Brussels",
+      "record_type": "local_case",
+      "continent_id": "europe",
+      "country_ar": "بلجيكا",
+      "country_en": "Belgium",
+      "status": "researched",
+      "public": false,
+      "data": "communities/matonge-brussels.json"
+    },
+    {
+      "id": "united-states-cohesive-neighborhoods",
+      "name_ar": "أحياء مترابطة في الولايات المتحدة",
+      "name_en": "Cohesive Neighborhoods in the United States",
+      "record_type": "learning_collection",
+      "continent_id": "north-america",
+      "country_ar": "الولايات المتحدة الأمريكية",
+      "country_en": "United States",
+      "status": "researched",
+      "public": false,
+      "data": "communities/united-states-cohesive-neighborhoods.json"
+    }
+  ]
+}

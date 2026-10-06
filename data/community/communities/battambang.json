@@ -1,0 +1,219 @@
+{
+  "id": "battambang",
+  "slug": "battambang",
+  "status": "researched",
+  "public": false,
+  "name": {
+    "ar": "باتامبانغ",
+    "en": "Battambang"
+  },
+  "geography": {
+    "continent_id": "asia",
+    "continent_ar": "آسيا",
+    "continent_en": "Asia",
+    "country_ar": "كمبوديا",
+    "country_en": "Cambodia",
+    "region_ar": "باتامبانغ",
+    "region_en": "Battambang"
+  },
+  "introduction_ar": "تقدم باتامبانغ في كمبوديا تجربة غنية في تنمية القدرة على الخدمة، ولا سيما بين الشباب، وفي التعليم الروحي والأخلاقي، والعمل الجماعي، والربط بين العبادة وخدمة المجتمع.",
+  "learning_focus": {
+    "primary": "youth_and_capacity_for_service",
+    "secondary": [
+      "community_building",
+      "spiritual_and_material_education",
+      "children_and_junior_youth",
+      "collective_action",
+      "worship_and_service",
+      "unity",
+      "house_of_worship"
+    ]
+  },
+  "developments": [
+    {
+      "id": "temple-announcement",
+      "date": "2012-04-21",
+      "category": "house_of_worship",
+      "summary_ar": "أعلن بيت العدل الأعظم أن باتامبانغ واحدة من خمسة تجمعات يجري التشاور بشأن إقامة أول مشارق الأذكار المحلية فيها.",
+      "source_ids": [
+        "uhj-ridvan-2012"
+      ]
+    },
+    {
+      "id": "design-unveiling",
+      "period": "2015",
+      "category": "worship_and_service",
+      "summary_ar": "عند الكشف عن تصميم مشرق الأذكار برزت في اللقاءات المحلية فكرة اقتران الصلاة بخدمة الإنسانية، ومشاركة الشباب في التعبير عن معنى المعبد في حياتهم.",
+      "source_ids": [
+        "bwns-design-2015"
+      ]
+    },
+    {
+      "id": "groundbreaking",
+      "date": "2015-11-14",
+      "category": "collective_action",
+      "summary_ar": "شارك نحو مئتي شخص من المنطقة في وضع حجر الأساس. وحتى قبل اكتمال البناء، وُصف المشروع بأنه أصبح جزءًا من نسيج الحياة المجتمعية ومشروعًا جماعيًا يحفز السكان.",
+      "source_ids": [
+        "bwns-groundbreaking-2015"
+      ]
+    },
+    {
+      "id": "tree-planting-and-youth",
+      "date": "2016-09-12",
+      "category": "youth_and_service",
+      "summary_ar": "شارك أكثر من 150 شخصًا في يوم لزراعة الأشجار في أرض مشرق الأذكار. وأبرزت التجربة دور الشباب الذين وصفوا الأنشطة المجتمعية بأنها إطار للخدمة وتنمية القدرة على تقديم التربية الأخلاقية للأطفال والناشئة وبناء الوحدة.",
+      "source_ids": [
+        "bwns-collective-action-2016"
+      ]
+    },
+    {
+      "id": "community-service-2017",
+      "period": "2017",
+      "category": "community_building",
+      "summary_ar": "مع تقدم البناء، شارك عدد كبير من سكان المنطقة في خدمة مجتمعاتهم وفي العمل في أرض مشرق الأذكار، مما عكس اتساع روح العمل الجماعي.",
+      "source_ids": [
+        "bwns-construction-2017"
+      ]
+    },
+    {
+      "id": "spiritual-material-education",
+      "date": "2017-09-01",
+      "category": "capacity_building",
+      "summary_ar": "وصفت رسالة بيت العدل الأعظم جهود المؤمنين في كمبوديا في النهوض بالنفوس من خلال التربية الروحية والمادية وتمكين السكان من تنمية قدرتهم على الخدمة، وأشارت إلى أنهم من المجتمعات المتقدمة في ميدان التعلم حول بناء المجتمع.",
+      "source_ids": [
+        "uhj-dedication-2017"
+      ]
+    },
+    {
+      "id": "temple-dedication",
+      "date": "2017-09-01",
+      "category": "house_of_worship",
+      "summary_ar": "افتتح في باتامبانغ أول مشرق أذكار بهائي محلي من المرحلة الجديدة لمشارق الأذكار، بتصميم يستلهم الثقافة الكمبودية ويؤكد وحدة العبادة والخدمة.",
+      "source_ids": [
+        "uhj-dedication-2017",
+        "bwns-inauguration-2017"
+      ]
+    },
+    {
+      "id": "open-to-community",
+      "period": "2017",
+      "category": "unity",
+      "summary_ar": "أصبح مشرق الأذكار مكانًا مفتوحًا للسكان من مختلف الخلفيات، بينما أبرزت فعاليات الافتتاح دوره في تعزيز الوحدة والصلاة والتأمل وخدمة الآخرين.",
+      "source_ids": [
+        "bwns-conference-2017",
+        "bwns-inauguration-2017"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "uhj-ridvan-2012",
+      "type": "authoritative_bahai_text",
+      "publisher": "The Universal House of Justice",
+      "url": "https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/20120421_001/1"
+    },
+    {
+      "id": "bwns-design-2015",
+      "type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "url": "https://news.bahai.org/story/1062/dawn-unveiling-cambodian-temple-design"
+    },
+    {
+      "id": "bwns-groundbreaking-2015",
+      "type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "url": "https://news.bahai.org/story/1082/first-groundbreaking-local-house-worship"
+    },
+    {
+      "id": "bwns-collective-action-2016",
+      "type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "url": "https://news.bahai.org/story/1120/cambodian-temple-progress-inspires-collective-action"
+    },
+    {
+      "id": "bwns-construction-2017",
+      "type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "url": "https://news.bahai.org/story/1157/construction-progresses-cambodia-temple"
+    },
+    {
+      "id": "uhj-dedication-2017",
+      "type": "authoritative_bahai_text",
+      "publisher": "The Universal House of Justice",
+      "url": "https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/20170901_001/1"
+    },
+    {
+      "id": "bwns-inauguration-2017",
+      "type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "url": "https://news.bahai.org/story/1190/a-new-dawn-is-breaking-house-worship-inaugurated-cambodia"
+    },
+    {
+      "id": "bwns-conference-2017",
+      "type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "url": "https://news.bahai.org/story/1192/inauguration-conference-concludes"
+    }
+  ],
+  "editorial": {
+    "review_status": "research_in_progress",
+    "source_policy": "Claims are based primarily on authoritative Bahá’í texts and institutional documentation.",
+    "causality_rule": "Do not present construction of the House of Worship as the cause of the community-building process. Document the interaction only where sources explicitly do so."
+  },
+  "visual_evidence": [
+    {
+      "id": "tree-planting-collective-action",
+      "type": "photograph",
+      "supports": [
+        "youth_and_service",
+        "collective_action",
+        "environment"
+      ],
+      "caption_ar": "شارك أكثر من 150 شخصًا في مشروع لزراعة الأشجار في باتامبانغ، بمشاركة الشباب والأطفال والكبار.",
+      "source_type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "source_url": "https://news.bahai.org/story/1120/cambodian-temple-progress-inspires-collective-action",
+      "source_image_hint": "Tree-planting project, volunteers and youth participating on the temple land.",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal",
+      "local_path": "assets/community/web/battambang.jpg",
+      "original_local_path": "assets/community/battambang.jpg"
+    },
+    {
+      "id": "culture-and-dedication",
+      "type": "photograph",
+      "supports": [
+        "culture",
+        "unity",
+        "worship_and_service"
+      ],
+      "caption_ar": "جانب من افتتاح مشرق الأذكار في باتامبانغ، حيث اجتمعت الصلاة والتعبيرات الثقافية الكمبودية.",
+      "source_type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "source_url": "https://news.bahai.org/story/1190/a-new-dawn-is-breaking-house-worship-inaugurated-cambodia",
+      "source_image_hint": "Dedication gathering, traditional dance and participants visiting the House of Worship.",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    }
+  ],
+  "primary_visual": {
+    "evidence_id": "tree-planting-collective-action",
+    "local_path": "assets/community/web/battambang.jpg",
+    "original_local_path": "assets/community/battambang.jpg",
+    "display_role": "primary_documentary_image"
+  }
+}

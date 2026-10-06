@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "regions": [
+    {
+      "id": "africa",
+      "name_ar": "أفريقيا",
+      "name_en": "Africa"
+    },
+    {
+      "id": "asia",
+      "name_ar": "آسيا",
+      "name_en": "Asia"
+    },
+    {
+      "id": "europe",
+      "name_ar": "أوروبا",
+      "name_en": "Europe"
+    },
+    {
+      "id": "north-america",
+      "name_ar": "أمريكا الشمالية",
+      "name_en": "North America"
+    },
+    {
+      "id": "south-america",
+      "name_ar": "أمريكا الجنوبية",
+      "name_en": "South America"
+    },
+    {
+      "id": "oceania",
+      "name_ar": "أوقيانوسيا",
+      "name_en": "Oceania"
+    }
+  ],
+  "editorial_rule_ar": "يسعى قسم «موارد للمجتمعات» إلى تقديم تجارب موثقة من مناطق جغرافية متعددة، مع اختيار التجارب على أساس قيمة التعلّم وجودة التوثيق، لا لمجرد استكمال التمثيل الجغرافي."
+}

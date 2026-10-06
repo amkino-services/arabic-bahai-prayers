@@ -1,0 +1,196 @@
+{
+  "id": "norte-del-cauca",
+  "slug": "norte-del-cauca",
+  "status": "researched",
+  "public": false,
+  "name": {
+    "ar": "نورتي ديل كاوكا",
+    "en": "Norte del Cauca"
+  },
+  "geography": {
+    "continent_id": "south-america",
+    "continent_ar": "أمريكا الجنوبية",
+    "continent_en": "South America",
+    "country_ar": "كولومبيا",
+    "country_en": "Colombia",
+    "region_ar": "شمال كاوكا",
+    "region_en": "Northern Cauca"
+  },
+  "introduction_ar": "تمثل نورتي ديل كاوكا في كولومبيا سياقًا غنيًا لدراسة بناء المجتمع، وتنمية القدرة على الخدمة، والتعليم من أجل التنمية، والعمل الاجتماعي، والعلاقة بين العبادة والخدمة.",
+  "learning_dimensions": [
+    "community_building",
+    "education",
+    "capacity_building",
+    "social_action",
+    "environment",
+    "worship_and_service",
+    "house_of_worship"
+  ],
+  "developments": [
+    {
+      "id": "fundaec-sat",
+      "category": "education",
+      "summary_ar": "يرتبط التطور المبكر لنظام التعلّم التوجيهي SAT بمنهج البحث والعمل والتعلّم الذي طبقته FUNDAEC في منطقة شمال كاوكا.",
+      "source_ids": [
+        "fundaec-sat"
+      ]
+    },
+    {
+      "id": "temple-announcement",
+      "date": "2012-04-21",
+      "category": "house_of_worship",
+      "summary_ar": "أعلن بيت العدل الأعظم أن نورتي ديل كاوكا واحدة من خمسة تجمعات يجري التشاور بشأن إقامة أول مشارق الأذكار المحلية فيها.",
+      "source_ids": [
+        "uhj-ridvan-2012"
+      ]
+    },
+    {
+      "id": "groundbreaking",
+      "date": "2016-05-22",
+      "category": "house_of_worship",
+      "summary_ar": "أقيم حفل وضع حجر الأساس لمشرق الأذكار المحلي في أغوا أزول بمشاركة نحو 700 شخص.",
+      "source_ids": [
+        "bwns-groundbreaking"
+      ]
+    },
+    {
+      "id": "community-building",
+      "period": "2017",
+      "category": "community_building",
+      "summary_ar": "تزامن تقدم بناء مشرق الأذكار مع تعزيز أنشطة بناء المجتمع في القرى والبلدات المحيطة، ومع تقوية روابط الوحدة والتعاون.",
+      "source_ids": [
+        "bwns-construction",
+        "bwns-community"
+      ]
+    },
+    {
+      "id": "native-forest",
+      "period": "2013-present",
+      "category": "environmental_social_action",
+      "summary_ar": "نشأ على أرض مشرق الأذكار مشروع لإعادة النباتات المحلية والتنوع الحيوي إلى المنطقة، في استجابة للتحديات البيئية المرتبطة بعقود من زراعة قصب السكر الأحادية.",
+      "source_ids": [
+        "bwns-construction",
+        "bwns-native-forest"
+      ]
+    },
+    {
+      "id": "temple-dedication",
+      "date": "2018-07-22",
+      "category": "worship_and_service",
+      "summary_ar": "افتتح مشرق الأذكار المحلي في يوليو 2018، وأصبح مكانًا مفتوحًا للجميع للصلاة والتأمل، ومظهرًا للعلاقة بين العبادة والخدمة في حياة المجتمع.",
+      "source_ids": [
+        "bwns-dedication",
+        "bwns-first-visits"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "uhj-ridvan-2012",
+      "type": "authoritative_bahai_text",
+      "publisher": "The Universal House of Justice",
+      "url": "https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/20120421_001/1"
+    },
+    {
+      "id": "fundaec-sat",
+      "type": "social_action_organization",
+      "publisher": "FUNDAEC",
+      "url": "https://fundaec.org/sat/"
+    },
+    {
+      "id": "bwns-groundbreaking",
+      "type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "url": "https://news.bahai.org/story/1109/ground-broken-colombia-house-worship"
+    },
+    {
+      "id": "bwns-construction",
+      "type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "url": "https://news.bahai.org/story/1153/temple-construction-reaches-new-milestone"
+    },
+    {
+      "id": "bwns-community",
+      "type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "url": "https://news.bahai.org/story/1222/community-galvanized-temples-construction-proceeds"
+    },
+    {
+      "id": "bwns-dedication",
+      "type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "url": "https://news.bahai.org/story/1275/colombia-temple-dedicated-joyful-ceremony"
+    },
+    {
+      "id": "bwns-first-visits",
+      "type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "url": "https://news.bahai.org/story/1277/following-colombia-temple-opening-first-visits-begin"
+    },
+    {
+      "id": "bwns-native-forest",
+      "type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "url": "https://news.bahai.org/story/1768/native-forest-at-colombia-temple-promotes-environmental-action"
+    }
+  ],
+  "editorial": {
+    "review_status": "research_in_progress",
+    "causality_rule": "Do not imply that one development caused another unless the cited source explicitly supports that relationship."
+  },
+  "visual_evidence": [
+    {
+      "id": "native-forest-community",
+      "type": "photograph",
+      "supports": [
+        "environment",
+        "social_action",
+        "community_building"
+      ],
+      "caption_ar": "مبادرة الغابة المحلية في نورتي ديل كاوكا، حيث ارتبطت العناية بالبيئة بالعبادة وخدمة المجتمع.",
+      "source_type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "source_url": "https://news.bahai.org/story/1768/native-forest-at-colombia-temple-promotes-environmental-action",
+      "source_image_hint": "Photographs documenting the native forest project and community participation.",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal",
+      "local_path": "assets/community/web/norte-del-cauca.jpg",
+      "original_local_path": "assets/community/norte-del-cauca.jpg"
+    },
+    {
+      "id": "community-and-temple-land",
+      "type": "photograph",
+      "supports": [
+        "community_building",
+        "worship_and_service"
+      ],
+      "caption_ar": "أفراد من المجتمع في محيط مشرق الأذكار والأراضي التي أصبحت مساحة للعبادة والتأمل والعمل الجماعي.",
+      "source_type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "source_url": "https://news.bahai.org/story/1249/flower-colombia-temple-blooms",
+      "source_image_hint": "Community members walking on the temple grounds and native forest area.",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    }
+  ],
+  "primary_visual": {
+    "evidence_id": "native-forest-community",
+    "local_path": "assets/community/web/norte-del-cauca.jpg",
+    "original_local_path": "assets/community/norte-del-cauca.jpg",
+    "display_role": "primary_documentary_image"
+  }
+}

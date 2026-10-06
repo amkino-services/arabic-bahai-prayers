@@ -1,0 +1,230 @@
+{
+  "id": "tanna",
+  "slug": "tanna",
+  "status": "researched",
+  "public": false,
+  "name": {
+    "ar": "تانا",
+    "en": "Tanna"
+  },
+  "geography": {
+    "continent_id": "oceania",
+    "continent_ar": "أوقيانوسيا",
+    "continent_en": "Oceania",
+    "country_ar": "فانواتو",
+    "country_en": "Vanuatu",
+    "region_ar": "جزيرة تانا",
+    "region_en": "Tanna Island"
+  },
+  "introduction_ar": "تقدم جزيرة تانا في فانواتو تجربة مميزة في بناء المجتمع تجمع بين العبادة، وتنمية قدرة الشباب على الخدمة، والتعليم، والاستجابة الجماعية للكوارث، وتعزيز الوحدة بين السكان.",
+  "learning_focus": {
+    "primary": "community_resilience_and_youth_service",
+    "secondary": [
+      "devotional_life",
+      "children_and_youth_education",
+      "community_building",
+      "social_cohesion",
+      "disaster_response",
+      "indigenous_culture",
+      "worship_and_service",
+      "house_of_worship"
+    ]
+  },
+  "developments": [
+    {
+      "id": "temple-announcement",
+      "date": "2012-04-21",
+      "category": "house_of_worship",
+      "summary_ar": "أعلن بيت العدل الأعظم أن تانا واحدة من خمسة تجمعات يجري التشاور بشأن إقامة أول مشارق الأذكار المحلية فيها.",
+      "source_ids": [
+        "uhj-ridvan-2012"
+      ]
+    },
+    {
+      "id": "youth-conference",
+      "period": "2013",
+      "category": "youth",
+      "summary_ar": "شارك نحو 600 شاب وشابة من تانا في مؤتمر للشباب في بورت فيلا، ضمن عملية أوسع لتنمية قدرة الشباب على الإسهام في حياة مجتمعاتهم.",
+      "source_ids": [
+        "bwns-port-vila-youth",
+        "bwns-cyclone-reconstruction"
+      ]
+    },
+    {
+      "id": "cyclone-pam-response",
+      "period": "2015-2016",
+      "category": "community_resilience",
+      "summary_ar": "بعد إعصار بام، اضطلع الشباب بدور بارز في جهود إعادة البناء. ولم تُفهم الاستجابة باعتبارها إعادة بناء المنشآت فحسب؛ بل أعطى المجتمع أولوية لاستمرار تعليم الأطفال والناشئة، وأعيد أولًا بناء الأماكن التي كانت تستضيف الأنشطة التعليمية.",
+      "source_ids": [
+        "bwns-cyclone-reconstruction"
+      ]
+    },
+    {
+      "id": "devotional-life-and-cohesion",
+      "period": "2016",
+      "category": "devotional_life",
+      "summary_ar": "وثقت Bahá’í World News Service أن العبادة الجماعية أصبحت جزءًا منتظمًا من حياة القرى في أنحاء تانا، مع ازدياد التعاون والانسجام الاجتماعي وتراجع بعض الحواجز التي كانت تفصل بين مجموعات السكان.",
+      "source_ids": [
+        "bwns-cyclone-reconstruction"
+      ]
+    },
+    {
+      "id": "groundbreaking-and-land",
+      "period": "2019",
+      "category": "collective_action",
+      "summary_ar": "عند وضع حجر الأساس، أبرزت المناسبة تعاون القيادات التقليدية والمجتمع؛ وقد قدمت ثماني قبائل في تانا أرض مشرق الأذكار بصورة جماعية.",
+      "source_ids": [
+        "bwns-groundbreaking-2019"
+      ]
+    },
+    {
+      "id": "traditional-leadership-and-unity",
+      "period": "2021",
+      "category": "social_cohesion",
+      "summary_ar": "عبرت قيادات تقليدية محلية عن رؤيتها لمشرق الأذكار كمكان يستطيع فيه أصحاب المعتقدات المختلفة الاجتماع بروح الوحدة والتشاور حول مستقبل مجتمعهم.",
+      "source_ids": [
+        "bwns-chiefs-2021"
+      ]
+    },
+    {
+      "id": "temple-dedication",
+      "date": "2021-11-13",
+      "category": "house_of_worship",
+      "summary_ar": "افتتح في تانا أول مشرق أذكار بهائي محلي في منطقة المحيط الهادئ. وأكد بيت العدل الأعظم أن الأساس الروحي لهذا المشرق بدأ قبل تشييد المبنى بوقت طويل.",
+      "source_ids": [
+        "uhj-dedication-2021",
+        "bwns-opening-2021"
+      ]
+    },
+    {
+      "id": "cultural-expression",
+      "period": "2021",
+      "category": "culture",
+      "summary_ar": "يعكس تصميم مشرق الأذكار عناصر من ثقافة فانواتو وتقاليدها المحلية، بما في ذلك صور مستوحاة من البركان والأودية والرموز المرتبطة بالقيادات والرقص التقليدي.",
+      "source_ids": [
+        "bwns-opening-2021"
+      ]
+    },
+    {
+      "id": "interfaith-community-life",
+      "period": "2023",
+      "category": "interfaith_unity",
+      "summary_ar": "استضاف مشرق الأذكار لقاءات تعبدية جمعت قيادات تقليدية وأفرادًا من خلفيات دينية متعددة للصلاة والتفكير في السلام ووحدة المجتمع.",
+      "source_ids": [
+        "bwns-interfaith-2023"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "uhj-ridvan-2012",
+      "type": "authoritative_bahai_text",
+      "publisher": "The Universal House of Justice",
+      "url": "https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/20120421_001/1"
+    },
+    {
+      "id": "bwns-port-vila-youth",
+      "type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "url": "https://news.bahai.org/community-news/youth-conferences/portvila"
+    },
+    {
+      "id": "bwns-cyclone-reconstruction",
+      "type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "url": "https://news.bahai.org/story/1095/after-catastrophe-youth-lead-reconstruction-vanuatu"
+    },
+    {
+      "id": "bwns-groundbreaking-2019",
+      "type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "url": "https://news.bahai.org/story/1373/milestone-vanuatu-temple-uplifts-galvanizes-island"
+    },
+    {
+      "id": "bwns-chiefs-2021",
+      "type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "url": "https://news.bahai.org/story/1530/chiefs-vanuatu-reflect-temple-unifying-role"
+    },
+    {
+      "id": "uhj-dedication-2021",
+      "type": "authoritative_bahai_text",
+      "publisher": "The Universal House of Justice",
+      "url": "https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/20211113_001/1"
+    },
+    {
+      "id": "bwns-opening-2021",
+      "type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "url": "https://news.bahai.org/story/1550/first-local-bahai-temple-pacific-opens-doors"
+    },
+    {
+      "id": "bwns-interfaith-2023",
+      "type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "url": "https://news.bahai.org/story/1699/interfaith-gathering-vanuatu-temple-inspires-hope"
+    }
+  ],
+  "editorial": {
+    "review_status": "research_in_progress",
+    "source_policy": "Claims are based on authoritative Bahá’í texts and institutional documentation.",
+    "causality_rule": "Distinguish long-term community-building processes from the physical construction of the House of Worship."
+  },
+  "visual_evidence": [
+    {
+      "id": "youth-reconstruction",
+      "type": "photograph",
+      "supports": [
+        "community_resilience",
+        "youth",
+        "education",
+        "disaster_response"
+      ],
+      "caption_ar": "شباب في تانا يشاركون في جهود إعادة البناء بعد إعصار بام، ضمن استجابة أعطت أهمية لاستمرار تعليم الأطفال والناشئة.",
+      "source_type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "source_url": "https://news.bahai.org/story/1095/after-catastrophe-youth-lead-reconstruction-vanuatu",
+      "source_image_hint": "Youth reconstruction work, community facilities and agricultural recovery following Cyclone Pam.",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal",
+      "local_path": "assets/community/web/tanna.jpg",
+      "original_local_path": "assets/community/tanna.jpg"
+    },
+    {
+      "id": "traditional-leadership",
+      "type": "photograph",
+      "supports": [
+        "indigenous_culture",
+        "social_cohesion",
+        "collective_action"
+      ],
+      "caption_ar": "قيادات تقليدية ووطنية تشارك في وضع حجر الأساس في تانا؛ وكانت ثماني قبائل قد قدمت الأرض بصورة جماعية.",
+      "source_type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "source_url": "https://news.bahai.org/story/1373/milestone-vanuatu-temple-uplifts-galvanizes-island",
+      "source_image_hint": "Traditional wooden kakel ceremony, chiefs, national representatives and residents.",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    }
+  ],
+  "primary_visual": {
+    "evidence_id": "youth-reconstruction",
+    "local_path": "assets/community/web/tanna.jpg",
+    "original_local_path": "assets/community/tanna.jpg",
+    "display_role": "primary_documentary_image"
+  }
+}

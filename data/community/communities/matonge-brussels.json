@@ -1,0 +1,195 @@
+{
+  "id": "matonge-brussels",
+  "slug": "matonge-brussels",
+  "record_type": "local_case",
+  "status": "researched",
+  "public": false,
+  "name": {
+    "ar": "ماتونغي — بروكسل",
+    "en": "Matongé — Brussels"
+  },
+  "geography": {
+    "continent_id": "europe",
+    "continent_ar": "أوروبا",
+    "continent_en": "Europe",
+    "country_ar": "بلجيكا",
+    "country_en": "Belgium",
+    "city_ar": "بروكسل",
+    "city_en": "Brussels",
+    "locality_ar": "حي ماتونغي",
+    "locality_en": "Matongé, Ixelles"
+  },
+  "introduction_ar": "تقدم تجربة حي ماتونغي في بروكسل مثالًا على كيفية إسهام الشباب في تعزيز الروابط بين سكان حي شديد التنوع. ومن خلال الخدمة والعمل مع الجيران والبلدية، ظهرت مساحات تجمع أجيالًا وخلفيات مختلفة وتساعد السكان على التفكير معًا في احتياجات حيهم.",
+  "learning_focus": {
+    "primary": "youth_led_social_cohesion",
+    "secondary": [
+      "community_building",
+      "diversity_and_belonging",
+      "youth_agency",
+      "intergenerational_relationships",
+      "collective_service",
+      "municipal_collaboration",
+      "consultation",
+      "participatory_action"
+    ]
+  },
+  "developments": [
+    {
+      "id": "community-building-process",
+      "period": "approximately 2022-2026",
+      "category": "community_building",
+      "summary_ar": "بحلول عام 2026 كانت مبادرات بناء المجتمع البهائية مستمرة في ماتونغي منذ نحو أربع سنوات، ويشارك فيها شباب وسكان من خلفيات متعددة.",
+      "source_ids": [
+        "bwns-matonge-2026"
+      ]
+    },
+    {
+      "id": "public-cleanup",
+      "period": "approximately 2025",
+      "category": "collective_service",
+      "summary_ar": "شارك الشباب وغيرهم من المشاركين في مبادرات بناء المجتمع في يوم وطني لتنظيف الأماكن العامة مع سكان الحي وموظفي البلدية. وقد لفت حجم مشاركة الشباب انتباه المسؤولين المحليين.",
+      "source_ids": [
+        "bwns-matonge-2026"
+      ]
+    },
+    {
+      "id": "municipal-youth-council",
+      "period": "2025-2026",
+      "category": "civic_participation",
+      "summary_ar": "نشأت علاقة متنامية بين الشباب والبلدية، وشارك الشباب في مجلس محلي للشباب وعملوا مع موظفي البلدية في عدد من المبادرات الصغيرة.",
+      "source_ids": [
+        "bwns-matonge-2026"
+      ]
+    },
+    {
+      "id": "participatory-budget",
+      "period": "2025-2026",
+      "category": "participatory_action",
+      "summary_ar": "تعرف الشباب من خلال تعاونهم مع البلدية على الميزانية التشاركية التي تتيح للسكان اقتراح مبادرات تخدم الحي، ثم طوروا مبادرة خاصة بهم.",
+      "source_ids": [
+        "bwns-matonge-2026"
+      ]
+    },
+    {
+      "id": "five-neighborhood-brunches",
+      "period": "2025-2026",
+      "category": "youth_led_service",
+      "summary_ar": "نظم شباب تتراوح أعمارهم بين 12 و15 عامًا خمس وجبات فطور متأخر مفتوحة للحي تحت فكرة «من الشباب، للجميع». وكان يحضر كل لقاء نحو 60 إلى 70 شخصًا.",
+      "source_ids": [
+        "bwns-matonge-2026"
+      ]
+    },
+    {
+      "id": "neighborhood-conversations",
+      "period": "2025-2026",
+      "category": "consultation",
+      "summary_ar": "تحولت اللقاءات إلى مساحات للحوار بين السكان حول الصداقة والتنمر والتعليم والبيئة والتماسك الاجتماعي، مع مشاركة أشخاص من أجيال وخلفيات مختلفة.",
+      "source_ids": [
+        "bwns-matonge-2026"
+      ]
+    },
+    {
+      "id": "youth-capacity",
+      "period": "2025-2026",
+      "category": "capacity_building",
+      "summary_ar": "أتاحت المبادرة للشباب ممارسة المسؤولية والعمل الجماعي والتشاور وخدمة الآخرين، وأظهرت قدرتهم على تحديد حاجة في محيطهم والمساهمة في الاستجابة لها.",
+      "source_ids": [
+        "bwns-matonge-2026"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "bwns-matonge-2026",
+      "type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "title": "Belgium: Five brunches, one neighborhood",
+      "date": "2026-07-31",
+      "url": "https://news.bahai.org/story/1883/belgium-five-brunches-one-neighborhood"
+    }
+  ],
+  "editorial": {
+    "review_status": "research_in_progress",
+    "source_policy": "This case currently relies primarily on a detailed institutional Bahá’í report. Add municipal or independent documentation when suitable sources are identified.",
+    "causality_rule": "Describe documented relationships among community-building activities, youth initiative, neighborhood relationships and municipal collaboration without claiming broader social effects that the sources do not establish."
+  },
+  "visual_evidence": [
+    {
+      "id": "youth-neighborhood-brunch",
+      "type": "photograph",
+      "supports": [
+        "youth_led_service",
+        "community_building",
+        "diversity_and_belonging"
+      ],
+      "caption_ar": "شباب من ماتونغي ينظمون وجبات مفتوحة لسكان الحي بهدف تعزيز التعارف والصداقة بين الجيران.",
+      "source_type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "source_url": "https://news.bahai.org/story/1883/belgium-five-brunches-one-neighborhood",
+      "source_image_hint": "Youth preparing and hosting neighborhood brunches.",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal",
+      "local_path": "assets/community/web/matonge-brussels.jpg",
+      "original_local_path": "assets/community/matonge-brussels.jpg"
+    },
+    {
+      "id": "intergenerational-neighborhood",
+      "type": "photograph",
+      "supports": [
+        "intergenerational_relationships",
+        "social_cohesion",
+        "consultation"
+      ],
+      "caption_ar": "سكان من أجيال وخلفيات مختلفة يلتقون في إحدى المبادرات المجتمعية في ماتونغي.",
+      "source_type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "source_url": "https://news.bahai.org/story/1883/belgium-five-brunches-one-neighborhood",
+      "source_image_hint": "Residents at a neighborhood brunch and intergenerational community activities.",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "youth-reflection",
+      "type": "photograph",
+      "supports": [
+        "youth_agency",
+        "capacity_building",
+        "consultation"
+      ],
+      "caption_ar": "شباب يتأملون في المبادرات المجتمعية التي يشاركون في تنظيمها في حيهم.",
+      "source_type": "institutional_bahai_news",
+      "publisher": "Bahá’í World News Service",
+      "source_url": "https://news.bahai.org/story/1883/belgium-five-brunches-one-neighborhood",
+      "source_image_hint": "Young people reflecting on community-building initiatives.",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    }
+  ],
+  "primary_visual": {
+    "evidence_id": "youth-neighborhood-brunch",
+    "local_path": "assets/community/web/matonge-brussels.jpg",
+    "original_local_path": "assets/community/matonge-brussels.jpg",
+    "display_role": "primary_documentary_image"
+  }
+}
