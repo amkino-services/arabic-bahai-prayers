@@ -288,72 +288,11 @@
 
     if (!target) return;
 
-    const sources = Array.isArray(record.sources)
-      ? record.sources
-      : [];
-
-    if (!sources.length) {
-      target.innerHTML = `
-        <p class="community-story-empty">
-          ستُضاف المراجع المرتبطة بهذه التجربة بعد استكمال
-          مراجعة المصادر.
-        </p>
-      `;
-      return;
-    }
-
-    target.innerHTML = sources.map((source) => {
-      const title =
-        source.title_ar ||
-        source.title ||
-        "مصدر موثق";
-
-      const publisher =
-        source.publisher_ar ||
-        source.publisher ||
-        "";
-
-      const url =
-        source.url ||
-        source.source_url ||
-        source.link ||
-        "";
-
-      const description =
-        source.description_ar ||
-        source.description ||
-        source.note_ar ||
-        source.note ||
-        "";
-
-      return `
-        <article class="community-story-source">
-          <h3>${escapeHtml(title)}</h3>
-
-          ${
-            publisher
-              ? `<p class="community-story-source-publisher">${escapeHtml(publisher)}</p>`
-              : ""
-          }
-
-          ${
-            description
-              ? `<p>${escapeHtml(description)}</p>`
-              : ""
-          }
-
-          ${
-            url
-              ? `<a
-                   href="${escapeHtml(url)}"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                 >زيارة المصدر</a>`
-              : ""
-          }
-        </article>
-      `;
-    }).join("");
+    target.innerHTML = `
+      <a class="secondary-btn" href="/credits">
+        المصادر والاعتمادات ←
+      </a>
+    `;
   }
 
   async function init() {
