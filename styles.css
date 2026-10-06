@@ -11598,3 +11598,20 @@ body.sunset-times-page .sunset-times-section {
   margin-top: auto;
   align-self: flex-start;
 }
+
+/* Community evidence cards — final button positioning */
+.community-evidence-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.community-evidence-card .secondary-btn {
+  margin-top: auto;
+  padding-top: 0;
+  align-self: flex-end;
+}
+
+/* Preserve breathing room even when a card contains more text */
+.community-evidence-card p:last-of-type {
+  margin-bottom: 30px;
+}
