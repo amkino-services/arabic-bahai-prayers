@@ -162,18 +162,15 @@
   },
   "visual_evidence": [
     {
-      "id": "tree-planting-collective-action",
-      "type": "photograph",
-      "supports": [
-        "youth_and_service",
-        "collective_action",
-        "environment"
-      ],
-      "caption_ar": "شارك أكثر من 150 شخصًا في مشروع لزراعة الأشجار في باتامبانغ، بمشاركة الشباب والأطفال والكبار.",
-      "source_type": "institutional_bahai_news",
+      "id": "design-unveiling",
+      "type": "photo",
+      "theme": "design-unveiling",
+      "caption_ar": "اجتماع أفراد من باتامبانغ للكشف عن تصميم مشرق الأذكار المحلي عام 2015، في مناسبة بدأت بالدعاء وشارك فيها سكان من المجتمعات المحيطة.",
+      "local_path": "assets/community/web/battambang-design-unveiling.jpg",
+      "original_local_path": "assets/community/battambang-design-unveiling.jpg",
+      "source_url": "https://news.bahai.org/story/1062/dawn-unveiling-cambodian-temple-design",
+      "source_page": "https://news.bahai.org/story/1062/dawn-unveiling-cambodian-temple-design",
       "publisher": "Bahá’í World News Service",
-      "source_url": "https://news.bahai.org/story/1120/cambodian-temple-progress-inspires-collective-action",
-      "source_image_hint": "Tree-planting project, volunteers and youth participating on the temple land.",
       "usage_status": "approved_bwns_terms",
       "attribution": "Bahá’í World News Service",
       "usage_requirements": [
@@ -182,23 +179,138 @@
         "resize_only",
         "preserve_original_context"
       ],
-      "terms_url": "https://news.bahai.org/legal",
-      "local_path": "assets/community/web/battambang.jpg",
-      "original_local_path": "assets/community/battambang.jpg"
+      "terms_url": "https://news.bahai.org/legal"
     },
     {
-      "id": "culture-and-dedication",
-      "type": "photograph",
-      "supports": [
-        "culture",
-        "unity",
-        "worship_and_service"
-      ],
-      "caption_ar": "جانب من افتتاح مشرق الأذكار في باتامبانغ، حيث اجتمعت الصلاة والتعبيرات الثقافية الكمبودية.",
-      "source_type": "institutional_bahai_news",
+      "id": "groundbreaking",
+      "type": "photo",
+      "theme": "groundbreaking",
+      "caption_ar": "اجتماع أفراد من المجتمع في باتامبانغ بمناسبة وضع حجر الأساس لمشرق الأذكار المحلي عام 2015.",
+      "local_path": "assets/community/web/battambang-groundbreaking.jpg",
+      "original_local_path": "assets/community/battambang-groundbreaking.jpg",
+      "source_url": "https://news.bahai.org/story/1082/first-groundbreaking-local-house-worship",
+      "source_page": "https://news.bahai.org/story/1082/first-groundbreaking-local-house-worship",
       "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "collective-action",
+      "type": "photo",
+      "theme": "collective-action",
+      "caption_ar": "مشاركة أفراد من المجتمع في العمل الجماعي وغرس الأشجار في أرض مشرق الأذكار، ضمن جهود جمعت العبادة بالخدمة.",
+      "local_path": "assets/community/web/battambang-collective-action.jpg",
+      "original_local_path": "assets/community/battambang-collective-action.jpg",
+      "source_url": "https://news.bahai.org/story/1120/cambodian-temple-progress-inspires-collective-action",
+      "source_page": "https://news.bahai.org/story/1120/cambodian-temple-progress-inspires-collective-action",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "children-youth-service",
+      "type": "photo",
+      "theme": "children-youth-service",
+      "caption_ar": "أطفال وشباب وبالغون يشاركون في مشاريع البستنة والعناية بأرض مشرق الأذكار في باتامبانغ.",
+      "local_path": "assets/community/web/battambang-children-youth-service.jpg",
+      "original_local_path": "assets/community/battambang-children-youth-service.jpg",
+      "source_url": "https://news.bahai.org/story/1137/house-worship-inspires-children-youth-plant-future",
+      "source_page": "https://news.bahai.org/story/1137/house-worship-inspires-children-youth-plant-future",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "construction-progress",
+      "type": "photo",
+      "theme": "construction-progress",
+      "caption_ar": "تقدّم بناء مشرق الأذكار المحلي في باتامبانغ عام 2017، وسط مشاركة متزايدة في الخدمة والحياة المجتمعية.",
+      "local_path": "assets/community/web/battambang-construction-progress.jpg",
+      "original_local_path": "assets/community/battambang-construction-progress.jpg",
+      "source_url": "https://news.bahai.org/story/1157/construction-progresses-cambodia-temple",
+      "source_page": "https://news.bahai.org/story/1157/construction-progresses-cambodia-temple",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "temple-at-night",
+      "type": "photo",
+      "theme": "temple-at-night",
+      "caption_ar": "مشرق الأذكار المحلي في باتامبانغ ليلًا قبيل افتتاحه عام 2017.",
+      "local_path": "assets/community/web/battambang-temple-at-night.jpg",
+      "original_local_path": "assets/community/battambang-temple-at-night.jpg",
+      "source_url": "https://news.bahai.org/story/1185/preparations-temple-inauguration-accelerate",
+      "source_page": "https://news.bahai.org/story/1185/preparations-temple-inauguration-accelerate",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "inauguration",
+      "type": "photo",
+      "theme": "inauguration",
+      "caption_ar": "افتتاح مشرق الأذكار المحلي في باتامبانغ في سبتمبر 2017، في اجتماع ضم سكانًا وضيوفًا من أنحاء كمبوديا.",
+      "local_path": "assets/community/web/battambang-inauguration.jpg",
+      "original_local_path": "assets/community/battambang-inauguration.jpg",
       "source_url": "https://news.bahai.org/story/1190/a-new-dawn-is-breaking-house-worship-inaugurated-cambodia",
-      "source_image_hint": "Dedication gathering, traditional dance and participants visiting the House of Worship.",
+      "source_page": "https://news.bahai.org/story/1190/a-new-dawn-is-breaking-house-worship-inaugurated-cambodia",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "dedication-community",
+      "type": "photo",
+      "theme": "dedication-community",
+      "caption_ar": "مشاركون في أيام افتتاح مشرق الأذكار في باتامبانغ، حيث اجتمعت العبادة والتأمل والتواصل بين أفراد المجتمع.",
+      "local_path": "assets/community/web/battambang-dedication-community.jpg",
+      "original_local_path": "assets/community/battambang-dedication-community.jpg",
+      "source_url": "https://news.bahai.org/story/1192/inauguration-conference-concludes",
+      "source_page": "https://news.bahai.org/story/1192/inauguration-conference-concludes",
+      "publisher": "Bahá’í World News Service",
       "usage_status": "approved_bwns_terms",
       "attribution": "Bahá’í World News Service",
       "usage_requirements": [
@@ -211,7 +323,7 @@
     }
   ],
   "primary_visual": {
-    "evidence_id": "tree-planting-collective-action",
+    "evidence_id": "design-unveiling",
     "local_path": "assets/community/web/battambang.jpg",
     "original_local_path": "assets/community/battambang.jpg",
     "display_role": "primary_documentary_image"
