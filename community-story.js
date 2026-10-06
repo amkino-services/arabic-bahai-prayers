@@ -258,22 +258,23 @@
               alt="${escapeHtml(item.caption_ar || "")}"
               loading="lazy"
             >
+
+            ${
+              source
+                ? `<a
+                     class="community-story-image-attribution"
+                     href="${escapeHtml(source)}"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                   >الصورة: خدمة أخبار العالم البهائي</a>`
+                : ""
+            }
           </div>
 
           <figcaption>
             ${
               item.caption_ar
                 ? `<p>${escapeHtml(item.caption_ar)}</p>`
-                : ""
-            }
-
-            ${
-              source
-                ? `<a
-                     href="${escapeHtml(source)}"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                   >الصورة: خدمة أخبار العالم البهائي</a>`
                 : ""
             }
           </figcaption>

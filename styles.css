@@ -11740,3 +11740,43 @@ body.sunset-times-page .sunset-times-section {
   text-align: center;
   transform: none;
 }
+
+/* Documentary image attribution overlay */
+.community-story-gallery-image {
+  position: relative;
+}
+
+.community-story-image-attribution {
+  position: absolute;
+  right: 18px;
+  bottom: 18px;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 11px;
+  border-radius: 8px;
+  background: rgba(23, 33, 38, 0.78);
+  color: #fff;
+  font-family: "Almarai", sans-serif;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  text-decoration: none;
+  direction: rtl;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+
+.community-story-image-attribution:hover,
+.community-story-image-attribution:focus-visible {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media (max-width: 680px) {
+  .community-story-image-attribution {
+    right: 10px;
+    bottom: 10px;
+    padding: 6px 9px;
+    font-size: 0.68rem;
+  }
+}
