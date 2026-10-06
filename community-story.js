@@ -306,9 +306,12 @@
       const title =
         source.title_ar ||
         source.title ||
+        "مصدر موثق";
+
+      const publisher =
         source.publisher_ar ||
         source.publisher ||
-        "مصدر موثق";
+        "";
 
       const url =
         source.url ||
@@ -326,6 +329,12 @@
       return `
         <article class="community-story-source">
           <h3>${escapeHtml(title)}</h3>
+
+          ${
+            publisher
+              ? `<p class="community-story-source-publisher">${escapeHtml(publisher)}</p>`
+              : ""
+          }
 
           ${
             description

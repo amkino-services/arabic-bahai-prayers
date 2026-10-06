@@ -107,49 +107,65 @@
       "id": "uhj-ridvan-2012",
       "type": "authoritative_bahai_text",
       "publisher": "The Universal House of Justice",
-      "url": "https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/20120421_001/1"
+      "url": "https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/20120421_001/1",
+      "title_ar": "رسالة الرضوان 2012",
+      "publisher_ar": "بيت العدل الأعظم"
     },
     {
       "id": "uhj-youth-conferences-2013",
       "type": "authoritative_bahai_text",
       "publisher": "The Universal House of Justice",
-      "url": "https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/20130208_001/1"
+      "url": "https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/20130208_001/1",
+      "title_ar": "رسالة إلى مؤتمرات الشباب 2013",
+      "publisher_ar": "بيت العدل الأعظم"
     },
     {
       "id": "bwns-youth-conferences",
       "type": "institutional_bahai_news",
       "publisher": "Bahá’í World News Service",
-      "url": "https://news.bahai.org/community-news/youth-conferences"
+      "url": "https://news.bahai.org/community-news/youth-conferences",
+      "title_ar": "مؤتمرات الشباب حول العالم",
+      "publisher_ar": "خدمة أخبار العالم البهائي"
     },
     {
       "id": "bwns-design-2018",
       "type": "institutional_bahai_news",
       "publisher": "Bahá’í World News Service",
-      "url": "https://news.bahai.org/story/1251/local-temple-design-unveiled-kenya"
+      "url": "https://news.bahai.org/story/1251/local-temple-design-unveiled-kenya",
+      "title_ar": "الكشف عن تصميم مشرق الأذكار المحلي في كينيا",
+      "publisher_ar": "خدمة أخبار العالم البهائي"
     },
     {
       "id": "bwns-groundbreaking-2019",
       "type": "institutional_bahai_news",
       "publisher": "Bahá’í World News Service",
-      "url": "https://news.bahai.org/story/1317/"
+      "url": "https://news.bahai.org/story/1317/",
+      "title_ar": "وضع حجر الأساس لمشرق الأذكار في ماتوندا سوي",
+      "publisher_ar": "خدمة أخبار العالم البهائي"
     },
     {
       "id": "uhj-dedication-2021",
       "type": "authoritative_bahai_text",
       "publisher": "The Universal House of Justice",
-      "url": "https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/20210523_001/1"
+      "url": "https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/20210523_001/1",
+      "title_ar": "رسالة بمناسبة افتتاح مشرق الأذكار في ماتوندا سوي",
+      "publisher_ar": "بيت العدل الأعظم"
     },
     {
       "id": "bwns-opening-2021",
       "type": "institutional_bahai_news",
       "publisher": "Bahá’í World News Service",
-      "url": "https://news.bahai.org/story/1511/kenya-first-local-bahai-temple-africa-opens-doors"
+      "url": "https://news.bahai.org/story/1511/kenya-first-local-bahai-temple-africa-opens-doors",
+      "title_ar": "افتتاح أول مشرق أذكار محلي في أفريقيا",
+      "publisher_ar": "خدمة أخبار العالم البهائي"
     },
     {
       "id": "berkley-education-interview",
       "type": "independent_research_interview",
       "publisher": "Berkley Center for Religion, Peace & World Affairs, Georgetown University",
-      "url": "https://berkleycenter.georgetown.edu/interviews/a-discussion-with-joy-mboya-executive-director-of-the-godown-arts-centre"
+      "url": "https://berkleycenter.georgetown.edu/interviews/a-discussion-with-joy-mboya-executive-director-of-the-godown-arts-centre",
+      "title_ar": "مقابلة بحثية حول التعليم والمشاركة المجتمعية",
+      "publisher_ar": "مركز بيركلي للدين والسلام والشؤون العالمية، جامعة جورجتاون"
     }
   ],
   "editorial": {
