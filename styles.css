@@ -11560,3 +11560,17 @@ body.sunset-times-page .sunset-times-section {
 .community-hero h1 {
   margin-top: 30px;
 }
+
+/* Community path cards — match the Resources card action style */
+.community-path-action {
+  display: inline-block;
+  margin-top: 18px;
+
+  color: var(--teal, #0E6F88);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.community-path-card-link:hover .community-path-action {
+  color: var(--teal-dark, #0A596D);
+}
