@@ -120,25 +120,28 @@
       "";
 
     target.innerHTML = `
-      <img
-        src="/${escapeHtml(visual.local_path)}"
-        alt="${escapeHtml(caption)}"
-      >
+      <div class="community-story-primary-image">
+        <img
+          src="/${escapeHtml(visual.local_path)}"
+          alt="${escapeHtml(caption)}"
+        >
+
+        ${
+          source
+            ? `<a
+                 class="community-story-image-attribution"
+                 href="${escapeHtml(source)}"
+                 target="_blank"
+                 rel="noopener noreferrer"
+               >الصورة: خدمة أخبار العالم البهائي</a>`
+            : ""
+        }
+      </div>
 
       <figcaption>
         ${
           caption
             ? `<p>${escapeHtml(caption)}</p>`
-            : ""
-        }
-
-        ${
-          source
-            ? `<a
-                 href="${escapeHtml(source)}"
-                 target="_blank"
-                 rel="noopener noreferrer"
-               >الصورة: خدمة أخبار العالم البهائي</a>`
             : ""
         }
       </figcaption>
