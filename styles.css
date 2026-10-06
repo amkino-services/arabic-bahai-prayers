@@ -11615,3 +11615,19 @@ body.sunset-times-page .sunset-times-section {
 .community-evidence-card p:last-of-type {
   margin-bottom: 30px;
 }
+
+/* Community evidence cards — RTL button alignment */
+.community-evidence-card .secondary-btn {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: 0;
+
+  align-self: auto;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  direction: rtl;
+}
