@@ -11531,3 +11531,27 @@ body.sunset-times-page .sunset-times-section {
 [aria-labelledby="credits-community-title"] .credits-notice {
   margin-top: 48px;
 }
+
+/* Community Resources credits — visually separate source links */
+[aria-labelledby="credits-community-title"] .credits-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 0;
+  margin-top: 18px;
+}
+
+[aria-labelledby="credits-community-title"] .credits-source-link {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+[aria-labelledby="credits-community-title"]
+.credits-links .credits-source-link:not(:last-child)::after {
+  content: "|";
+  margin-inline: 14px;
+  color: var(--gold, #DDA940);
+  font-weight: 400;
+  opacity: .75;
+}
