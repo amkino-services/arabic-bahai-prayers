@@ -11587,3 +11587,14 @@ body.sunset-times-page .sunset-times-section {
   margin-top: 26px;
   font-size: inherit;
 }
+
+/* Community evidence cards — align credits buttons */
+.community-evidence-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.community-evidence-card .secondary-btn {
+  margin-top: auto;
+  align-self: flex-start;
+}
