@@ -10347,38 +10347,11 @@ body.sunset-times-page .sunset-times-section {
 
 .community-hero {
   position: relative;
-  margin-top: 32px;
   min-height: 620px;
   display: grid;
   place-items: center;
-  padding: 110px 20px 100px;
+  padding: 90px 20px 100px;
   text-align: center;
-  overflow: hidden;
-  background:
-    radial-gradient(circle at 50% 0%, rgba(221,169,64,.20), transparent 35%),
-    linear-gradient(180deg, #fffdf7 0%, #fcf8ec 100%);
-}
-
-.community-hero::before,
-.community-hero::after {
-  content: "";
-  position: absolute;
-  border: 1px solid rgba(14,111,136,.14);
-  border-radius: 50%;
-}
-
-.community-hero::before {
-  width: 560px;
-  height: 560px;
-  top: -320px;
-  right: -180px;
-}
-
-.community-hero::after {
-  width: 420px;
-  height: 420px;
-  bottom: -290px;
-  left: -150px;
 }
 
 .community-hero-inner {
