@@ -11631,3 +11631,18 @@ body.sunset-times-page .sunset-times-section {
   text-align: center;
   direction: rtl;
 }
+
+/* Community evidence credits button — true text centering */
+.community-evidence-card .secondary-btn {
+  box-sizing: border-box;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 58px;
+  padding: 0 28px;
+
+  line-height: 1;
+  text-align: center;
+}
