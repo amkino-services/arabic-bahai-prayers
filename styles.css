@@ -11574,3 +11574,10 @@ body.sunset-times-page .sunset-times-section {
 .community-path-card-link:hover .community-path-action {
   color: var(--teal-dark, #0A596D);
 }
+
+/* Community path action — spacing and scale */
+.community-path-action {
+  margin-top: 26px;
+  font-size: 14px;
+  line-height: 1.7;
+}
