@@ -289,7 +289,7 @@
     if (!target) return;
 
     target.innerHTML = `
-      <a class="secondary-btn" href="/credits">
+      <a class="secondary-btn community-story-credits-btn" href="/credits">
         المصادر والاعتمادات ←
       </a>
     `;

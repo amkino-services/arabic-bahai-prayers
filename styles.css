@@ -11718,3 +11718,22 @@ body.sunset-times-page .sunset-times-section {
     font-size: 11px;
   }
 }
+
+
+/* Community story credits button */
+#community-story-sources {
+  text-align: center;
+}
+
+#community-story-sources .community-story-credits-btn {
+  box-sizing: border-box;
+  display: inline-grid;
+  place-items: center;
+  width: auto;
+  min-width: 240px;
+  min-height: 58px;
+  margin-inline: auto;
+  padding: 0 28px;
+  line-height: normal;
+  text-align: center;
+}
