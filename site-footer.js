@@ -19,9 +19,9 @@ document.addEventListener('DOMContentLoaded', () => {
       </div>
 
       <div class="footer-links">
-        <a href="index.html">الرئيسية</a>
-        <a href="credits.html">المصادر والاعتمادات</a>
-        <a href="privacy.html">سياسة الخصوصية</a>
+        <a href="/">الرئيسية</a>
+        <a href="/credits">المصادر والاعتمادات</a>
+        <a href="/privacy">سياسة الخصوصية</a>
 
         <div class="footer-socials" aria-label="تابع المنارة">
           <span class="footer-socials-label">تواصل معنا</span>
