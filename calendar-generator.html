@@ -31,6 +31,32 @@
   <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700;800&family=Aref+Ruqaa:wght@400;700&family=Changa:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "الرئيسية",
+      "item": "https://bahai-lighthouse.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "أدوات وتطبيقات بهائية",
+      "item": "https://bahai-lighthouse.com/tools"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "مولّد التقويم البهائي",
+      "item": "https://bahai-lighthouse.com/calendar-generator"
+    }
+  ]
+}
+</script>
 </head>
 
 <body class="calendar-generator-page">
@@ -38,6 +64,15 @@
   <div id="global-header"></div>
 
   <main>
+
+      <nav class="site-breadcrumb" aria-label="مسار التنقل">
+          <a href="/">الرئيسية</a>
+          <span class="site-breadcrumb-separator" aria-hidden="true">←</span>
+          <a href="/tools">أدوات وتطبيقات بهائية</a>
+          <span class="site-breadcrumb-separator" aria-hidden="true">←</span>
+          <span class="site-breadcrumb-current" aria-current="page">مولّد التقويم البهائي</span>
+      </nav>
+
 
     <section class="tool-page-hero">
       <span class="tool-page-eyebrow">تطبيقات المنارة</span>

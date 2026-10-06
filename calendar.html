@@ -33,6 +33,26 @@
         rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "الرئيسية",
+      "item": "https://bahai-lighthouse.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "يوميات بهائية",
+      "item": "https://bahai-lighthouse.com/calendar"
+    }
+  ]
+}
+</script>
 </head>
 
 <body class="bahai-calendar-page">
@@ -40,6 +60,13 @@
   <div id="global-header"></div>
 
   <main id="top">
+
+      <nav class="site-breadcrumb" aria-label="مسار التنقل">
+          <a href="/">الرئيسية</a>
+          <span class="site-breadcrumb-separator" aria-hidden="true">←</span>
+          <span class="site-breadcrumb-current" aria-current="page">يوميات بهائية</span>
+      </nav>
+
 
     <section class="hero" id="about">
 

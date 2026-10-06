@@ -11682,3 +11682,53 @@ body.sunset-times-page .sunset-times-section {
   padding-bottom: 0;
   transform: none;
 }
+
+
+/* Site-wide breadcrumbs */
+
+.site-breadcrumb {
+  width: min(1120px, calc(100% - 40px));
+  margin: 28px auto 0;
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  direction: rtl;
+
+  color: var(--muted, #69757A);
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.site-breadcrumb a {
+  color: var(--teal, #0E6F88);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.site-breadcrumb a:hover {
+  color: var(--teal-dark, #0A596D);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.site-breadcrumb-separator {
+  color: var(--gold, #DDA940);
+  opacity: .8;
+}
+
+.site-breadcrumb-current {
+  color: var(--muted, #69757A);
+  font-weight: 600;
+}
+
+@media (max-width: 680px) {
+  .site-breadcrumb {
+    width: min(1120px, calc(100% - 28px));
+    margin-top: 20px;
+    gap: 6px;
+    font-size: 11px;
+  }
+}

@@ -40,6 +40,32 @@
 
   <link rel="stylesheet" href="/styles.css">
   <link rel="stylesheet" href="/community-path.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "الرئيسية",
+      "item": "https://bahai-lighthouse.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "موارد للمجتمعات",
+      "item": "https://bahai-lighthouse.com/community"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "اللقاءات التعبدية",
+      "item": "https://bahai-lighthouse.com/community/paths/devotional-gatherings"
+    }
+  ]
+}
+</script>
 </head>
 
 <body class="community-path-page">
@@ -48,14 +74,17 @@
 
   <main>
 
+      <nav class="site-breadcrumb" aria-label="مسار التنقل">
+          <a href="/">الرئيسية</a>
+          <span class="site-breadcrumb-separator" aria-hidden="true">←</span>
+          <a href="/community">موارد للمجتمعات</a>
+          <span class="site-breadcrumb-separator" aria-hidden="true">←</span>
+          <span class="site-breadcrumb-current" aria-current="page">اللقاءات التعبدية</span>
+      </nav>
+
+
     <section class="path-hero">
       <div class="path-container">
-
-        <nav class="path-breadcrumb" aria-label="مسار التنقل">
-          <a href="/community">موارد للمجتمعات</a>
-          <span aria-hidden="true">←</span>
-          <span>مسارات بناء المجتمع</span>
-        </nav>
 
         <span class="community-eyebrow">مجالات للعمل والخدمة</span>
 

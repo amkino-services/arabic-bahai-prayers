@@ -48,6 +48,26 @@
   >
 
   <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "الرئيسية",
+      "item": "https://bahai-lighthouse.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "موارد للمجتمعات",
+      "item": "https://bahai-lighthouse.com/community"
+    }
+  ]
+}
+</script>
 </head>
 
 <body class="community-page">
@@ -55,6 +75,13 @@
   <div id="global-header"></div>
 
   <main>
+
+      <nav class="site-breadcrumb" aria-label="مسار التنقل">
+          <a href="/">الرئيسية</a>
+          <span class="site-breadcrumb-separator" aria-hidden="true">←</span>
+          <span class="site-breadcrumb-current" aria-current="page">موارد للمجتمعات</span>
+      </nav>
+
 
     <section class="community-hero">
       <div class="community-hero-inner">
