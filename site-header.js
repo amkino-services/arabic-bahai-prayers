@@ -77,10 +77,10 @@ document.addEventListener('DOMContentLoaded', () => {
               <small class="available-label">متاح</small>
             </a>
 
-            <span class="nav-disabled">
+            <a href="/community">
               <span>موارد للمجتمعات</span>
-              <small>قريباً</small>
-            </span>
+              <small class="available-label">متاح</small>
+            </a>
 
             <a href="tools.html">
               <span>تطبيقات المنارة</span>
