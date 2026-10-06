@@ -11516,3 +11516,8 @@ body.sunset-times-page .sunset-times-section {
   grid-column: 1 / -1;
   width: 100%;
 }
+
+/* Community Resources credits — title spacing */
+#credits-community-title {
+  margin-top: 24px;
+}
