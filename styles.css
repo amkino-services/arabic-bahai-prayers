@@ -11521,3 +11521,8 @@ body.sunset-times-page .sunset-times-section {
 #credits-community-title {
   margin-top: 24px;
 }
+
+/* Community Resources credits — space before documentation method */
+#credits-community-title ~ .credits-notice {
+  margin-top: 36px;
+}
