@@ -11526,3 +11526,8 @@ body.sunset-times-page .sunset-times-section {
 #credits-community-title ~ .credits-notice {
   margin-top: 36px;
 }
+
+/* Community Resources — gap before the documentation-method box */
+[aria-labelledby="credits-community-title"] .credits-notice {
+  margin-top: 48px;
+}
