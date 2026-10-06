@@ -123,21 +123,15 @@
   },
   "visual_evidence": [
     {
-      "id": "cohesive-neighborhoods-documentary",
-      "type": "video_and_photographic_documentation",
-      "supports": [
-        "youth_and_service",
-        "friendship_across_difference",
-        "community_building",
-        "moral_and_spiritual_education"
-      ],
-      "caption_ar": "توثق هذه المادة خبرات من عدة أحياء في الولايات المتحدة حول بناء الصداقة بين أشخاص من خلفيات متنوعة وخدمة الشباب للخير العام.",
-      "source_type": "institutional_bahai_news",
-      "publisher": "Bahá’í World News Service",
+      "id": "united-states-community-1",
+      "type": "photo",
+      "caption_ar": "خبرات من أحياء ومجتمعات في الولايات المتحدة تُظهر كيف يمكن للعلاقات بين الجيران أن تصبح أساسًا لحياة مجتمعية أكثر تماسكًا.",
+      "local_path": "assets/community/web/united-states-community-1.jpg",
+      "original_local_path": "assets/community/united-states-community-1.jpg",
       "source_url": "https://news.bahai.org/podcasts/in-conversation/1821/in-conversation-fostering-cohesive-neighborhoods-united-states",
-      "source_image_hint": "Podcast/video documentary imagery accompanying experiences from multiple US communities.",
+      "source_page": "https://news.bahai.org/podcasts/in-conversation/1821/in-conversation-fostering-cohesive-neighborhoods-united-states",
+      "publisher": "Bahá’í World News Service",
       "usage_status": "approved_bwns_terms",
-      "geographic_warning": "Do not attribute this visual evidence to one locality unless the source explicitly identifies that locality.",
       "attribution": "Bahá’í World News Service",
       "usage_requirements": [
         "retain_original_caption",
@@ -145,15 +139,127 @@
         "resize_only",
         "preserve_original_context"
       ],
-      "terms_url": "https://news.bahai.org/legal",
-      "local_path": "assets/community/web/united-states-cohesive-neighborhoods.jpg",
-      "original_local_path": "assets/community/united-states-cohesive-neighborhoods.jpg"
+      "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "united-states-community-2",
+      "type": "photo",
+      "caption_ar": "مشاركون يتأملون في بناء علاقات تتجاوز الاختلافات وتساعد السكان على العمل معًا من أجل خير المجتمع.",
+      "local_path": "assets/community/web/united-states-community-2.jpg",
+      "original_local_path": "assets/community/united-states-community-2.jpg",
+      "source_url": "https://news.bahai.org/en/podcasts/1514/path-toward-unified-america",
+      "source_page": "https://news.bahai.org/en/podcasts/1514/path-toward-unified-america",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "united-states-community-3",
+      "type": "photo",
+      "caption_ar": "خبرات مرتبطة بالتربية والخدمة تُظهر قدرة الأفراد والأجيال الصاعدة على المساهمة في حياة أحيائهم.",
+      "local_path": "assets/community/web/united-states-community-3.jpg",
+      "original_local_path": "assets/community/united-states-community-3.jpg",
+      "source_url": "https://news.bahai.org/en/podcasts/1514/path-toward-unified-america",
+      "source_page": "https://news.bahai.org/en/podcasts/1514/path-toward-unified-america",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "united-states-community-4",
+      "type": "photo",
+      "caption_ar": "مساحات للتشاور والتعلّم تساعد السكان على تنمية الثقة والمسؤولية المشتركة.",
+      "local_path": "assets/community/web/united-states-community-4.jpg",
+      "original_local_path": "assets/community/united-states-community-4.jpg",
+      "source_url": "https://news.bahai.org/en/podcasts/1514/path-toward-unified-america",
+      "source_page": "https://news.bahai.org/en/podcasts/1514/path-toward-unified-america",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "united-states-community-5",
+      "type": "photo",
+      "caption_ar": "جهود لبناء الوحدة والصداقة بين أشخاص من خلفيات متنوعة في المجتمع الأمريكي.",
+      "local_path": "assets/community/web/united-states-community-5.jpg",
+      "original_local_path": "assets/community/united-states-community-5.jpg",
+      "source_url": "https://news.bahai.org/en/podcasts/1514/path-toward-unified-america",
+      "source_page": "https://news.bahai.org/en/podcasts/1514/path-toward-unified-america",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "united-states-community-6",
+      "type": "photo",
+      "caption_ar": "تجارب تُبرز الصلة بين التحول الروحي وبناء علاقات جديدة في المجتمع.",
+      "local_path": "assets/community/web/united-states-community-6.jpg",
+      "original_local_path": "assets/community/united-states-community-6.jpg",
+      "source_url": "https://news.bahai.org/en/podcasts/1514/path-toward-unified-america",
+      "source_page": "https://news.bahai.org/en/podcasts/1514/path-toward-unified-america",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "united-states-community-7",
+      "type": "photo",
+      "caption_ar": "مبادرات تساعد الشباب على توجيه قدراتهم نحو الخدمة والعمل المشترك.",
+      "local_path": "assets/community/web/united-states-community-7.jpg",
+      "original_local_path": "assets/community/united-states-community-7.jpg",
+      "source_url": "https://news.bahai.org/en/podcasts/1514/path-toward-unified-america",
+      "source_page": "https://news.bahai.org/en/podcasts/1514/path-toward-unified-america",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
     }
   ],
   "primary_visual": {
-    "evidence_id": "cohesive-neighborhoods-documentary",
-    "local_path": "assets/community/web/united-states-cohesive-neighborhoods.jpg",
-    "original_local_path": "assets/community/united-states-cohesive-neighborhoods.jpg",
+    "evidence_id": "united-states-community-1",
+    "local_path": "assets/community/web/united-states-community-1.jpg",
+    "original_local_path": "assets/community/united-states-community-1.jpg",
     "display_role": "primary_documentary_image"
   }
 }
