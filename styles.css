@@ -11646,3 +11646,20 @@ body.sunset-times-page .sunset-times-section {
   line-height: 1;
   text-align: center;
 }
+
+/* Community evidence credits button — Arabic optical centering */
+.community-evidence-card .secondary-btn {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 58px;
+  padding: 0 28px;
+
+  line-height: 1;
+  text-align: center;
+
+  /* Arabic glyphs sit visually high in this font */
+  padding-top: 5px;
+}
