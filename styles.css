@@ -11663,3 +11663,22 @@ body.sunset-times-page .sunset-times-section {
   /* Arabic glyphs sit visually high in this font */
   padding-top: 5px;
 }
+
+/* Community evidence credits button — exact centering */
+.community-evidence-card .secondary-btn {
+  box-sizing: border-box;
+
+  display: inline-grid;
+  place-items: center;
+
+  min-height: 58px;
+  padding: 0 28px;
+
+  line-height: normal;
+  text-align: center;
+
+  /* Cancel previous optical adjustments */
+  padding-top: 0;
+  padding-bottom: 0;
+  transform: none;
+}
