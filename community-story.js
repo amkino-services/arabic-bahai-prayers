@@ -193,7 +193,7 @@
           : "";
 
       return `
-        <article class="community-story-timeline-item">
+        <article class="community-story-timeline-item${year ? "" : " community-story-timeline-item-undated"}">
           ${
             year
               ? `<div class="community-story-year">
@@ -202,7 +202,7 @@
               : ""
           }
 
-          <div>
+          <div class="community-story-timeline-content">
             ${
               title
                 ? `<h3>${escapeHtml(title)}</h3>`

@@ -11505,3 +11505,14 @@ body.sunset-times-page .sunset-times-section {
     line-height: 1.55;
   }
 }
+
+
+/* Community story — undated timeline entries */
+.community-story-timeline-item-undated {
+  grid-template-columns: 1fr;
+}
+
+.community-story-timeline-item-undated .community-story-timeline-content {
+  grid-column: 1 / -1;
+  width: 100%;
+}

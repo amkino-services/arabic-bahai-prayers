@@ -7,11 +7,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
       <a
         class="brand lighthouse-brand"
-        href="index.html"
+        href="/"
         aria-label="العودة إلى الصفحة الرئيسية"
       >
         <img
-          src="assets/lighthouse-mark.svg"
+          src="/assets/lighthouse-mark.svg"
           alt=""
           class="lighthouse-header-logo"
         >
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
         aria-label="التنقل الرئيسي"
       >
 
-        <a href="index.html">الرئيسية</a>
+        <a href="/">الرئيسية</a>
 
         <a href="index.html#purpose">هدف المنارة البهائية</a>
 
@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (currentPage === 'index.html') {
     // Homepage section-aware navigation
     const homeLink = target.querySelector(
-      '.global-nav > a[href="index.html"]'
+      '.global-nav > a[href="/"]'
     );
 
     const purposeLink = target.querySelector(
