@@ -10347,6 +10347,7 @@ body.sunset-times-page .sunset-times-section {
 
 .community-hero {
   position: relative;
+  margin-top: 32px;
   min-height: 620px;
   display: grid;
   place-items: center;
