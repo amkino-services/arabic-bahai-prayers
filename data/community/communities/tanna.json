@@ -172,19 +172,13 @@
   },
   "visual_evidence": [
     {
-      "id": "youth-reconstruction",
-      "type": "photograph",
-      "supports": [
-        "community_resilience",
-        "youth",
-        "education",
-        "disaster_response"
-      ],
-      "caption_ar": "شباب في تانا يشاركون في جهود إعادة البناء بعد إعصار بام، ضمن استجابة أعطت أهمية لاستمرار تعليم الأطفال والناشئة.",
-      "source_type": "institutional_bahai_news",
-      "publisher": "Bahá’í World News Service",
+      "id": "cyclone-reconstruction",
+      "type": "photo",
+      "caption_ar": "شباب وأفراد من المجتمع يشاركون في جهود الخدمة وإعادة البناء في أعقاب إعصار بام.",
+      "local_path": "assets/community/web/tanna-cyclone-reconstruction.jpg",
       "source_url": "https://news.bahai.org/story/1095/after-catastrophe-youth-lead-reconstruction-vanuatu",
-      "source_image_hint": "Youth reconstruction work, community facilities and agricultural recovery following Cyclone Pam.",
+      "source_page": "https://news.bahai.org/story/1095/after-catastrophe-youth-lead-reconstruction-vanuatu",
+      "publisher": "Bahá’í World News Service",
       "usage_status": "approved_bwns_terms",
       "attribution": "Bahá’í World News Service",
       "usage_requirements": [
@@ -193,23 +187,124 @@
         "resize_only",
         "preserve_original_context"
       ],
-      "terms_url": "https://news.bahai.org/legal",
-      "local_path": "assets/community/web/tanna.jpg",
-      "original_local_path": "assets/community/tanna.jpg"
+      "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "design-unveiling",
+      "type": "photo",
+      "caption_ar": "سكان تانا وقيادات محلية يجتمعون في مناسبة الكشف عن تصميم مشرق الأذكار المحلي عام 2017.",
+      "local_path": "assets/community/web/tanna-design-unveiling.jpg",
+      "source_url": "https://news.bahai.org/story/1176/unveiling-galvanizes-island",
+      "source_page": "https://news.bahai.org/story/1176/unveiling-galvanizes-island",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "groundbreaking",
+      "type": "photo",
+      "caption_ar": "اجتماع حاشد في تانا بمناسبة وضع حجر الأساس لمشرق الأذكار المحلي عام 2019.",
+      "local_path": "assets/community/web/tanna-groundbreaking.jpg",
+      "source_url": "https://news.bahai.org/story/1373/milestone-vanuatu-temple-uplifts-galvanizes-island",
+      "source_page": "https://news.bahai.org/story/1373/milestone-vanuatu-temple-uplifts-galvanizes-island",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "eight-tribes",
+      "type": "photo",
+      "caption_ar": "مشاركة القيادات التقليدية في مناسبة وضع حجر الأساس، في سياق تعاون القبائل الثماني التي قدّمت أرض المعبد.",
+      "local_path": "assets/community/web/tanna-eight-tribes.jpg",
+      "source_url": "https://news.bahai.org/story/1373/milestone-vanuatu-temple-uplifts-galvanizes-island?image=3",
+      "source_page": "https://news.bahai.org/story/1373/milestone-vanuatu-temple-uplifts-galvanizes-island?image=3",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "temple-arrival",
+      "type": "photo",
+      "caption_ar": "أفراد من المجتمع يستقبلون وصول المكوّنات الرئيسية لمشرق الأذكار إلى جزيرة تانا عام 2021.",
+      "local_path": "assets/community/web/tanna-temple-arrival.jpg",
+      "source_url": "https://news.bahai.org/story/1515/temple-arrival-new-dawn-heart-pacific",
+      "source_page": "https://news.bahai.org/story/1515/temple-arrival-new-dawn-heart-pacific",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
     },
     {
       "id": "traditional-leadership",
-      "type": "photograph",
-      "supports": [
-        "indigenous_culture",
-        "social_cohesion",
-        "collective_action"
-      ],
-      "caption_ar": "قيادات تقليدية ووطنية تشارك في وضع حجر الأساس في تانا؛ وكانت ثماني قبائل قد قدمت الأرض بصورة جماعية.",
-      "source_type": "institutional_bahai_news",
+      "type": "photo",
+      "caption_ar": "قيادات تقليدية في تانا تتأمل في دور مشرق الأذكار في تعزيز الوحدة بين أفراد المجتمع.",
+      "local_path": "assets/community/web/tanna-traditional-leadership.jpg",
+      "source_url": "https://news.bahai.org/story/1530/chiefs-vanuatu-reflect-temple-unifying-role",
+      "source_page": "https://news.bahai.org/story/1530/chiefs-vanuatu-reflect-temple-unifying-role",
       "publisher": "Bahá’í World News Service",
-      "source_url": "https://news.bahai.org/story/1373/milestone-vanuatu-temple-uplifts-galvanizes-island",
-      "source_image_hint": "Traditional wooden kakel ceremony, chiefs, national representatives and residents.",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "opening-preparations",
+      "type": "photo",
+      "caption_ar": "أفراد من مختلف الأعمار يشاركون في الاستعدادات لافتتاح مشرق الأذكار المحلي في تانا.",
+      "local_path": "assets/community/web/tanna-opening-preparations.jpg",
+      "source_url": "https://news.bahai.org/en/story/1549/vanuatu-anticipation-builds-temple-inauguration-draws-near",
+      "source_page": "https://news.bahai.org/en/story/1549/vanuatu-anticipation-builds-temple-inauguration-draws-near",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "dedication",
+      "type": "photo",
+      "caption_ar": "اجتماع الآلاف من أنحاء فانواتو في تانا بمناسبة تدشين أول مشرق أذكار محلي في المحيط الهادئ عام 2021.",
+      "local_path": "assets/community/web/tanna-dedication.jpg",
+      "source_url": "https://news.bahai.org/story/1550/first-local-bahai-temple-pacific-opens-doors",
+      "source_page": "https://news.bahai.org/story/1550/first-local-bahai-temple-pacific-opens-doors",
+      "publisher": "Bahá’í World News Service",
       "usage_status": "approved_bwns_terms",
       "attribution": "Bahá’í World News Service",
       "usage_requirements": [
@@ -222,8 +317,8 @@
     }
   ],
   "primary_visual": {
-    "evidence_id": "youth-reconstruction",
-    "local_path": "assets/community/web/tanna.jpg",
+    "evidence_id": "cyclone-reconstruction",
+    "local_path": "assets/community/web/tanna-cyclone-reconstruction.jpg",
     "original_local_path": "assets/community/tanna.jpg",
     "display_role": "primary_documentary_image"
   }
