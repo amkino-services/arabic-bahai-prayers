@@ -11352,6 +11352,12 @@ body.sunset-times-page .sunset-times-section {
   padding: 20px 22px;
   border-top: 1px solid #edf0f1;
   flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.community-story-gallery-item figcaption a {
+  margin-top: auto;
 }
 
 .community-story-gallery-item figcaption p {
