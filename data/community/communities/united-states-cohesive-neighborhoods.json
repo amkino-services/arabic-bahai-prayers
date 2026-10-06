@@ -254,6 +254,25 @@
         "preserve_original_context"
       ],
       "terms_url": "https://news.bahai.org/legal"
+    },
+    {
+      "id": "united-states-community-8",
+      "type": "photo",
+      "caption_ar": "شباب وأسر في الولايات المتحدة يحوّلون الروابط التي نشأت من خلال جهود بناء المجتمع إلى أعمال عملية لخدمة جيرانهم؛ ومن بين هذه المبادرات إعداد مستلزمات واقية للجيران في روكوال بولاية تكساس.",
+      "local_path": "assets/community/web/united-states-community-8.jpg",
+      "original_local_path": "assets/community/united-states-community-8.jpg",
+      "source_url": "https://news.bahai.org/story/1415/youth-forefront-grassroots-response-united-states",
+      "source_page": "https://news.bahai.org/story/1415/youth-forefront-grassroots-response-united-states",
+      "publisher": "Bahá’í World News Service",
+      "usage_status": "approved_bwns_terms",
+      "attribution": "Bahá’í World News Service",
+      "usage_requirements": [
+        "retain_original_caption",
+        "attribute_to_bwns",
+        "resize_only",
+        "preserve_original_context"
+      ],
+      "terms_url": "https://news.bahai.org/legal"
     }
   ],
   "primary_visual": {
