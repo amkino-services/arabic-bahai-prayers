@@ -6669,7 +6669,7 @@ body.sunset-times-page h1 {
 
 /* Tools page main title */
 body.tools-page .tools-page-intro h1 {
-  font-family: "Almarai", sans-serif !important;
+  font-family: "Aref Ruqaa", "Almarai", serif !important;
   font-size: 56px !important;
   line-height: 1.3 !important;
   font-weight: 700 !important;
@@ -11829,20 +11829,4 @@ body.sunset-times-page .sunset-times-section {
   .community-learning-card {
     padding: 22px;
   }
-}
-
-
-/* Aref Ruqaa for main application page titles */
-.tools-page-intro h1,
-.tool-page-hero h1 {
-  font-family: "Aref Ruqaa", serif;
-  font-weight: 700;
-}
-
-
-/* Aref Ruqaa — selected main page titles */
-h1.ruqaa-page-title {
-  font-family: "Aref Ruqaa", serif !important;
-  font-weight: 400 !important;
-  font-style: normal;
 }
