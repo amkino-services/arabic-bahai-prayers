@@ -11838,3 +11838,10 @@ body.sunset-times-page .sunset-times-section {
   font-family: "Aref Ruqaa", serif;
   font-weight: 700;
 }
+
+
+/* Aref Ruqaa — selected main page titles */
+h1.ruqaa-page-title {
+  font-family: "Aref Ruqaa", serif !important;
+  font-weight: 700 !important;
+}
