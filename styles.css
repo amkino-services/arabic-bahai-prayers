@@ -11830,3 +11830,15 @@ body.sunset-times-page .sunset-times-section {
     padding: 22px;
   }
 }
+
+/* ===== Main application titles — Aref Ruqaa ===== */
+
+body.tools-page .tools-page-intro h1.ruqaa-page-title,
+body.date-converter-page h1.ruqaa-page-title,
+body.sunset-times-page h1.ruqaa-page-title,
+body.calendar-generator-page .tool-page-hero h1.ruqaa-page-title,
+body.huququllah-page .tool-page-hero h1.ruqaa-page-title {
+  font-family: "Aref Ruqaa", "Almarai", serif !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+}
