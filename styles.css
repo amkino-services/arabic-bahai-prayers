@@ -11830,3 +11830,11 @@ body.sunset-times-page .sunset-times-section {
     padding: 22px;
   }
 }
+
+
+/* Aref Ruqaa for main application page titles */
+.tools-page-intro h1,
+.tool-page-hero h1 {
+  font-family: "Aref Ruqaa", serif;
+  font-weight: 700;
+}
