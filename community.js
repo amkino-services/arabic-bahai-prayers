@@ -84,7 +84,7 @@
         const region = regionNames[entry.continent_id] || "";
         const image = record.primary_visual?.local_path
           ? `/${record.primary_visual.local_path}`
-          : "/assets/lighthouse-logo.png";
+          : "/assets/brand/lighthouse-logo.png";
 
         const evidence = record.visual_evidence?.find(
           item => item.id === record.primary_visual?.evidence_id

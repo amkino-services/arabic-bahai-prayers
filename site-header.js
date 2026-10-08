@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         aria-label="العودة إلى الصفحة الرئيسية"
       >
         <img
-          src="/assets/lighthouse-mark.svg"
+          src="/assets/brand/lighthouse-mark.svg"
           alt=""
           class="lighthouse-header-logo"
         >
