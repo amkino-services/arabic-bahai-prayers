@@ -15,12 +15,6 @@
 .path-hero {
   padding: 78px 0 70px;
   border-bottom: 1px solid var(--line, #D8DEE1);
-  background:
-    radial-gradient(
-      circle at 15% 15%,
-      rgba(207, 234, 246, .50),
-      transparent 34%
-    );
 }
 
 .path-breadcrumb {
