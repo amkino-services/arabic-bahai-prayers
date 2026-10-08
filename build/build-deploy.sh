@@ -125,7 +125,11 @@ echo "===== ASSETS ====="
 
 if [[ -d assets ]]; then
   mkdir -p "$DEPLOY_DIR/assets"
-  cp -R assets/. "$DEPLOY_DIR/assets/"
+  while IFS= read -r -d '' file; do
+    relative="${file#assets/}"
+    mkdir -p "$DEPLOY_DIR/assets/$(dirname "$relative")"
+    cp "$file" "$DEPLOY_DIR/assets/$relative"
+  done < <(find assets -type f ! -name '.DS_Store' -print0)
   echo "COPY  assets/ -> assets/"
 fi
 
@@ -134,7 +138,11 @@ echo "===== PUBLIC DATA ====="
 
 if [[ -d data/community ]]; then
   mkdir -p "$DEPLOY_DIR/data/community"
-  cp -R data/community/. "$DEPLOY_DIR/data/community/"
+  while IFS= read -r -d '' file; do
+    relative="${file#data/community/}"
+    mkdir -p "$DEPLOY_DIR/data/community/$(dirname "$relative")"
+    cp "$file" "$DEPLOY_DIR/data/community/$relative"
+  done < <(find data/community -type f ! -name '.DS_Store' -print0)
   echo "COPY  data/community/ -> data/community/"
 fi
 
