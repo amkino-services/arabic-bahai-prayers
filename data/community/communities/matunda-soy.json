@@ -188,7 +188,7 @@
         "preserve_original_context"
       ],
       "terms_url": "https://news.bahai.org/legal",
-      "local_path": "assets/community/web/matunda-soy.jpg",
+      "local_path": "assets/community/experiences/matunda-soy/hero.jpg",
       "original_local_path": "assets/community/matunda-soy.jpg"
     },
     {
@@ -213,7 +213,7 @@
       "caption_ar": "برنامج تعبدي داخل مشرق الأذكار المحلي في ماتوندا سوي، حيث يجتمع المشاركون للدعاء والتأمل.",
       "source_url": "https://news.bahai.org/story/1560/houses-worship-bahai-temples-focal-points-centenary-commemorations",
       "source_image_hint": "Devotional program inside the House of Worship.",
-      "local_path": "assets/community/web/matunda-soy-devotional-program.jpg",
+      "local_path": "assets/community/experiences/matunda-soy/devotional-program.jpg",
       "original_local_path": "assets/community/matunda-soy-devotional-program.jpg"
     },
     {
@@ -238,7 +238,7 @@
       "caption_ar": "شباب يشاركون في أداء موسيقي ضمن أنشطة مرتبطة بحياة المجتمع في ماتوندا سوي.",
       "source_url": "https://news.bahai.org/story/1560/houses-worship-bahai-temples-focal-points-centenary-commemorations",
       "source_image_hint": "Musical performances by young people.",
-      "local_path": "assets/community/web/matunda-soy-youth-music.jpg",
+      "local_path": "assets/community/experiences/matunda-soy/youth-music.jpg",
       "original_local_path": "assets/community/matunda-soy-youth-music.jpg"
     },
     {
@@ -263,7 +263,7 @@
       "caption_ar": "مشتل في موقع مشرق الأذكار، ضمن مسار من العمل المشترك والعناية بالمحيط الذي أصبح أيضًا فضاءً للقاء والتعلّم.",
       "source_url": "https://news.bahai.org/story/1434/africa-temple-rises-anticipation-another",
       "source_image_hint": "Onsite plant nursery.",
-      "local_path": "assets/community/web/matunda-soy-plant-nursery.jpg",
+      "local_path": "assets/community/experiences/matunda-soy/plant-nursery.jpg",
       "original_local_path": "assets/community/matunda-soy-plant-nursery.jpg"
     },
     {
@@ -288,7 +288,7 @@
       "caption_ar": "مشاركة محلية في الأعمال المرتبطة بتهيئة حدائق مشرق الأذكار والعناية بمحيطه.",
       "source_url": "https://news.bahai.org/story/1493/drc-temple-foundations-complete-landscaping-begins-kenya",
       "source_image_hint": "Preparations for the gardens and landscaping.",
-      "local_path": "assets/community/web/matunda-soy-community-gardens.jpg",
+      "local_path": "assets/community/experiences/matunda-soy/community-gardens.jpg",
       "original_local_path": "assets/community/matunda-soy-community-gardens.jpg"
     },
     {
@@ -313,7 +313,7 @@
       "caption_ar": "أفراد من المجتمع يتشاورون حول مستقبل مشرق الأذكار ودوره في حياة ماتوندا سوي.",
       "source_url": "https://news.bahai.org/story/1473/work-progresses-houses-worship-drc-kenya",
       "source_image_hint": "Members of the community discussing the future of the temple.",
-      "local_path": "assets/community/web/matunda-soy-community-consultation.jpg",
+      "local_path": "assets/community/experiences/matunda-soy/community-consultation.jpg",
       "original_local_path": "assets/community/matunda-soy-community-consultation.jpg"
     },
     {
@@ -338,7 +338,7 @@
       "caption_ar": "مشاركة مجتمعية في وضع حجر الأساس لمشرق الأذكار المحلي في ماتوندا سوي.",
       "source_url": "https://news.bahai.org/story/1317/",
       "source_image_hint": "Groundbreaking gathering for the local House of Worship.",
-      "local_path": "assets/community/web/matunda-soy-groundbreaking.jpg",
+      "local_path": "assets/community/experiences/matunda-soy/groundbreaking.jpg",
       "original_local_path": "assets/community/matunda-soy-groundbreaking.jpg"
     },
     {
@@ -363,13 +363,13 @@
       "caption_ar": "مشرق الأذكار المحلي في ماتوندا سوي بعد اكتماله، في محطة جديدة من حياة العبادة والخدمة في المنطقة.",
       "source_url": "https://news.bahai.org/story/1511/kenya-first-local-bahai-temple-africa-opens-doors",
       "source_image_hint": "Opening of the completed local House of Worship.",
-      "local_path": "assets/community/web/matunda-soy-opening-community.jpg",
+      "local_path": "assets/community/experiences/matunda-soy/opening-community.jpg",
       "original_local_path": "assets/community/matunda-soy-opening-community.jpg"
     }
   ],
   "primary_visual": {
     "evidence_id": "collective-devotions",
-    "local_path": "assets/community/web/matunda-soy.jpg",
+    "local_path": "assets/community/experiences/matunda-soy/hero.jpg",
     "original_local_path": "assets/community/matunda-soy.jpg",
     "display_role": "primary_documentary_image"
   }
