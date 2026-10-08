@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <div class="footer-identity">
         <img
           class="footer-brand-logo"
-          src="assets/brand/lighthouse-logo.svg"
+          src="/assets/brand/lighthouse-logo.svg"
           alt="المنارة البهائية"
         >
         <div class="footer-identity-text">
