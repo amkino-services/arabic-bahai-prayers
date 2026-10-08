@@ -1028,3 +1028,366 @@
     max-width: 200px;
   }
 }
+
+
+/* ==========================================================
+   Children's Classes — exploration navigation
+   ========================================================== */
+
+.children-explore {
+  padding: 46px 0;
+  border-bottom: 1px solid var(--line, #D8DEE1);
+  background: rgba(255, 255, 255, .38);
+}
+
+.children-explore-heading {
+  max-width: 720px;
+  margin-bottom: 26px;
+}
+
+.children-explore-heading h2 {
+  margin: 8px 0 8px;
+  color: var(--ink, #172126);
+  font-family: "Aref Ruqaa", "Almarai", sans-serif;
+  font-size: clamp(28px, 4vw, 40px);
+  line-height: 1.5;
+}
+
+.children-explore-heading p {
+  margin: 0;
+  color: var(--muted, #69757A);
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+.children-explore-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.children-explore-grid a {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 145px;
+  padding: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(14, 111, 136, .14);
+  border-radius: 18px;
+  background: rgba(255, 253, 247, .88);
+  color: inherit;
+  text-decoration: none;
+  transition:
+    transform .18s ease,
+    border-color .18s ease,
+    box-shadow .18s ease;
+}
+
+.children-explore-grid a:hover {
+  transform: translateY(-3px);
+  border-color: rgba(14, 111, 136, .32);
+  box-shadow: 0 12px 28px rgba(23, 33, 38, .06);
+}
+
+.children-explore-number {
+  margin-bottom: 18px;
+  color: var(--gold, #DDA940);
+  font-family: "Changa", "Almarai", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.children-explore-grid strong {
+  margin-bottom: 7px;
+  color: var(--ink, #172126);
+  font-family: "Changa", "Almarai", sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.children-explore-grid small {
+  color: var(--muted, #69757A);
+  font-family: "Almarai", sans-serif;
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+.children-explore-grid a::after {
+  content: "←";
+  position: absolute;
+  left: 18px;
+  bottom: 15px;
+  color: var(--teal, #0E6F88);
+  font-size: 15px;
+}
+
+#understand,
+#practice,
+#resources,
+#examples {
+  scroll-margin-top: 90px;
+}
+
+@media (max-width: 900px) {
+  .children-explore-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .children-explore {
+    padding: 36px 0;
+  }
+
+  .children-explore-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .children-explore-grid a {
+    min-height: 118px;
+  }
+}
+
+
+/* ==========================================================
+   Children's Classes — next-step browsing hub
+   ========================================================== */
+
+.children-next-heading {
+  max-width: 760px;
+}
+
+.children-next-grid {
+  display: grid;
+  gap: 14px;
+  margin-top: 30px;
+}
+
+.children-next-panel {
+  overflow: hidden;
+  border: 1px solid rgba(24, 43, 48, .12);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, .58);
+}
+
+.children-next-panel > summary {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr) auto;
+  gap: 18px;
+  align-items: center;
+  min-height: 118px;
+  padding: 22px 24px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.children-next-panel > summary::-webkit-details-marker {
+  display: none;
+}
+
+.children-next-icon {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(14, 111, 136, .18);
+  border-radius: 50%;
+  color: var(--teal, #0E6F88);
+  font-size: 18px;
+}
+
+.children-next-summary {
+  display: flex;
+  flex-direction: column;
+}
+
+.children-next-summary small {
+  margin-bottom: 4px;
+  color: var(--gold, #B78324);
+  font-family: "Almarai", sans-serif;
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+.children-next-summary strong {
+  color: var(--ink, #172126);
+  font-family: "Changa", "Almarai", sans-serif;
+  font-size: clamp(17px, 2vw, 21px);
+  line-height: 1.6;
+}
+
+.children-next-summary > span {
+  margin-top: 3px;
+  color: var(--muted, #69757A);
+  font-family: "Almarai", sans-serif;
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+.children-next-action {
+  color: var(--teal, #0E6F88);
+  font-family: "Almarai", sans-serif;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.children-next-action::after {
+  content: " +";
+}
+
+.children-next-panel[open] .children-next-action::after {
+  content: " −";
+}
+
+.children-next-content {
+  padding: 0 24px 24px;
+  border-top: 1px solid rgba(24, 43, 48, .08);
+}
+
+.children-next-intro {
+  max-width: 760px;
+  margin: 20px 0;
+  color: var(--muted, #69757A);
+  font-size: 12px;
+  line-height: 2;
+}
+
+.children-source-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.children-source-list a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 78px;
+  padding: 15px 17px;
+  border: 1px solid rgba(24, 43, 48, .09);
+  border-radius: 15px;
+  background: rgba(255, 253, 247, .74);
+  color: inherit;
+  text-decoration: none;
+  transition:
+    border-color .18s ease,
+    transform .18s ease;
+}
+
+.children-source-list a:hover {
+  transform: translateY(-2px);
+  border-color: rgba(14, 111, 136, .28);
+}
+
+.children-source-list a > span {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.children-source-list small {
+  color: var(--muted, #69757A);
+  font-family: "Almarai", sans-serif;
+  font-size: 10px;
+  line-height: 1.7;
+}
+
+.children-source-list strong {
+  color: var(--ink, #172126);
+  font-family: "Almarai", sans-serif;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.children-source-list b {
+  color: var(--teal, #0E6F88);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.children-community-note {
+  display: grid;
+  grid-template-columns: minmax(120px, .35fr) minmax(0, 1fr);
+  gap: 28px;
+  align-items: start;
+  margin-top: 42px;
+  padding-top: 28px;
+  border-top: 1px solid rgba(24, 43, 48, .12);
+}
+
+.children-community-note h3 {
+  margin: 0 0 8px;
+  color: var(--ink, #172126);
+  font-family: "Changa", "Almarai", sans-serif;
+  font-size: 18px;
+}
+
+.children-community-note p {
+  max-width: 720px;
+  margin: 0;
+  color: var(--muted, #69757A);
+  font-size: 12px;
+  line-height: 2;
+}
+
+@media (max-width: 680px) {
+  .children-next-panel > summary {
+    grid-template-columns: 40px minmax(0, 1fr);
+    gap: 14px;
+    min-height: 104px;
+    padding: 18px;
+  }
+
+  .children-next-icon {
+    width: 38px;
+    height: 38px;
+  }
+
+  .children-next-action {
+    display: none;
+  }
+
+  .children-next-content {
+    padding: 0 18px 18px;
+  }
+
+  .children-source-list {
+    grid-template-columns: 1fr;
+  }
+
+  .children-community-note {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+
+
+/* Children's Classes — final visual rhythm */
+
+.children-featured-experience {
+  padding-top: clamp(3.5rem, 7vw, 5.5rem);
+  padding-bottom: clamp(3.5rem, 7vw, 5.5rem);
+}
+
+.children-closing-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 34px;
+  padding-bottom: 42px;
+  border-top: 1px solid var(--line, #D8DEE1);
+}
+
+@media (max-width: 520px) {
+  .children-closing-nav {
+    flex-direction: column;
+  }
+
+  .children-closing-nav a {
+    justify-content: center;
+    width: 100%;
+  }
+}
