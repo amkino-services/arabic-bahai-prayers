@@ -1391,3 +1391,32 @@
     width: 100%;
   }
 }
+
+/* Children's Classes — mobile text containment */
+@media (max-width: 680px) {
+  .childrens-classes-page .path-container,
+  .childrens-classes-page .path-section-heading,
+  .childrens-classes-page .path-prose,
+  .childrens-classes-page .children-next-content,
+  .childrens-classes-page .children-source-list,
+  .childrens-classes-page .children-source-list a,
+  .childrens-classes-page .children-source-list a > span,
+  .childrens-classes-page .children-community-note,
+  .childrens-classes-page .children-community-note > * {
+    min-width: 0;
+  }
+
+  .childrens-classes-page p,
+  .childrens-classes-page li,
+  .childrens-classes-page a,
+  .childrens-classes-page small,
+  .childrens-classes-page strong {
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+
+  .childrens-classes-page .children-source-list a {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
