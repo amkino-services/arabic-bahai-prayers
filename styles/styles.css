@@ -11842,3 +11842,44 @@ body.huququllah-page .tool-page-hero h1.ruqaa-page-title {
   font-weight: 700 !important;
   font-style: normal !important;
 }
+
+/* Community Resources credits — responsive source links */
+@media (max-width: 680px) {
+  [aria-labelledby="credits-community-title"] .credits-source-group,
+  [aria-labelledby="credits-community-title"] .credits-links,
+  [aria-labelledby="credits-community-title"] .credits-source-link {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  [aria-labelledby="credits-community-title"] .credits-links {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  [aria-labelledby="credits-community-title"] .credits-source-link {
+    display: block;
+    width: 100%;
+    padding-block: 9px;
+
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: normal;
+
+    line-height: 1.9;
+  }
+
+  [aria-labelledby="credits-community-title"]
+  .credits-links .credits-source-link:not(:last-child)::after {
+    content: none;
+  }
+
+  [aria-labelledby="credits-community-title"] .credits-source-group p,
+  [aria-labelledby="credits-community-title"] .credits-source-group h3,
+  [aria-labelledby="credits-community-title"] .credits-source-group h4 {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
+}
