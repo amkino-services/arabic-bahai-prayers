@@ -1420,3 +1420,1123 @@
     box-sizing: border-box;
   }
 }
+
+
+/* ===== Junior youth materials ===== */
+
+.junior-youth-page .junior-youth-materials {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 28px;
+  margin-top: 42px;
+}
+
+.junior-youth-page .junior-youth-material {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+  margin: 0;
+}
+
+.junior-youth-page .junior-youth-material:has(
+  .junior-youth-material-cover[data-book]
+) {
+  display: none;
+}
+
+.junior-youth-page .junior-youth-material-cover {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  min-height: 0;
+}
+
+.junior-youth-page .junior-youth-material-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2545 / 3299;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow:
+    0 18px 34px rgba(23, 33, 38, .12),
+    0 3px 8px rgba(23, 33, 38, .08);
+}
+
+.junior-youth-page .junior-youth-material h3 {
+  margin: 0;
+  color: var(--ink, #172126);
+  font-family: "Aref Ruqaa", "Almarai", sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.junior-youth-page .junior-youth-materials-note {
+  max-width: 760px;
+  margin: 32px auto 0;
+  color: var(--muted, #69757a);
+  font-size: .92rem;
+  line-height: 2;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .junior-youth-page .junior-youth-materials {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 620px;
+    margin-inline: auto;
+    margin-top: 38px;
+  }
+}
+
+@media (max-width: 520px) {
+  .junior-youth-page .junior-youth-materials {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px 16px;
+  }
+
+  .junior-youth-page .junior-youth-material h3 {
+    font-size: 1.08rem;
+  }
+}
+
+
+/* Junior youth documentary: fill the frame and keep caption on the photograph. */
+.junior-youth-page #documentary .path-featured-media {
+  align-self: stretch;
+  min-height: 100%;
+}
+
+.junior-youth-page #documentary .path-featured-media img {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.junior-youth-page #documentary .path-featured-media figcaption {
+  right: 14px;
+  bottom: 14px;
+}
+
+/* ==========================================================
+   Junior youth — documentary experiences
+   ========================================================== */
+
+.junior-youth-experiences-page .junior-youth-case {
+  scroll-margin-top: 35px;
+}
+
+.junior-youth-experiences-page .jy-story-intro,
+.junior-youth-experiences-page .jy-story-outcomes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 36px;
+  margin: 42px 0;
+}
+
+.junior-youth-experiences-page .jy-story-intro > div,
+.junior-youth-experiences-page .jy-story-outcomes > div {
+  padding: 30px;
+  border: 1px solid rgba(14, 111, 136, .12);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, .45);
+}
+
+.junior-youth-experiences-page .junior-youth-case h3 {
+  margin: 12px 0 16px;
+  font-family: "Aref Ruqaa", "Almarai", sans-serif;
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  line-height: 1.7;
+}
+
+.junior-youth-experiences-page .junior-youth-case p {
+  color: var(--muted, #69757a);
+  line-height: 2.15;
+}
+
+.junior-youth-experiences-page .jy-story-process {
+  padding: 38px 30px;
+  margin: 45px 0;
+  border-radius: 22px;
+  text-align: center;
+  background: rgba(207, 234, 246, .35);
+}
+
+.junior-youth-experiences-page .jy-process-steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.junior-youth-experiences-page .jy-process-steps span {
+  padding: 12px 18px;
+  border: 1px solid rgba(14, 111, 136, .2);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .75);
+  font-weight: 700;
+}
+
+.junior-youth-experiences-page .jy-process-steps span:not(:last-child)::after {
+  content: "←";
+  margin-inline-start: 20px;
+  color: var(--teal, #0e6f88);
+}
+
+.junior-youth-experiences-page .jy-process-note {
+  margin-top: 22px;
+  font-size: .88rem;
+}
+
+.junior-youth-experiences-page .jy-story-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 40px;
+  align-items: center;
+  margin: 44px 0;
+}
+
+.junior-youth-experiences-page .jy-story-photo {
+  margin: 0;
+}
+
+.junior-youth-experiences-page .jy-story-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+}
+
+.junior-youth-experiences-page .jy-story-photo figcaption {
+  margin-top: 12px;
+  font-size: .78rem;
+  line-height: 1.9;
+  color: var(--muted, #69757a);
+}
+
+.junior-youth-experiences-page .jy-story-photo figcaption a {
+  color: var(--teal, #0e6f88);
+}
+
+.junior-youth-experiences-page .jy-story-feature-copy h3 {
+  margin-top: 8px;
+}
+
+.junior-youth-experiences-page .jy-story-feature-copy p {
+  margin-bottom: 26px;
+}
+
+.junior-youth-experiences-page .jy-story-learning {
+  padding: 34px 38px;
+  margin: 44px 0 28px;
+  border-right: 4px solid var(--teal, #0e6f88);
+  border-radius: 16px;
+  background: rgba(207, 234, 246, .35);
+}
+
+.junior-youth-experiences-page .path-definition-card a {
+  display: inline-block;
+  margin-top: 16px;
+  color: var(--teal, #0e6f88);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media (max-width: 760px) {
+  .junior-youth-experiences-page .jy-story-intro,
+  .junior-youth-experiences-page .jy-story-outcomes,
+  .junior-youth-experiences-page .jy-story-feature {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .junior-youth-experiences-page .jy-story-intro > div,
+  .junior-youth-experiences-page .jy-story-outcomes > div,
+  .junior-youth-experiences-page .jy-story-learning {
+    padding: 24px;
+  }
+
+  .junior-youth-experiences-page .jy-process-steps {
+    flex-direction: column;
+  }
+
+  .junior-youth-experiences-page .jy-process-steps span:not(:last-child)::after {
+    display: none;
+  }
+}
+
+/* Junior youth — complete documentary collection */
+
+.junior-youth-experiences-page .junior-youth-case {
+  scroll-margin-top: 5rem;
+}
+
+.junior-youth-experiences-page .jy-story-source {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(14, 111, 136, .12);
+}
+
+.junior-youth-experiences-page .jy-story-source p {
+  margin: 0;
+  flex: 1 1 260px;
+  font-size: .88rem;
+}
+
+.junior-youth-experiences-page .jy-story-source .primary-btn {
+  flex: 0 0 auto;
+}
+
+.junior-youth-experiences-page .junior-youth-case .path-section-heading {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 760px) {
+  .junior-youth-experiences-page .jy-story-source {
+    align-items: stretch;
+  }
+
+  .junior-youth-experiences-page .jy-story-source .primary-btn {
+    text-align: center;
+  }
+}
+
+/* Junior youth — complete documentary collection */
+
+.junior-youth-experiences-page .junior-youth-case {
+  scroll-margin-top: 5rem;
+}
+
+.junior-youth-experiences-page .jy-story-source {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(14, 111, 136, .12);
+}
+
+.junior-youth-experiences-page .jy-story-source p {
+  margin: 0;
+  flex: 1 1 260px;
+  font-size: .88rem;
+}
+
+.junior-youth-experiences-page .jy-story-source .primary-btn {
+  flex: 0 0 auto;
+}
+
+.junior-youth-experiences-page .junior-youth-case .path-section-heading {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 760px) {
+  .junior-youth-experiences-page .jy-story-source {
+    align-items: stretch;
+  }
+
+  .junior-youth-experiences-page .jy-story-source .primary-btn {
+    text-align: center;
+  }
+}
+
+
+/* Junior youth documentary photographs — verified sources */
+
+.junior-youth-experiences-page .jy-documentary-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(24px, 4vw, 56px);
+  align-items: center;
+  margin: 42px 0;
+}
+
+.junior-youth-experiences-page .jy-documentary-reverse
+.jy-documentary-photo {
+  order: 2;
+}
+
+.junior-youth-experiences-page .jy-documentary-reverse
+.jy-documentary-copy {
+  order: 1;
+}
+
+.junior-youth-experiences-page .jy-documentary-photo {
+  margin: 0;
+  min-width: 0;
+}
+
+.junior-youth-experiences-page .jy-documentary-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 14px;
+}
+
+.junior-youth-experiences-page .jy-documentary-photo figcaption {
+  margin-top: 14px;
+  font-size: .82rem;
+  line-height: 2;
+  color: #69757a;
+}
+
+.junior-youth-experiences-page .jy-documentary-photo
+figcaption a {
+  display: block;
+  margin-top: 8px;
+  color: #0e6f88;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.junior-youth-experiences-page .jy-documentary-note {
+  font-size: .78rem;
+  line-height: 1.9;
+}
+
+.junior-youth-experiences-page .jy-documentary-copy
+.jy-story-intro {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin: 0;
+}
+
+.junior-youth-experiences-page .jy-documentary-copy
+.jy-story-intro > div {
+  padding: 22px;
+}
+
+@media (max-width: 760px) {
+  .junior-youth-experiences-page .jy-documentary-feature {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .junior-youth-experiences-page .jy-documentary-reverse
+  .jy-documentary-photo,
+  .junior-youth-experiences-page .jy-documentary-reverse
+  .jy-documentary-copy {
+    order: initial;
+  }
+}
+
+/* India junior youth documentary photograph */
+
+.junior-youth-experiences-page .jy-india-photo {
+  max-width: 850px;
+  margin: 42px auto;
+}
+
+.junior-youth-experiences-page .jy-india-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
+
+.junior-youth-experiences-page .jy-india-photo figcaption {
+  margin-top: 14px;
+  color: #69757a;
+  font-size: .85rem;
+  line-height: 2;
+}
+
+.junior-youth-experiences-page .jy-india-photo figcaption a {
+  color: #0e6f88;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* Junior youth — collapsible documentary cases */
+
+.junior-youth-experiences-page .jy-case-preview-photo {
+  max-width: 760px;
+  margin: 36px auto 28px;
+}
+
+.junior-youth-experiences-page .jy-case-preview-photo figure {
+  margin: 0;
+}
+
+.junior-youth-experiences-page .jy-case-preview-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.junior-youth-experiences-page .jy-case-details {
+  margin-top: 26px;
+}
+
+.junior-youth-experiences-page .jy-case-details > summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 10px 18px;
+  border: 1px solid rgba(14, 111, 136, .18);
+  border-radius: 999px;
+  background: #0e6f88;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.5;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease,
+    background-color .2s ease;
+}
+
+.junior-youth-experiences-page
+.jy-case-details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.junior-youth-experiences-page
+.jy-case-details > summary::marker {
+  display: none;
+  content: "";
+}
+
+.junior-youth-experiences-page
+.jy-case-details > summary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 22px rgba(14, 111, 136, .13);
+}
+
+.junior-youth-experiences-page
+.jy-case-details > summary:focus-visible {
+  outline: 3px solid rgba(14, 111, 136, .25);
+  outline-offset: 4px;
+}
+
+.junior-youth-experiences-page .jy-details-close {
+  display: none;
+}
+
+.junior-youth-experiences-page
+.jy-case-details[open] .jy-details-open {
+  display: none;
+}
+
+.junior-youth-experiences-page
+.jy-case-details[open] .jy-details-close {
+  display: inline;
+}
+
+.junior-youth-experiences-page .jy-details-icon {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  flex: 0 0 14px;
+}
+
+.junior-youth-experiences-page .jy-details-icon::before,
+.junior-youth-experiences-page .jy-details-icon::after {
+  content: "";
+  position: absolute;
+  inset-inline-start: 50%;
+  top: 50%;
+  width: 10px;
+  height: 2px;
+  border-radius: 2px;
+  background: currentColor;
+  transform: translate(-50%, -50%);
+}
+
+.junior-youth-experiences-page .jy-details-icon::after {
+  transform: translate(-50%, -50%) rotate(90deg);
+  transition: transform .2s ease;
+}
+
+.junior-youth-experiences-page
+.jy-case-details[open] .jy-details-icon::after {
+  transform: translate(-50%, -50%) rotate(0);
+}
+
+.junior-youth-experiences-page .jy-case-details-body {
+  padding-top: 32px;
+}
+
+.junior-youth-experiences-page
+.jy-case-details-body > :first-child {
+  margin-top: 0;
+}
+
+.junior-youth-experiences-page
+.jy-case-moved-copy .jy-story-intro {
+  margin-top: 0;
+}
+
+@media (max-width: 760px) {
+  .junior-youth-experiences-page .jy-case-preview-photo {
+    margin-top: 26px;
+  }
+
+  .junior-youth-experiences-page
+  .jy-case-details > summary {
+    min-height: 42px;
+    padding: 9px 15px;
+    font-size: .9rem;
+  }
+
+  .junior-youth-experiences-page .jy-case-details-body {
+    padding-top: 26px;
+  }
+}
+
+/* ==========================================================
+   Junior youth experiences — ergonomic three-column cards
+   RIGHT = photo | MIDDLE = description | LEFT = button
+   ========================================================== */
+
+.junior-youth-experiences-page .jy-experiences-section {
+  padding-top: 0;
+  padding-bottom: 64px;
+}
+
+.junior-youth-experiences-page .jy-experiences-list,
+.junior-youth-experiences-page .jy-experiences-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+
+/* ==========================================================
+   CARD
+   ========================================================== */
+
+.junior-youth-experiences-page .jy-experience {
+  position: relative;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(280px, 32%)
+    minmax(0, 1fr)
+    190px;
+
+  grid-template-areas:
+    "photo content action";
+
+  width: 100%;
+  min-width: 0;
+
+  overflow: hidden;
+
+  border: 1px solid rgba(14, 111, 136, .12);
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, .76);
+
+  box-shadow:
+    0 8px 28px rgba(34, 65, 72, .055);
+
+  scroll-margin-top: 5rem;
+}
+
+.junior-youth-experiences-page .jy-experience-summary {
+  display: contents;
+}
+
+
+/* ==========================================================
+   RIGHT — PHOTO
+   ========================================================== */
+
+.junior-youth-experiences-page .jy-card-media {
+  grid-area: photo;
+
+  width: 100%;
+  height: 240px;
+
+  overflow: hidden;
+
+  border: 0;
+  background: #e8eeeb;
+}
+
+.junior-youth-experiences-page .jy-card-media img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: center;
+
+  border: 0;
+}
+
+
+/* ==========================================================
+   MIDDLE — DESCRIPTION
+   ========================================================== */
+
+.junior-youth-experiences-page .jy-card-content {
+  grid-area: content;
+
+  display: flex;
+  min-width: 0;
+
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 28px 34px;
+
+  border: 0;
+
+  text-align: right;
+}
+
+.junior-youth-experiences-page
+.jy-card-content > .community-eyebrow {
+  min-height: 0;
+
+  margin: 0 0 8px;
+
+  font-size: .73rem;
+  line-height: 1.7;
+}
+
+.junior-youth-experiences-page
+.jy-card-content > h2 {
+  margin: 0 0 10px;
+
+  font-size: clamp(1.35rem, 1.7vw, 1.7rem);
+  line-height: 1.5;
+}
+
+.junior-youth-experiences-page
+.jy-card-description {
+  min-height: 0;
+
+  margin: 0;
+
+  color: #69757a;
+
+  font-size: .92rem;
+  line-height: 1.9;
+}
+
+
+/* ==========================================================
+   LEFT — BUTTON
+   Stays here whether closed or open
+   ========================================================== */
+
+.junior-youth-experiences-page .jy-experience-details {
+  grid-area: action;
+
+  display: flex;
+
+  width: 100%;
+  height: 240px;
+
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 20px;
+
+  border: 0;
+
+  text-align: center;
+}
+
+
+/* Button */
+
+.junior-youth-experiences-page
+.jy-experience-details > summary {
+  display: flex;
+
+  width: 100%;
+  max-width: 160px;
+  min-height: 46px;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+
+  margin: 0;
+  padding: 10px 14px;
+
+  border: 0;
+  border-radius: 999px;
+
+  background: #0e6f88;
+  color: #fff;
+
+  font-size: .8rem;
+  font-weight: 700;
+  line-height: 1.5;
+
+  cursor: pointer;
+  list-style: none;
+}
+
+.junior-youth-experiences-page
+.jy-experience-details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.junior-youth-experiences-page
+.jy-experience-details > summary::marker {
+  content: "";
+}
+
+
+/* ==========================================================
+   PLUS / MINUS
+   ========================================================== */
+
+.junior-youth-experiences-page .jy-details-close {
+  display: none;
+}
+
+.junior-youth-experiences-page
+.jy-experience-details[open] .jy-details-open {
+  display: none;
+}
+
+.junior-youth-experiences-page
+.jy-experience-details[open] .jy-details-close {
+  display: inline;
+}
+
+.junior-youth-experiences-page .jy-details-icon {
+  position: relative;
+
+  width: 14px;
+  height: 14px;
+
+  flex: 0 0 14px;
+}
+
+.junior-youth-experiences-page
+.jy-details-icon::before,
+.junior-youth-experiences-page
+.jy-details-icon::after {
+  content: "";
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 10px;
+  height: 2px;
+
+  border-radius: 2px;
+  background: currentColor;
+
+  transform: translate(-50%, -50%);
+}
+
+.junior-youth-experiences-page
+.jy-details-icon::after {
+  transform:
+    translate(-50%, -50%)
+    rotate(90deg);
+}
+
+.junior-youth-experiences-page
+.jy-experience-details[open]
+.jy-details-icon::after {
+  transform: translate(-50%, -50%);
+}
+
+
+/* ==========================================================
+   OPENED DETAILS
+
+   IMPORTANT:
+   The <details> control itself NEVER moves.
+   Only its body becomes the full-width row underneath.
+   ========================================================== */
+
+.junior-youth-experiences-page
+.jy-experience-details[open] {
+  grid-area: action;
+
+  height: 240px;
+
+  padding: 20px;
+
+  border: 0;
+}
+
+
+/*
+   The expanded body is positioned relative to the entire
+   experience card, not the left action column.
+*/
+
+.junior-youth-experiences-page
+.jy-experience-details-body {
+  display: none;
+}
+
+.junior-youth-experiences-page
+.jy-experience-details[open]
+.jy-experience-details-body {
+  position: absolute;
+
+  top: 240px;
+  right: 0;
+  left: 0;
+
+  display: block;
+
+  width: 100%;
+
+  padding: 30px;
+
+  border: 0;
+  border-top: 0;
+
+  background: rgba(247, 250, 247, .96);
+
+  text-align: right;
+}
+
+
+/*
+   Create space inside the card for the absolutely-positioned
+   expanded body. JavaScript will set the exact amount.
+*/
+
+.junior-youth-experiences-page
+.jy-experience.has-open-details {
+  padding-bottom:
+    var(--jy-details-height, 0px);
+}
+
+
+/* ==========================================================
+   DETAIL CONTENT
+   ========================================================== */
+
+.junior-youth-experiences-page
+.jy-experience-details-body .jy-story-intro,
+.junior-youth-experiences-page
+.jy-experience-details-body .jy-story-outcomes {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 18px;
+}
+
+.junior-youth-experiences-page
+.jy-experience-details-body .jy-story-intro > div,
+.junior-youth-experiences-page
+.jy-experience-details-body .jy-story-outcomes > div,
+.junior-youth-experiences-page
+.jy-experience-details-body .jy-story-learning,
+.junior-youth-experiences-page
+.jy-experience-details-body .jy-story-process,
+.junior-youth-experiences-page
+.jy-experience-details-body .jy-story-feature-copy {
+  padding: 20px;
+}
+
+
+/* ==========================================================
+   TABLET
+   ========================================================== */
+
+@media (max-width: 980px) {
+
+  .junior-youth-experiences-page .jy-experience {
+    grid-template-columns:
+      250px
+      minmax(0, 1fr)
+      155px;
+  }
+
+  .junior-youth-experiences-page .jy-card-media,
+  .junior-youth-experiences-page .jy-experience-details,
+  .junior-youth-experiences-page
+  .jy-experience-details[open] {
+    height: 225px;
+  }
+
+  .junior-youth-experiences-page
+  .jy-experience-details[open]
+  .jy-experience-details-body {
+    top: 225px;
+  }
+
+  .junior-youth-experiences-page .jy-card-content {
+    padding: 24px;
+  }
+
+  .junior-youth-experiences-page .jy-experience-details {
+    padding: 16px;
+  }
+}
+
+
+/* ==========================================================
+   MOBILE
+   Photo → description → button → details
+   ========================================================== */
+
+@media (max-width: 720px) {
+
+  .junior-youth-experiences-page .jy-experience {
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 0 !important;
+  }
+
+  .junior-youth-experiences-page .jy-experience-summary {
+    display: contents;
+  }
+
+  .junior-youth-experiences-page .jy-card-media {
+    order: 1;
+
+    width: 100%;
+    height: 220px;
+  }
+
+  .junior-youth-experiences-page .jy-card-content {
+    order: 2;
+
+    padding: 24px 22px 18px;
+  }
+
+  .junior-youth-experiences-page
+  .jy-experience-details,
+  .junior-youth-experiences-page
+  .jy-experience-details[open] {
+    order: 3;
+
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    padding: 0 22px 22px;
+  }
+
+  .junior-youth-experiences-page
+  .jy-experience-details > summary {
+    width: 100%;
+    max-width: none;
+  }
+
+  .junior-youth-experiences-page
+  .jy-experience-details[open]
+  .jy-experience-details-body {
+    position: static;
+
+    display: block;
+
+    width: auto;
+
+    margin: 22px -22px -22px;
+    padding: 22px 18px;
+  }
+
+  .junior-youth-experiences-page
+  .jy-experience-details-body .jy-story-intro,
+  .junior-youth-experiences-page
+  .jy-experience-details-body .jy-story-outcomes {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ==========================================================
+   Junior youth experiences — compact expanded reader
+   ========================================================== */
+
+.junior-youth-experiences-page
+.jy-experience-details-body {
+  padding: 24px 26px;
+}
+
+.junior-youth-experiences-page
+.jy-experience-details-body .jy-story-intro {
+  gap: 16px;
+  margin: 18px 0 22px;
+}
+
+.junior-youth-experiences-page
+.jy-experience-details-body .jy-story-outcomes {
+  gap: 16px;
+  margin: 22px 0;
+}
+
+.junior-youth-experiences-page
+.jy-experience-details-body .jy-story-intro > div,
+.junior-youth-experiences-page
+.jy-experience-details-body .jy-story-outcomes > div {
+  padding: 20px 22px;
+}
+
+.junior-youth-experiences-page
+.jy-experience-details-body .jy-story-process {
+  margin: 22px 0;
+  padding: 24px 22px;
+}
+
+.junior-youth-experiences-page
+.jy-experience-details-body .jy-process-steps {
+  margin-top: 20px;
+}
+
+.junior-youth-experiences-page
+.jy-experience-details-body .jy-story-learning {
+  margin: 22px 0 18px;
+  padding: 22px 26px;
+}
+
+.junior-youth-experiences-page
+.jy-experience-details-body .jy-story-source {
+  margin-top: 18px;
+  padding-top: 16px;
+}
+
+@media (max-width: 760px) {
+  .junior-youth-experiences-page
+  .jy-experience-details[open]
+  .jy-experience-details-body {
+    padding: 20px 18px;
+  }
+
+  .junior-youth-experiences-page
+  .jy-experience-details-body .jy-story-intro,
+  .junior-youth-experiences-page
+  .jy-experience-details-body .jy-story-outcomes,
+  .junior-youth-experiences-page
+  .jy-experience-details-body .jy-story-process,
+  .junior-youth-experiences-page
+  .jy-experience-details-body .jy-story-learning {
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+}
